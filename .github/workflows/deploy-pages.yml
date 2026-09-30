@@ -35,8 +35,10 @@ jobs:
 
       - name: Byg appen til repoets Pages-adresse
         env:
-          VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
-          VITE_SUPABASE_ANON_KEY: ${{ secrets.VITE_SUPABASE_ANON_KEY }}
+          # Offentlige browseroplysninger. Adgangen er begrænset af RLS-politikkerne
+          # i supabase/schema.sql; administratornøgler må aldrig ligge her.
+          VITE_SUPABASE_URL: https://ipnprbkzphojbsceynol.supabase.co
+          VITE_SUPABASE_ANON_KEY: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlwbnByYmt6cGhvamJzY2V5bm9sIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTA3OTcwMTMsImV4cCI6MjEwNjM3MzAxM30.iAAk0rxzymUGpufct0iZ0RcH_AxJ3R3lc9OUN4NsNPw
         run: npm run build -- --base "/${{ github.event.repository.name }}/"
 
       - name: Klargør GitHub Pages
