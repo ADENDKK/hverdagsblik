@@ -12,10 +12,10 @@ En installerbar React-webapp til familiens udgifter, indtægter og tilbudsønske
 ## Det virker allerede
 
 - Månedsoversigt, budgetkategorier og rådighedsbeløb.
-- Tilføj og slet udgifter; data gemmes i browserens lokale lager.
+- Tilføj og slet udgifter eller importér Spar Nord CSV-filer med dubletkontrol.
 - Søgning i udgifter.
-- Redigér selv listen over lokale butikker.
-- Se alle tilbud som standard, eller filtrér til ønskelisten.
+- Find automatisk SPAR Arden og 365discount Arden ud fra telefonens placering, eller redigér listen manuelt.
+- Se alle offentlige tilbud som standard, deres gyldighedsperiode og den officielle tilbudsavis.
 - Slå tilbudsovervågning til/fra og tilføj varer til ønskelisten.
 - Skriv nettoløn efter skat for én eller flere personer.
 - Beregn rådighedsbeløbet ud fra de registrerede indtægter og udgifter.
@@ -58,12 +58,14 @@ Projektet indeholder en færdig GitHub Actions-workflow i `.github/workflows/dep
 
 Adressen bliver normalt `https://BRUGERNAVN.github.io/hverdagsblik/`. GitHub Pages leverer HTTPS, så installation på telefonen og service workeren virker.
 
+Workflowet `Opdater lokale tilbud` kører hver morgen og opdaterer `public/offers.json` fra SPARs og 365discounts officielle sider. En ændring udløser automatisk en ny Pages-udgivelse.
+
 `dist`, `node_modules` og lokale `.env`-filer er udelukket via `.gitignore`.
 
-## Integrationer, der mangler før rigtig drift
+## Begrænsninger
 
 - Fuldautomatisk bankimport kræver en PSD2/open-banking-leverandør og brugerens samtykke. Uden kontoadgang er de mest private muligheder manuel CSV-import fra netbank eller scanning af kvitteringer.
-- Rigtige tilbud kræver en lovlig datakilde eller et samarbejde/API fra de valgte butikker.
+- Offentlige tilbud hentes automatisk. Personlige medlemskuponer kan ikke hentes uden brugerens særskilte login og samtykke hos butikskæden.
 - Produktion bør have backup og klare sletteregler for persondata.
 
 Uden Supabase-konfiguration bliver alle data fortsat på den enkelte enhed. Med Supabase aktiveret sendes husstandens data til brugerens eget Supabase-projekt.

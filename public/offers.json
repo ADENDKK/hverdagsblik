@@ -1,0 +1,1395 @@
+{
+  "generatedAt": "2026-09-30T21:53:20.753Z",
+  "sources": [
+    {
+      "store": "SPAR Arden",
+      "address": "Skovvej 2, 9510 Arden",
+      "latitude": 56.769225,
+      "longitude": 9.858268,
+      "flyerUrl": "https://spar.dk/ugensavis",
+      "validFrom": "2026-09-25",
+      "validTo": "2026-10-01",
+      "offers": [
+        {
+          "id": "spar-monster-energy-ultra-zero",
+          "item": "Monster Energy Ultra Zero",
+          "detail": "50 CL",
+          "price": 14,
+          "oldPrice": null,
+          "color": "#8a4f7d",
+          "source": "SPAR Arden"
+        },
+        {
+          "id": "spar-pepsi-max-pet",
+          "item": "Pepsi Max Pet",
+          "detail": "150 CL",
+          "price": 10,
+          "oldPrice": null,
+          "color": "#3d719b",
+          "source": "SPAR Arden"
+        },
+        {
+          "id": "spar-monster-energy",
+          "item": "Monster Energy",
+          "detail": "50 CL",
+          "price": 14,
+          "oldPrice": null,
+          "color": "#b38b32",
+          "source": "SPAR Arden"
+        },
+        {
+          "id": "spar-monster-mango-loco",
+          "item": "Monster Mango Loco",
+          "detail": "50 CL",
+          "price": 14,
+          "oldPrice": null,
+          "color": "#6f7b3c",
+          "source": "SPAR Arden"
+        }
+      ]
+    },
+    {
+      "store": "365discount Arden",
+      "address": "Vestergade 15, 9510 Arden",
+      "latitude": 56.769142,
+      "longitude": 9.856866,
+      "flyerUrl": "https://365discount.coop.dk/365avisen-pdf/",
+      "validFrom": "2026-10-01",
+      "validTo": "2026-10-07",
+      "offers": [
+        {
+          "id": "365-5CpkmHaIH3q0FRCJ8BsS6",
+          "item": "Coop pålæg",
+          "detail": "80-120 g",
+          "price": 10,
+          "oldPrice": null,
+          "color": "#1f6b4f",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-ZyWwbEZ1hWjinXE7fNuHr",
+          "item": "Graasten Sønderjyske Fristelser pålægssalat",
+          "detail": "140 g",
+          "price": 10,
+          "oldPrice": null,
+          "color": "#d87043",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-sxGPKml7AYB6pr00-dCp1",
+          "item": "Danonino eller Actimel",
+          "detail": "100 g",
+          "price": 19,
+          "oldPrice": null,
+          "color": "#8a4f7d",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-ZKGDN7EXpIvZ__Y5h_id9",
+          "item": "Cocio",
+          "detail": "60 cl",
+          "price": 12,
+          "oldPrice": null,
+          "color": "#3d719b",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-s5JjraP77XRBkApq8Kh8F",
+          "item": "Kohberg brød",
+          "detail": "490-1000 g",
+          "price": 10,
+          "oldPrice": null,
+          "color": "#b38b32",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-YCGNFz1RHvD3anFfYDVd8",
+          "item": "Coop hakket grisekød 8-12% eller medister",
+          "detail": "500 g",
+          "price": 20,
+          "oldPrice": null,
+          "color": "#6f7b3c",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-McwvLtlAWMHXYjcR8nmqM",
+          "item": "Stryhns leverpostej*",
+          "detail": "400 g",
+          "price": 18,
+          "oldPrice": null,
+          "color": "#1f6b4f",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-tPvOXiZ1IXe4GK8R-3L6A",
+          "item": "Lotus Comfort toiletpapir eller Premium køkkenrulle*",
+          "detail": "1 pcs",
+          "price": 19,
+          "oldPrice": null,
+          "color": "#d87043",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-xh9HSeUqyPpPO3h4rZxCG",
+          "item": "Valpolicella Ripasso Terre di Verona",
+          "detail": "75 cl",
+          "price": 39,
+          "oldPrice": null,
+          "color": "#8a4f7d",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-UjXz4rQjcl94cHm8-pKG2",
+          "item": "Mandler eller valnødder*",
+          "detail": "700-1000 g",
+          "price": 69,
+          "oldPrice": null,
+          "color": "#3d719b",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-Xvqtp1r8DXTMa8dGnWIXT",
+          "item": "Kims chips*",
+          "detail": "125-160 g",
+          "price": 12,
+          "oldPrice": null,
+          "color": "#b38b32",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-LnctX9iDSH3Jp8AZQ8PK7",
+          "item": "Coop skiveost",
+          "detail": "200-300 g",
+          "price": 20,
+          "oldPrice": null,
+          "color": "#6f7b3c",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-YlPxOza-UO1uaj7wIZ8Nz",
+          "item": "Coop koteletter, stegeflæsk, nakkekoteletter eller filet a la mørbrad",
+          "detail": "375-500 g",
+          "price": 39,
+          "oldPrice": null,
+          "color": "#1f6b4f",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-rJ5Hvqy7nwHIApv5x6Gi2",
+          "item": "Dansk Kalv entrecote",
+          "detail": "350 g",
+          "price": 89,
+          "oldPrice": null,
+          "color": "#d87043",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-X76U5y2U6OBJ0tEZEoBKT",
+          "item": "Xtra! marineret kyllingebryst med citron/rosmarin eller bbq",
+          "detail": "375 g",
+          "price": 35,
+          "oldPrice": null,
+          "color": "#8a4f7d",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-ZcW6sQp16LnzPByhNuUYv",
+          "item": "Coop hakket kylling 3-6%, hakket okse/grønt eller hakket gris & kalv 8-12%",
+          "detail": "400 g",
+          "price": 29,
+          "oldPrice": null,
+          "color": "#3d719b",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-WF-ci5dcIbi0FqRzzZpEE",
+          "item": "Coop kyllingeover, -underlår eller kylling i tern",
+          "detail": "250-800 g",
+          "price": 25,
+          "oldPrice": null,
+          "color": "#b38b32",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-hFVgUPF8cgHr2cZExqf23",
+          "item": "Frijsenborg kyllingemarked",
+          "detail": "260-700 g",
+          "price": 39,
+          "oldPrice": null,
+          "color": "#6f7b3c",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-cewe8_gHALyLroh-QGHN6",
+          "item": "Xtra! kyllingebryst med lage eller -lårfilet",
+          "detail": "800 g",
+          "price": 59,
+          "oldPrice": null,
+          "color": "#1f6b4f",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-J3-qYCrl8h2c4SWSXqzpv",
+          "item": "Rose hel kylling",
+          "detail": "1800 g",
+          "price": 69,
+          "oldPrice": null,
+          "color": "#d87043",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-Q2x0KbxiK7ui66NmR1YWa",
+          "item": "Coop mørbrad af gris, flæskesteg eller hakket oksekød 8-12%",
+          "detail": "1000-2500 g",
+          "price": 99,
+          "oldPrice": null,
+          "color": "#8a4f7d",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-aXY1jeNajMNx0AqJp0Ynf",
+          "item": "Irma hindbær eller blåbær",
+          "detail": "170-200 g",
+          "price": 34,
+          "oldPrice": null,
+          "color": "#3d719b",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-GvG8RqM68sOCptuqWR7RE",
+          "item": "Coop lammefjordskartofler Fra Strandlyst",
+          "detail": "1.5 kg",
+          "price": 14,
+          "oldPrice": null,
+          "color": "#b38b32",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-sY09ZYlWJFoB2sRcDKJHC",
+          "item": "Røde kernefri druer",
+          "detail": "500 g",
+          "price": 16,
+          "oldPrice": null,
+          "color": "#6f7b3c",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-_pvLcoxxNxCWsotkisSRD",
+          "item": "Irma spisemoden avocado",
+          "detail": "3 pcs",
+          "price": 22,
+          "oldPrice": null,
+          "color": "#1f6b4f",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-zjdH2qShJZdDsmJt-FA0B",
+          "item": "Broccoli",
+          "detail": "1 pcs",
+          "price": 13,
+          "oldPrice": null,
+          "color": "#d87043",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-wpFZthRx7Yi3wgj7rWH3t",
+          "item": "Änglamark økologisk marmelade",
+          "detail": "250-345 g",
+          "price": 18,
+          "oldPrice": null,
+          "color": "#8a4f7d",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-zIjoPCMkxCqGSAxU8WGv-",
+          "item": "Änglamark økologiske salater - skyllet og klar til brug",
+          "detail": "75 g",
+          "price": 12,
+          "oldPrice": null,
+          "color": "#3d719b",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-gg7g4YqhNiqxntBLzkdfs",
+          "item": "Änglamark økologisk plantedrik",
+          "detail": "1 l",
+          "price": 10,
+          "oldPrice": null,
+          "color": "#b38b32",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-jjPJTXAO5pfOyY4pwqsVF",
+          "item": "Änglamark økologisk tofu",
+          "detail": "250 g",
+          "price": 18,
+          "oldPrice": null,
+          "color": "#6f7b3c",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-ghOdufGwumWv-nEBq6N7U",
+          "item": "Änglamark økologisk røget laks",
+          "detail": "100 g",
+          "price": 42,
+          "oldPrice": null,
+          "color": "#1f6b4f",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-nWWIJ8YSX0BruHZozQosi",
+          "item": "Änglamark økologiske grøntsager",
+          "detail": "300-450 g",
+          "price": 12,
+          "oldPrice": null,
+          "color": "#d87043",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-35M-lFZxZr2TlcWUPG9yx",
+          "item": "Mou specialsuppe",
+          "detail": "800-1000 g",
+          "price": 29,
+          "oldPrice": null,
+          "color": "#8a4f7d",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-Ks5tGAf_CdPtj9tfrAVaX",
+          "item": "Steff Houlberg pølser",
+          "detail": "700-875 g",
+          "price": 45,
+          "oldPrice": null,
+          "color": "#3d719b",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-83zQHcAcV_4ZojDu9EVeU",
+          "item": "Coop hvidløgsbrød, mini flutes eller ciabatta baguette",
+          "detail": "270-720 g",
+          "price": 15,
+          "oldPrice": null,
+          "color": "#b38b32",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-vEWJ4B9UnLqhj3AxXUX7m",
+          "item": "Coop færdigret",
+          "detail": "400 g",
+          "price": 25,
+          "oldPrice": null,
+          "color": "#6f7b3c",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-7kRVUJQNr8vtpGk-z7U1U",
+          "item": "Mou kød- og melboller eller kødboller",
+          "detail": "700-900 g",
+          "price": 39,
+          "oldPrice": null,
+          "color": "#1f6b4f",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-Ul6SATJ_9TpYd4GkhEj-P",
+          "item": "Dan Cake kakao- eller karamelkugler eller Toffypops",
+          "detail": "120-140 g",
+          "price": 10,
+          "oldPrice": null,
+          "color": "#d87043",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-m583JwA7JaMXcq2M4XGxt",
+          "item": "Carletti chokopålæg",
+          "detail": "74 g",
+          "price": 10,
+          "oldPrice": null,
+          "color": "#8a4f7d",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-EJuzNBsgBUgdvo5FpjKMC",
+          "item": "Toms guld barre",
+          "detail": "45 g",
+          "price": 8,
+          "oldPrice": null,
+          "color": "#3d719b",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-9Vu6N_hYDjWQHoClSjxKn",
+          "item": "Kaffehuset, Karat eller Peter Larsen formalet kaffe",
+          "detail": "400 g",
+          "price": 39,
+          "oldPrice": null,
+          "color": "#b38b32",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-vZev3wLKuIjYPZ5y63Vft",
+          "item": "Faxe Kondi eller Pepsi Max",
+          "detail": "150 cl",
+          "price": 12,
+          "oldPrice": null,
+          "color": "#6f7b3c",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-rZ2RjJ_t435LBwRMe4OmK",
+          "item": "Graasten remoulade eller mayonnaise",
+          "detail": "375 g",
+          "price": 16,
+          "oldPrice": null,
+          "color": "#1f6b4f",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-SHi-T-Ny0kySALegNFlcP",
+          "item": "Steff Houlberg bacon*",
+          "detail": "500 g",
+          "price": 49,
+          "oldPrice": null,
+          "color": "#d87043",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-AXleqU-uzwkMB6-50IZEy",
+          "item": "Aalbæk chorizo med røget paprika",
+          "detail": "200 g",
+          "price": 32,
+          "oldPrice": null,
+          "color": "#8a4f7d",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-JCW0kjFC7lU--ti49hWHP",
+          "item": "Beauvais survarer*",
+          "detail": "310-580 g",
+          "price": 18,
+          "oldPrice": null,
+          "color": "#3d719b",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-McIPUXT57tbotn8W4Y4NX",
+          "item": "Coop måltidssalat*",
+          "detail": "285-450 g",
+          "price": 45,
+          "oldPrice": null,
+          "color": "#b38b32",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-hcmLPnlFTcfnkKk0RBqsb",
+          "item": "Italiensk pålæg",
+          "detail": "50-70 g",
+          "price": 12,
+          "oldPrice": null,
+          "color": "#6f7b3c",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-0_rNIFh-l95Jjn4HnthUE",
+          "item": "Coop asia cubes",
+          "detail": "350 g",
+          "price": 22,
+          "oldPrice": null,
+          "color": "#1f6b4f",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-K0ZWJhVjRoP_z9sPkMVnj",
+          "item": "Magnum is",
+          "detail": "270-300 ml",
+          "price": 25,
+          "oldPrice": null,
+          "color": "#d87043",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-ZNK1PXV9z0v2B-H9rtI_c",
+          "item": "Coop biksemad eller chicken tandoori",
+          "detail": "400-500 g",
+          "price": 22,
+          "oldPrice": null,
+          "color": "#8a4f7d",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-PCCJTZaYGiNafO4MdxEt9",
+          "item": "Rahbek indbagt fisk",
+          "detail": "250 g",
+          "price": 15,
+          "oldPrice": null,
+          "color": "#3d719b",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-P9-hEV-yy5So8CsWUCy1H",
+          "item": "Mars eller Snickers isbarer",
+          "detail": "247-252 ml",
+          "price": 29,
+          "oldPrice": null,
+          "color": "#b38b32",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-yuw_S73t01S0OtqP0TsNL",
+          "item": "Kærgården smørbar",
+          "detail": "200 g",
+          "price": 16,
+          "oldPrice": null,
+          "color": "#6f7b3c",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-uazqZ7GIeaZ9_mTtUWQIC",
+          "item": "Arla mælkedrik med smag",
+          "detail": "200 ml",
+          "price": 35,
+          "oldPrice": null,
+          "color": "#1f6b4f",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-eRe3K3MbmgMtBr_uz3Gaa",
+          "item": "Thise økologisk skyr eller græsk inspireret yoghurt",
+          "detail": "400 g",
+          "price": 15,
+          "oldPrice": null,
+          "color": "#d87043",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-S2WNKzlevOnlDk4YRKUzr",
+          "item": "Innocent",
+          "detail": "750 ml",
+          "price": 20,
+          "oldPrice": null,
+          "color": "#8a4f7d",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-UCS9lkD7d9DJrvxjiy1NB",
+          "item": "Arla laktosefri mælk",
+          "detail": "1 l",
+          "price": 14,
+          "oldPrice": null,
+          "color": "#3d719b",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-kV19IcQgxVs9_9J8QkSqT",
+          "item": "Mammen Guld skæreost eller klassisk landost",
+          "detail": "850 g",
+          "price": 69,
+          "oldPrice": null,
+          "color": "#b38b32",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-q-QWKO_FqQeWuEWpNQKo9",
+          "item": "Castello hård ost",
+          "detail": "200 g",
+          "price": 35,
+          "oldPrice": null,
+          "color": "#6f7b3c",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-TyJOV8E3p139Q8FrYhNZ5",
+          "item": "Nordthy ostekiks eller Tuc Trio",
+          "detail": "200-300 g",
+          "price": 20,
+          "oldPrice": null,
+          "color": "#1f6b4f",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-puAsh5Qg2cqJG_OJcs7PC",
+          "item": "Port Salut, Coop Grana Padano eller Coop gederulle",
+          "detail": "150-180 g",
+          "price": 25,
+          "oldPrice": null,
+          "color": "#d87043",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-HvlGSYdHSP_qKs7id4-8Q",
+          "item": "Thise økologisk revet ost",
+          "detail": "140 g",
+          "price": 15,
+          "oldPrice": null,
+          "color": "#8a4f7d",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-g5_zOJxJ9f2lhGFlFwIZG",
+          "item": "Klovborg skæreost",
+          "detail": "585 g",
+          "price": 45,
+          "oldPrice": null,
+          "color": "#3d719b",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-dZnxXoj1IBMFeCtlWU1jN",
+          "item": "Schulstad levebrød",
+          "detail": "485-950 g",
+          "price": 20,
+          "oldPrice": null,
+          "color": "#b38b32",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-8IrkeL43NQbNPLd5dwDTW",
+          "item": "Havets fiskefrikadeller",
+          "detail": "200-260 g",
+          "price": 25,
+          "oldPrice": null,
+          "color": "#6f7b3c",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-C050ITUXc45cU5lj3jxxP",
+          "item": "OTA solgryn eller branflakes",
+          "detail": "375-700 g",
+          "price": 12,
+          "oldPrice": null,
+          "color": "#1f6b4f",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-UDkUl9qzWcgpOhhzM5rIH",
+          "item": "Cheasy fraiche",
+          "detail": "500 g",
+          "price": 15,
+          "oldPrice": null,
+          "color": "#d87043",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-QWCo1Jmy6yjpFmA9l4THn",
+          "item": "Cultura A38",
+          "detail": "1 kg",
+          "price": 15,
+          "oldPrice": null,
+          "color": "#8a4f7d",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-QOH0SR3mXu4YWrkf1lwE0",
+          "item": "Pasta Toscana",
+          "detail": "500 g",
+          "price": 10,
+          "oldPrice": null,
+          "color": "#3d719b",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-CQqKJfd-E8YMZB_p45KWP",
+          "item": "Santa Maria Tex Mex",
+          "detail": "28-371 g",
+          "price": 12,
+          "oldPrice": null,
+          "color": "#b38b32",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-Jdl_PYEKMHveqclGQfeyP",
+          "item": "Heinz ketchup eller mayonnaise",
+          "detail": "215-460 g",
+          "price": 10,
+          "oldPrice": null,
+          "color": "#6f7b3c",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-LsIXQT7QQqUQhGLyxhN4h",
+          "item": "Pomi tomatkonserves",
+          "detail": "200-400 g",
+          "price": 10,
+          "oldPrice": null,
+          "color": "#1f6b4f",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-k_HQRHHa8gZCl9nKHIOyD",
+          "item": "JAKA Cocktailpølser eller Tulip ret",
+          "detail": "339-400 g",
+          "price": 25,
+          "oldPrice": null,
+          "color": "#d87043",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-VTRXJY7irB7NPrVj8E_3b",
+          "item": "John West tun",
+          "detail": "306 g",
+          "price": 35,
+          "oldPrice": null,
+          "color": "#8a4f7d",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-67RGkygsrBx_UudE-h6JC",
+          "item": "Coop majskager eller Leksands knækbrød*",
+          "detail": "125-200 g",
+          "price": 12,
+          "oldPrice": null,
+          "color": "#3d719b",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-2QKXila8BmClpfa6sHHjv",
+          "item": "Jakobsen dansk honning*",
+          "detail": "400-425 g",
+          "price": 28,
+          "oldPrice": null,
+          "color": "#b38b32",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-l4PXCq2NsvC7LVQTpIo6m",
+          "item": "Pukka eller Yogi te*",
+          "detail": "17-20 pcs",
+          "price": 35,
+          "oldPrice": null,
+          "color": "#6f7b3c",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-jKpfQ9KULHzkgkX3KeQ0m",
+          "item": "Kelloggs morgenmad eller müsli*",
+          "detail": "205-450 g",
+          "price": 29,
+          "oldPrice": null,
+          "color": "#1f6b4f",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-duYJgNtJY5B52DXjFfMlp",
+          "item": "Coop nødder",
+          "detail": "100-350 g",
+          "price": 14,
+          "oldPrice": null,
+          "color": "#d87043",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-x_QdEyllfRRwWevv9evgr",
+          "item": "Castus frugtstænger*",
+          "detail": "100-160 g",
+          "price": 12,
+          "oldPrice": null,
+          "color": "#8a4f7d",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-tKGUhT6NCyJvN95bMZeAK",
+          "item": "Halloween cookies*",
+          "detail": "400 g",
+          "price": 15,
+          "oldPrice": null,
+          "color": "#3d719b",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-BoTxnVQn6_mdga9VAemkT",
+          "item": "Oreo*",
+          "detail": "154-157 g",
+          "price": 15,
+          "oldPrice": null,
+          "color": "#b38b32",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-EYh1X43lyjiiIHsb-k-Aq",
+          "item": "Karen Volf Halloween kager*",
+          "detail": "144-200 g",
+          "price": 15,
+          "oldPrice": null,
+          "color": "#6f7b3c",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-fvTRIlxglKCAB0ie-xPzX",
+          "item": "Halloween donut*",
+          "detail": "1 pcs",
+          "price": 10,
+          "oldPrice": null,
+          "color": "#1f6b4f",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-AQE13ZZv_TMG2inEvn7jv",
+          "item": "Trolli pop eye, halloween slikkepinde eller snuspinde*",
+          "detail": "75-96 g",
+          "price": 20,
+          "oldPrice": null,
+          "color": "#d87043",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-jgjibW1MQG6G_wDIinqIo",
+          "item": "Scan choco*",
+          "detail": "9-13 g",
+          "price": 2,
+          "oldPrice": null,
+          "color": "#8a4f7d",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-SaeQtMcroqdSvppmAIroX",
+          "item": "Haribo, Kinder eller Trolli poser*",
+          "detail": "122-300 g",
+          "price": 35,
+          "oldPrice": null,
+          "color": "#3d719b",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-TpTYZiEzWyOUlbbTm090c",
+          "item": "Big Ben eller Spangsberg*",
+          "detail": "350-400 g",
+          "price": 40,
+          "oldPrice": null,
+          "color": "#b38b32",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-i2zNJWBkAYltzgBl3iy60",
+          "item": "Kinder Maxi eller Country",
+          "detail": "21-24 g",
+          "price": 5,
+          "oldPrice": null,
+          "color": "#6f7b3c",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-gmWb7bBSvbA0yaVlRWQ3q",
+          "item": "LED lanterne",
+          "detail": "1 pcs",
+          "price": 50,
+          "oldPrice": null,
+          "color": "#1f6b4f",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-eXYoER6eCJiNV-XjJBKjE",
+          "item": "Bloklys",
+          "detail": "1 pcs",
+          "price": 12,
+          "oldPrice": null,
+          "color": "#d87043",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-XwyZivQJ_V3Orix_VZuSf",
+          "item": "Designservietter",
+          "detail": "1 pcs",
+          "price": 10,
+          "oldPrice": null,
+          "color": "#8a4f7d",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-Zja78gAQqKDSJJn1gu_9P",
+          "item": "LED 3 armet lysestage",
+          "detail": "1 pcs",
+          "price": 40,
+          "oldPrice": null,
+          "color": "#3d719b",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-JNpiiCcDf0N0osgEZiM6u",
+          "item": "Halloween lys",
+          "detail": "1 pcs",
+          "price": 15,
+          "oldPrice": null,
+          "color": "#b38b32",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-7r-kGdZC24sqPznnfAKuq",
+          "item": "Halloween velourdug",
+          "detail": "1 pcs",
+          "price": 49,
+          "oldPrice": null,
+          "color": "#6f7b3c",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-DLrNlROzP1F9W8mHFmNbn",
+          "item": "Græskar",
+          "detail": "1 pcs",
+          "price": 40,
+          "oldPrice": null,
+          "color": "#1f6b4f",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-9p8hwMqRjfib0-1U6KXIV",
+          "item": "Halloween pynt",
+          "detail": "1 pcs",
+          "price": 10,
+          "oldPrice": null,
+          "color": "#d87043",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-J3zZKSlmiVNpIYTvquB-a",
+          "item": "Udklædning, våben eller hårbøjle",
+          "detail": "1 pcs",
+          "price": 30,
+          "oldPrice": null,
+          "color": "#8a4f7d",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-TOzuyH3cPoEvBs0MoSNDz",
+          "item": "Magic gloves skeleton 2-pak",
+          "detail": "1 pcs",
+          "price": 20,
+          "oldPrice": null,
+          "color": "#3d719b",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-ZsvhdWJXp-GBOekaD56Lj",
+          "item": "Halloween LED lys, LED kæde eller græskar",
+          "detail": "1 pcs",
+          "price": 30,
+          "oldPrice": null,
+          "color": "#b38b32",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-DQpEI_Ui6WBoDPtzWB5n7",
+          "item": "Halloween LED figurer, græskar eller dekorations kryb",
+          "detail": "1 pcs",
+          "price": 20,
+          "oldPrice": null,
+          "color": "#6f7b3c",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-ZcGSsVOuyM5Eg4M7aFbYE",
+          "item": "Capri-Sun*",
+          "detail": "200 ml",
+          "price": 25,
+          "oldPrice": null,
+          "color": "#1f6b4f",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-ekAedRK5ktLESAuO4Zr9X",
+          "item": "Monster Energy*",
+          "detail": "50 cl",
+          "price": 14,
+          "oldPrice": null,
+          "color": "#d87043",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-2v-YWPaV24cusjm6bqOIm",
+          "item": "Coop solbær drik",
+          "detail": "1 l",
+          "price": 22,
+          "oldPrice": null,
+          "color": "#8a4f7d",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-c1F0SjlF3ihYZLm6hA4fj",
+          "item": "State eller Powerade*",
+          "detail": "40-50 cl",
+          "price": 10,
+          "oldPrice": null,
+          "color": "#3d719b",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-hrh_TDVo_p7BLr_BpOYtm",
+          "item": "Coca-Cola*",
+          "detail": "33 cl",
+          "price": 99,
+          "oldPrice": null,
+          "color": "#b38b32",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-HFTKaA14MRWD5MtiysYyR",
+          "item": "Harboe sodavand*",
+          "detail": "33 cl",
+          "price": 2.5,
+          "oldPrice": null,
+          "color": "#6f7b3c",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-D9TN_83BbRKIVNBxZ4dPy",
+          "item": "Harboe øl",
+          "detail": "33 cl",
+          "price": 22,
+          "oldPrice": null,
+          "color": "#1f6b4f",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-F1GhWAZ1hWXpI1XN0osXw",
+          "item": "Tuborg øl",
+          "detail": "33 cl",
+          "price": 38,
+          "oldPrice": null,
+          "color": "#d87043",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-0uiKZiyUyEtkVJL7kbghb",
+          "item": "Heineken eller Royal øl",
+          "detail": "33 cl",
+          "price": 85,
+          "oldPrice": null,
+          "color": "#8a4f7d",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-W5d1FuAXmHLVdXQ43MHWB",
+          "item": "1664, Breezer, Smirnoff eller Somersby",
+          "detail": "27.5-33 cl",
+          "price": 13,
+          "oldPrice": null,
+          "color": "#3d719b",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-3zpXHQOb9m5a9T5fb8j1_",
+          "item": "Dragonfly, Refsvindinge, Thy eller Ørbæk øl",
+          "detail": "44-50 cl",
+          "price": 18,
+          "oldPrice": null,
+          "color": "#b38b32",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-MV6OnGyUTmf1owB-43rfN",
+          "item": "Aalborg Taffel Akvavit, Absolut Vodka, Ballantine's Whisky eller Kahlua",
+          "detail": "70 cl",
+          "price": 99,
+          "oldPrice": null,
+          "color": "#6f7b3c",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-632MWcy53yfNklqRE1bPB",
+          "item": "Legal Zin i boks",
+          "detail": "3 l",
+          "price": 109,
+          "oldPrice": null,
+          "color": "#1f6b4f",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-cXFPKj5NGE66H8ew0Yg2y",
+          "item": "Jacob´s Creek eller Gallo*",
+          "detail": "75 cl",
+          "price": 50,
+          "oldPrice": null,
+          "color": "#d87043",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-5qMmcxhQYAJ4MiYhmHbm7",
+          "item": "Ap",
+          "detail": "75 cl",
+          "price": 35,
+          "oldPrice": null,
+          "color": "#8a4f7d",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-dSwlIzBfsNSs6Dzqs4zTe",
+          "item": "Finca Milena i boks*",
+          "detail": "3 l",
+          "price": 89,
+          "oldPrice": null,
+          "color": "#3d719b",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-Ve9aEFfQHimjTMZR3fwJi",
+          "item": "Peely",
+          "detail": "85 g",
+          "price": 20,
+          "oldPrice": null,
+          "color": "#b38b32",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-LJvYYdsnFCztO0hdejx32",
+          "item": "Haribo slikpose",
+          "detail": "470-500 g",
+          "price": 49,
+          "oldPrice": null,
+          "color": "#6f7b3c",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-ihg1Zk35b7bQtdcowPnHx",
+          "item": "Oreo",
+          "detail": "154-157 g",
+          "price": 15,
+          "oldPrice": null,
+          "color": "#1f6b4f",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-sY3OFhkK417jEawF3i4Ni",
+          "item": "Xtra! makroner",
+          "detail": "250 g",
+          "price": 8,
+          "oldPrice": null,
+          "color": "#d87043",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-7adBTddNNDgNiFB5AqND3",
+          "item": "Crystal gummies",
+          "detail": "85 g",
+          "price": 15,
+          "oldPrice": null,
+          "color": "#8a4f7d",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-I_AMnlht7Yp_2qrV-TvRZ",
+          "item": "Vitakraft stick, Purina gold eller perle",
+          "detail": "12-85 g",
+          "price": 5,
+          "oldPrice": null,
+          "color": "#3d719b",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-Afot5IcCZOfCMZmjn7987",
+          "item": "Latz menuboks til katte",
+          "detail": "1020 g",
+          "price": 35,
+          "oldPrice": null,
+          "color": "#b38b32",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-85ekK5w7ggbUJJmZlxz4O",
+          "item": "Fuglefrø eller bolde i spand",
+          "detail": "3500-4500 g",
+          "price": 55,
+          "oldPrice": null,
+          "color": "#6f7b3c",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-VuxTZvq7tCggS4hv-GBfw",
+          "item": "Chrisco hundesnacks",
+          "detail": "80-105 g",
+          "price": 15,
+          "oldPrice": null,
+          "color": "#1f6b4f",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-X-LLCfuJHEIu89te-Ozmd",
+          "item": "Latz party mix eller Adventuros hunde snacks",
+          "detail": "60-90 g",
+          "price": 10,
+          "oldPrice": null,
+          "color": "#d87043",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-p29OKZK8T-23mBnxSi0l5",
+          "item": "Nicotinell tyggegummi 24 stk*",
+          "detail": "24 pcs",
+          "price": 40,
+          "oldPrice": null,
+          "color": "#8a4f7d",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-L5sI2qnJ-4XSvhjxclVfp",
+          "item": "Nicotinell tyggegummi 2mg 204 stk*",
+          "detail": "204 pcs",
+          "price": 239,
+          "oldPrice": null,
+          "color": "#3d719b",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-5Qc0K-1zznsovM5U5NGU7",
+          "item": "Neophos tabs",
+          "detail": "1 pcs",
+          "price": 99,
+          "oldPrice": null,
+          "color": "#b38b32",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-QZE7CTYPXKOlYyFbiatsq",
+          "item": "Cillit Bang rengøringsmiddel",
+          "detail": "750 ml",
+          "price": 26,
+          "oldPrice": null,
+          "color": "#6f7b3c",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-UfGjLT9UYrHX1OuSCu7fl",
+          "item": "Vileda spraymoppe",
+          "detail": "1 pcs",
+          "price": 199,
+          "oldPrice": null,
+          "color": "#1f6b4f",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-Vg-YvMEiDf8iNGfAgZgk9",
+          "item": "Rodalon rengøringsmiddel",
+          "detail": "750-1000 ml",
+          "price": 45,
+          "oldPrice": null,
+          "color": "#d87043",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-GNqHCx9s_GW6pEQ7bQIyl",
+          "item": "Duck toiletrengøring",
+          "detail": "1 pcs",
+          "price": 15,
+          "oldPrice": null,
+          "color": "#8a4f7d",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-X_Lp0ni0feji9W53uNdye",
+          "item": "Omo vaskemiddel eller Bamseline skyllemiddel",
+          "detail": "925 ml",
+          "price": 22,
+          "oldPrice": null,
+          "color": "#3d719b",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-1aBs70Z13HzEb1nrSHQ3i",
+          "item": "Colgate tandpasta",
+          "detail": "225 ml",
+          "price": 39,
+          "oldPrice": null,
+          "color": "#b38b32",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-AeoTR8fQ5VQe1jIibZ0dL",
+          "item": "Libresse eller Tena",
+          "detail": "1 pcs",
+          "price": 29,
+          "oldPrice": null,
+          "color": "#6f7b3c",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-CraUekiME6jBcWWJOrC67",
+          "item": "Nivea deodorant eller shower",
+          "detail": "50-250 ml",
+          "price": 15,
+          "oldPrice": null,
+          "color": "#1f6b4f",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-801_jnd1PPGTIPbYBfsWP",
+          "item": "Aussie hårpleje",
+          "detail": "200-300 ml",
+          "price": 35,
+          "oldPrice": null,
+          "color": "#d87043",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-ZxGurldzMrTAEbSiXjWK8",
+          "item": "Libero comfort eller up&go bleer",
+          "detail": "1 pcs",
+          "price": 65,
+          "oldPrice": null,
+          "color": "#8a4f7d",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-W46Li2_omOqi2NeaREXN3",
+          "item": "Lekaform mini vitaminer",
+          "detail": "1 pcs",
+          "price": 20,
+          "oldPrice": null,
+          "color": "#3d719b",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-yL_bOM-33VIcE9glpQ-xu",
+          "item": "Den Leende Ko",
+          "detail": "133 g",
+          "price": 10,
+          "oldPrice": null,
+          "color": "#b38b32",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-AnHvlO1e2YFdgJM3HWW_1",
+          "item": "Sweet bites - mini snackpeber",
+          "detail": "150 g",
+          "price": 10,
+          "oldPrice": null,
+          "color": "#6f7b3c",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-oOBfPeZc2KwwOafCq5AFM",
+          "item": "Kinder Pingui 4-pak",
+          "detail": "30 g",
+          "price": 20,
+          "oldPrice": null,
+          "color": "#1f6b4f",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-SKOolopnghkMmOgW4Y5sV",
+          "item": "Änglamark økologiske bananer",
+          "detail": "1 pcs",
+          "price": 13,
+          "oldPrice": null,
+          "color": "#d87043",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-s4Up3KX_79-oWrT9z-nMy",
+          "item": "Gårdlykke pålæg",
+          "detail": "60-80 g",
+          "price": 15,
+          "oldPrice": null,
+          "color": "#8a4f7d",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-jhlhN4lHn5eKpXbzKLhPd",
+          "item": "Coop bagels",
+          "detail": "400 g",
+          "price": 18,
+          "oldPrice": null,
+          "color": "#3d719b",
+          "source": "365avisen"
+        }
+      ]
+    }
+  ]
+}

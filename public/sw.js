@@ -1,4 +1,4 @@
-const CACHE = 'hverdagsblik-v2'
+const CACHE = 'hverdagsblik-v3'
 const BASE = new URL(self.registration.scope).pathname
 const atScope = (path) => `${BASE}${path}`
 const SHELL = ['index.html', 'manifest.webmanifest', 'icon.svg', 'icon-192.png', 'icon-512.png'].map(atScope)
@@ -23,6 +23,14 @@ self.addEventListener('fetch', (event) => {
       caches.open(CACHE).then((cache) => cache.put(atScope('index.html'), copy))
       return response
     }).catch(() => caches.match(atScope('index.html'))))
+    return
+  }
+
+  if (new URL(request.url).pathname.endsWith('/offers.json')) {
+    event.respondWith(fetch(request).then((response) => {
+      if (response.ok) caches.open(CACHE).then((cache) => cache.put(request, response.clone()))
+      return response
+    }).catch(() => caches.match(request)))
     return
   }
 

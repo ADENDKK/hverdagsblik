@@ -1,0 +1,40 @@
+name: Opdater lokale tilbud
+
+on:
+  schedule:
+    - cron: '17 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: offer-update
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hent kildekoden
+        uses: actions/checkout@v7
+
+      - name: Klargør Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: lts/*
+
+      - name: Hent officielle tilbudsaviser
+        run: node scripts/update-offers.mjs
+
+      - name: Gem kun når tilbuddene er ændret
+        run: |
+          if git diff --quiet -- public/offers.json; then
+            echo "Ingen ændringer"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/offers.json
+          git commit -m "Opdater lokale tilbud"
+          git push
