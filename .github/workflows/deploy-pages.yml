@@ -1,0 +1,52 @@
+name: Udgiv Hverdagsblik til GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hent kildekoden
+        uses: actions/checkout@v7
+
+      - name: Klargør Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: lts/*
+          cache: npm
+
+      - name: Installer afhængigheder
+        run: npm ci
+
+      - name: Byg appen til repoets Pages-adresse
+        env:
+          VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
+          VITE_SUPABASE_ANON_KEY: ${{ secrets.VITE_SUPABASE_ANON_KEY }}
+        run: npm run build -- --base "/${{ github.event.repository.name }}/"
+
+      - name: Klargør GitHub Pages
+        uses: actions/configure-pages@v6
+
+      - name: Pak den byggede app
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: ./dist
+
+      - name: Udgiv
+        id: deployment
+        uses: actions/deploy-pages@v5

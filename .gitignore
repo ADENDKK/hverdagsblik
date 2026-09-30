@@ -1,0 +1,11 @@
+node_modules/
+dist/
+test-results/
+.env
+.env.local
+.env.*.local
+!.env.example
+.DS_Store
+Thumbs.db
+design-concept.png
+qa-*.png

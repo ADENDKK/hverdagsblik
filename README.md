@@ -1,0 +1,71 @@
+# Hverdagsblik
+
+En installerbar React-webapp til familiens udgifter, tilbudsønsker og lønsedler. Appen virker lokalt og kan forbindes til Supabase, så to eller flere telefoner deler samme husstand i realtid.
+
+## Start programmet
+
+1. Åbn en terminal i denne mappe.
+2. Kør `npm install`.
+3. Kør `npm run dev`.
+4. Åbn adressen, der vises i terminalen (normalt `http://127.0.0.1:5173`).
+
+## Det virker allerede
+
+- Månedsoversigt, budgetkategorier og rådighedsbeløb.
+- Tilføj og slet udgifter; data gemmes i browserens lokale lager.
+- Søgning i udgifter.
+- Lokale tilbud fra to eksempelbutikker i Arden.
+- Slå tilbudsovervågning til/fra og tilføj varer til ønskelisten.
+- Importér en lønseddel som PDF og vis den i oversigten.
+- Responsivt layout til computer og mobil.
+- Kan installeres som genvej/app på hjemmeskærmen.
+- Offline-cache efter første besøg.
+- Sikker husstandssynkronisering med invitationskode og Row Level Security.
+- Private lønseddel-PDF'er i husstandens egen storage-mappe med tidsbegrænsede visningslinks.
+
+## Slå fælles synkronisering til
+
+1. Opret et gratis projekt på Supabase.
+2. Aktivér **Anonymous Sign-Ins** under Authentication → Providers → Anonymous.
+3. Åbn SQL Editor og kør hele [supabase/schema.sql](./supabase/schema.sql).
+4. Kopiér `.env.example` til `.env.local`.
+5. Indsæt projektets URL og den offentlige `anon`/publishable key i `.env.local`.
+6. Genstart appen med `npm run dev`.
+7. Gå til **Indstillinger → Fælles synkronisering** på den første telefon og vælg **Opret vores husstand**.
+8. Skriv den viste invitationskode på telefon nummer to.
+
+Databasen bruger anonyme, separate brugere og databasehåndhævet adgangskontrol. Kun medlemmer af den samme husstand kan læse eller ændre husstandens data.
+
+## Installer på telefonen
+
+Appen skal ligge på en offentlig HTTPS-adresse, før installation og synkronisering virker stabilt på telefoner.
+
+- **iPhone/iPad:** Åbn siden i Safari, tryk **Del**, og vælg **Føj til hjemmeskærm**.
+- **Android:** Åbn siden i Chrome og vælg **Installer app** eller brug knappen under Indstillinger.
+
+PWA-manifestet, app-ikonet og offline-service-workeren er allerede med i projektet. Det eneste resterende driftstrin er at udgive `dist`-mappen på en HTTPS-host.
+
+## Udgiv med GitHub Pages
+
+Projektet indeholder en færdig GitHub Actions-workflow i `.github/workflows/deploy-pages.yml`. Den bygger og udgiver automatisk appen ved hvert push til `main`.
+
+1. Opret et nyt GitHub-repository, eksempelvis `hverdagsblik`.
+2. Push denne projektmappe til repositoryets `main`-branch.
+3. Gå til **Settings → Pages** og vælg **GitHub Actions** som kilde.
+4. Gå til **Settings → Secrets and variables → Actions** og opret:
+   - `VITE_SUPABASE_URL`
+   - `VITE_SUPABASE_ANON_KEY`
+5. Kør workflowet fra fanen **Actions**, eller push en ny ændring.
+
+Adressen bliver normalt `https://BRUGERNAVN.github.io/hverdagsblik/`. GitHub Pages leverer HTTPS, så installation på telefonen og service workeren virker.
+
+`dist`, `node_modules` og lokale `.env`-filer er udelukket via `.gitignore`.
+
+## Integrationer, der mangler før rigtig drift
+
+- Automatisk bankimport kræver en PSD2/open-banking-leverandør og brugerens samtykke.
+- Rigtige tilbud kræver en lovlig datakilde eller et samarbejde/API fra de valgte butikker.
+- Automatisk lønseddel kræver forbindelse til brugerens mail eller lønportal.
+- Produktion bør have backup og klare sletteregler for persondata.
+
+Uden Supabase-konfiguration bliver alle data fortsat på den enkelte enhed. Med Supabase aktiveret sendes husstandens data til brugerens eget Supabase-projekt.
