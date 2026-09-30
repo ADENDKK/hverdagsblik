@@ -1,6 +1,6 @@
 # Hverdagsblik
 
-En installerbar React-webapp til familiens udgifter, tilbudsønsker og lønsedler. Appen virker lokalt og kan forbindes til Supabase, så to eller flere telefoner deler samme husstand i realtid.
+En installerbar React-webapp til familiens udgifter, indtægter og tilbudsønsker. Appen virker lokalt og kan forbindes til Supabase, så to eller flere telefoner deler samme husstand i realtid.
 
 ## Start programmet
 
@@ -14,14 +14,15 @@ En installerbar React-webapp til familiens udgifter, tilbudsønsker og lønsedle
 - Månedsoversigt, budgetkategorier og rådighedsbeløb.
 - Tilføj og slet udgifter; data gemmes i browserens lokale lager.
 - Søgning i udgifter.
-- Lokale tilbud fra to eksempelbutikker i Arden.
+- Redigér selv listen over lokale butikker.
+- Se alle tilbud som standard, eller filtrér til ønskelisten.
 - Slå tilbudsovervågning til/fra og tilføj varer til ønskelisten.
-- Importér en lønseddel som PDF og vis den i oversigten.
+- Skriv nettoløn efter skat for én eller flere personer.
+- Beregn rådighedsbeløbet ud fra de registrerede indtægter og udgifter.
 - Responsivt layout til computer og mobil.
 - Kan installeres som genvej/app på hjemmeskærmen.
 - Offline-cache efter første besøg.
 - Sikker husstandssynkronisering med invitationskode og Row Level Security.
-- Private lønseddel-PDF'er i husstandens egen storage-mappe med tidsbegrænsede visningslinks.
 
 ## Slå fælles synkronisering til
 
@@ -52,9 +53,7 @@ Projektet indeholder en færdig GitHub Actions-workflow i `.github/workflows/dep
 1. Opret et nyt GitHub-repository, eksempelvis `hverdagsblik`.
 2. Push denne projektmappe til repositoryets `main`-branch.
 3. Gå til **Settings → Pages** og vælg **GitHub Actions** som kilde.
-4. Gå til **Settings → Secrets and variables → Actions** og opret:
-   - `VITE_SUPABASE_URL`
-   - `VITE_SUPABASE_ANON_KEY`
+4. Indsæt projektets offentlige URL og browsernøgle i workflowets `VITE_SUPABASE_URL` og `VITE_SUPABASE_ANON_KEY`.
 5. Kør workflowet fra fanen **Actions**, eller push en ny ændring.
 
 Adressen bliver normalt `https://BRUGERNAVN.github.io/hverdagsblik/`. GitHub Pages leverer HTTPS, så installation på telefonen og service workeren virker.
@@ -63,9 +62,8 @@ Adressen bliver normalt `https://BRUGERNAVN.github.io/hverdagsblik/`. GitHub Pag
 
 ## Integrationer, der mangler før rigtig drift
 
-- Automatisk bankimport kræver en PSD2/open-banking-leverandør og brugerens samtykke.
+- Fuldautomatisk bankimport kræver en PSD2/open-banking-leverandør og brugerens samtykke. Uden kontoadgang er de mest private muligheder manuel CSV-import fra netbank eller scanning af kvitteringer.
 - Rigtige tilbud kræver en lovlig datakilde eller et samarbejde/API fra de valgte butikker.
-- Automatisk lønseddel kræver forbindelse til brugerens mail eller lønportal.
 - Produktion bør have backup og klare sletteregler for persondata.
 
 Uden Supabase-konfiguration bliver alle data fortsat på den enkelte enhed. Med Supabase aktiveret sendes husstandens data til brugerens eget Supabase-projekt.

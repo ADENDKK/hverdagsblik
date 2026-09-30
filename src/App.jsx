@@ -1,8 +1,8 @@
-import { useCallback, useMemo, useRef, useState } from 'react'
+import { useCallback, useMemo, useState } from 'react'
 import {
-  Bell, Car, Check, ChevronDown, ChevronRight, Cloud, CloudOff, Copy, Download, FileText, Heart,
+  Bell, Car, Check, ChevronDown, ChevronRight, Cloud, CloudOff, Copy, Download, Heart,
   Home, ListFilter, MapPin, Menu, MoreHorizontal, Plus, ReceiptText, Search,
-  Settings, ShoppingBasket, Smartphone, Sparkles, Store, Tag, Trash2, Upload, Utensils,
+  Settings, ShoppingBasket, Smartphone, Sparkles, Store, Tag, Trash2, Users, Utensils,
   WalletCards, X,
 } from 'lucide-react'
 import { budgets, categories, defaultExpenses, defaultOffers } from './data.js'
@@ -33,8 +33,10 @@ function useStoredState(key, initialValue) {
 
 const iconMap = { basket: ShoppingBasket, home: Home, car: Car, utensils: Utensils, more: MoreHorizontal }
 const navItems = [
-  ['Overblik', Home], ['Udgifter', ReceiptText], ['Tilbud', Tag], ['Ønskeliste', Heart], ['Lønsedler', FileText], ['Indstillinger', Settings],
+  ['Overblik', Home], ['Udgifter', ReceiptText], ['Tilbud', Tag], ['Ønskeliste', Heart], ['Indtægter', WalletCards], ['Indstillinger', Settings],
 ]
+const defaultStores = ['SuperBrugsen Arden', 'REMA 1000 Arden']
+const defaultIncomes = [{ id: 'income-me', name: 'Mig', net: 0 }]
 
 function Brand() {
   return <div className="brand"><span className="brand-mark"><Home size={24} strokeWidth={2.2} /></span><span>Hverdagsblik</span></div>
@@ -59,21 +61,26 @@ function Topbar({ onMenu, query, setQuery, sync, onSyncClick }) {
   </header>
 }
 
-function OverviewHero() {
+function OverviewHero({ incomes, expenses }) {
+  const incomeTotal = incomes.reduce((sum, item) => sum + Number(item.net || 0), 0)
+  const expenseTotal = expenses.reduce((sum, item) => sum + Number(item.amount || 0), 0)
+  const available = incomeTotal - expenseTotal
+  const usedPercentage = incomeTotal > 0 ? Math.min(100, Math.round((expenseTotal / incomeTotal) * 100)) : 0
   return <section className="budget-shell">
     <div className="budget-totals">
-      <div className="available"><span>Til rådighed</span><strong>12.460 kr.</strong></div>
-      <div><span>Indtægter denne måned</span><strong>31.800 kr.</strong></div>
-      <div><span>Udgifter denne måned</span><strong>19.340 kr.</strong></div>
+      <div className={`available ${available < 0 ? 'negative' : ''}`}><span>Til rådighed</span><strong>{currency.format(available)}</strong></div>
+      <div><span>Indtægter efter skat</span><strong>{currency.format(incomeTotal)}</strong></div>
+      <div><span>Registrerede udgifter</span><strong>{currency.format(expenseTotal)}</strong></div>
     </div>
-    <div className="big-progress"><i style={{ width: '61%' }} /></div>
-    <div className="progress-meta"><strong>61 % brugt</strong><span>12.460 kr. tilbage af 31.800 kr.</span></div>
+    <div className="big-progress"><i style={{ width: `${usedPercentage}%` }} /></div>
+    <div className="progress-meta"><strong>{usedPercentage} % brugt</strong><span>{incomeTotal > 0 ? `${currency.format(available)} tilbage af ${currency.format(incomeTotal)}` : 'Tilføj din indtægt for at se rådighedsbeløbet'}</span></div>
     <div className="budget-head"><h2>Budget pr. kategori</h2><button className="soft-button"><ListFilter size={16} /> Rediger budgetter</button></div>
     <div className="budget-list">
       {budgets.map((item) => {
         const Icon = iconMap[item.icon]
-        const percentage = Math.min(100, Math.round((item.used / item.limit) * 100))
-        return <div className="budget-row" key={item.label}><Icon size={19} /><span className="category-name">{item.label}</span><span className="limit">{currency.format(item.limit)}</span><div className="mini-progress"><i className={percentage > 80 ? 'warm' : ''} style={{ width: `${percentage}%` }} /></div><strong>{currency.format(item.used)}</strong><ChevronRight size={16} /></div>
+        const used = expenses.filter((expense) => expense.category === item.label).reduce((sum, expense) => sum + Number(expense.amount || 0), 0)
+        const percentage = Math.min(100, Math.round((used / item.limit) * 100))
+        return <div className="budget-row" key={item.label}><Icon size={19} /><span className="category-name">{item.label}</span><span className="limit">{currency.format(item.limit)}</span><div className="mini-progress"><i className={percentage > 80 ? 'warm' : ''} style={{ width: `${percentage}%` }} /></div><strong>{currency.format(used)}</strong><ChevronRight size={16} /></div>
       })}
     </div>
   </section>
@@ -109,12 +116,13 @@ function OfferRail({ offers, setOffers, onSeeAll }) {
   </section>
 }
 
-function PayslipCard({ payslip, onUpload, onOpen }) {
-  return <section className="rail-card payslip-card">
-    <div className="rail-heading"><h2>Seneste lønseddel</h2><button onClick={onOpen}>Se alle <ChevronRight size={15} /></button></div>
-    <div className="payslip-body"><div className="document-icon"><FileText /></div><div><strong>{payslip?.month || 'September 2026'}</strong><small>Netto udbetalt</small><b>{currency.format(payslip?.net || 24850)}</b></div><span className="status-dot">✓ Indlæst</span></div>
-    <p>{payslip ? `Importeret fra ${payslip.filename}` : 'Eksempeldata — forbind mail eller upload en fil.'}</p>
-    <div className="payslip-actions"><button className="outline-button" onClick={onUpload}><Upload size={16} /> Upload lønseddel</button><button className="outline-button" onClick={onOpen}>Se lønseddel</button></div>
+function IncomeCard({ incomes, onEdit }) {
+  const total = incomes.reduce((sum, item) => sum + Number(item.net || 0), 0)
+  return <section className="rail-card income-card">
+    <div className="rail-heading"><h2>Indtægt efter skat</h2><button onClick={onEdit}>Rediger <ChevronRight size={15} /></button></div>
+    <div className="income-summary"><div className="document-icon"><WalletCards /></div><div><strong>{incomes.length === 1 ? '1 person' : `${incomes.length} personer`}</strong><small>Samlet pr. måned</small><b>{currency.format(total)}</b></div><span className="status-dot">✓ Delt</span></div>
+    <p>{total > 0 ? 'Beløbet bruges automatisk til jeres rådighedsbeløb.' : 'Skriv det beløb, du får udbetalt efter skat.'}</p>
+    <div className="income-actions"><button className="outline-button" onClick={onEdit}><WalletCards size={16} /> Rediger indtægter</button></div>
   </section>
 }
 
@@ -128,19 +136,31 @@ function AddExpenseModal({ onClose, onAdd }) {
 }
 
 function OffersPage({ offers, setOffers }) {
-  const [onlyWatched, setOnlyWatched] = useState(false)
-  const visible = onlyWatched ? offers.filter((offer) => offer.watched) : offers
-  return <div className="page-stack"><div className="page-title"><div><h1>Tilbud tæt på jer</h1><p>Se aktuelle prisfald på varer, I gerne vil have.</p></div><label className="filter-check"><input type="checkbox" checked={onlyWatched} onChange={(e) => setOnlyWatched(e.target.checked)} /> Kun ønskeliste</label></div><OfferRail offers={visible} setOffers={setOffers} /></div>
+  const [filter, setFilter] = useState('all')
+  const visible = filter === 'watched' ? offers.filter((offer) => offer.watched) : offers
+  return <div className="page-stack"><div className="page-title"><div><h1>Tilbud tæt på jer</h1><p>Som standard vises alle tilgængelige tilbud.</p></div><div className="offer-filters" role="group" aria-label="Filtrer tilbud"><button className={filter === 'all' ? 'active' : ''} onClick={() => setFilter('all')}>Alle tilbud</button><button className={filter === 'watched' ? 'active' : ''} onClick={() => setFilter('watched')}>Kun ønskeliste</button></div></div><OfferRail offers={visible} setOffers={setOffers} /></div>
 }
 
 function WishlistPage({ offers, setOffers }) {
   const [name, setName] = useState('')
   const watched = offers.filter((item) => item.watched)
   const add = (e) => { e.preventDefault(); if (!name.trim()) return; setOffers((items) => [...items, { id: Date.now(), store: 'Afventer butik', distance: 'Arden', item: name.trim(), detail: 'Vi holder øje', oldPrice: 0, price: 0, color: '#d6dfd8', watched: true }]); setName('') }
-  return <div className="page-stack"><div className="page-title"><div><h1>Jeres ønskeliste</h1><p>Tilføj det, I mangler — så bliver gode tilbud lettere at finde.</p></div></div><form className="wishlist-form" onSubmit={add}><Heart size={20} /><input value={name} onChange={(e) => setName(e.target.value)} placeholder="Fx vaskemiddel, kaffe eller bleer" /><button className="primary-button">Tilføj vare</button></form><div className="wishlist-list">{watched.map((item) => <div key={item.id}><span className="product-swatch" style={{ '--swatch': item.color }}><ShoppingBasket size={18} /></span><div><strong>{item.item}</strong><small>{item.store} · {item.detail}</small></div><button className="row-action" onClick={() => setOffers((current) => current.map((offer) => offer.id === item.id ? { ...offer, watched: false } : offer))}><X size={17} /></button></div>)}</div></div>
+  return <div className="page-stack"><div className="page-title"><div><h1>Jeres ønskeliste</h1><p>Tilføj det, I mangler — så bliver gode tilbud lettere at finde.</p></div></div><form className="wishlist-form" onSubmit={add}><Heart size={20} /><input value={name} onChange={(e) => setName(e.target.value)} placeholder="Fx vaskemiddel, kaffe eller bleer" /><button className="primary-button">Tilføj vare</button></form><div className="wishlist-list">{watched.map((item) => <div className="wishlist-item" key={item.id}><span className="product-swatch" style={{ '--swatch': item.color }}><ShoppingBasket size={18} /></span><div className="wishlist-item-copy"><strong>{item.item}</strong><small>{item.store} · {item.detail}</small></div><button className="row-action wishlist-remove" aria-label={`Fjern ${item.item} fra ønskelisten`} onClick={() => setOffers((current) => current.map((offer) => offer.id === item.id ? { ...offer, watched: false } : offer))}><X size={17} /></button></div>)}</div></div>
 }
 
-function SettingsPage({ sync, pwa }) {
+function IncomePage({ incomes, setIncomes }) {
+  const update = (id, field, value) => setIncomes((items) => items.map((item) => item.id === id ? { ...item, [field]: field === 'net' ? Number(value) : value } : item))
+  const add = () => setIncomes((items) => [...items, { id: `income-${Date.now()}`, name: `Person ${items.length + 1}`, net: 0 }])
+  return <div className="page-stack"><div className="page-title"><div><h1>Indtægter</h1><p>Skriv det beløb, hver person får udbetalt efter skat.</p></div><button className="primary-button" onClick={add}><Plus size={18} /> Tilføj person</button></div><section className="income-list">{incomes.map((income, index) => <div className="income-row" key={income.id}><span className="income-person-icon"><Users size={19} /></span><label>Navn<input value={income.name} onChange={(event) => update(income.id, 'name', event.target.value)} aria-label={`Navn på person ${index + 1}`} /></label><label>Beløb efter skat<input type="number" min="0" step="1" value={income.net || ''} onChange={(event) => update(income.id, 'net', event.target.value)} placeholder="0" aria-label={`Beløb efter skat for ${income.name || `person ${index + 1}`}`} /></label><button className="row-action income-remove" disabled={incomes.length === 1} aria-label={`Fjern ${income.name || `person ${index + 1}`}`} onClick={() => setIncomes((items) => items.filter((item) => item.id !== income.id))}><X size={18} /></button></div>)}</section><div className="info-banner"><Sparkles /><div><strong>Du starter kun med “Mig”</strong><p>Hvis I senere vil have begge indtægter med, trykker I blot på “Tilføj person”. Beløbene deles automatisk mellem jeres telefoner.</p></div></div></div>
+}
+
+function StoresSetting({ stores, setStores }) {
+  const [name, setName] = useState('')
+  const add = (event) => { event.preventDefault(); const next = name.trim(); if (!next || stores.some((store) => store.toLowerCase() === next.toLowerCase())) return; setStores((items) => [...items, next]); setName('') }
+  return <div className="setting-row stores-setting"><span className="setting-icon"><Store /></span><div className="settings-detail"><h2>Lokale butikker</h2><p>Tilføj eller fjern de butikker, I vil holde øje med.</p><div className="store-list">{stores.map((store) => <span className="store-chip" key={store}>{store}<button aria-label={`Fjern ${store}`} onClick={() => setStores((items) => items.filter((item) => item !== store))}><X size={14} /></button></span>)}</div><form className="store-edit-form" onSubmit={add}><input value={name} onChange={(event) => setName(event.target.value)} placeholder="Fx Netto Arden" aria-label="Ny butik" /><button className="outline-button">Tilføj butik</button></form></div><span className="privacy-label">{stores.length} butikker</span></div>
+}
+
+function SettingsPage({ sync, pwa, stores, setStores, onOpenIncomes }) {
   const [joinCode, setJoinCode] = useState('')
   const [copied, setCopied] = useState(false)
   const copyCode = async () => { await navigator.clipboard.writeText(sync.inviteCode); setCopied(true); window.setTimeout(() => setCopied(false), 1800) }
@@ -155,8 +175,8 @@ function SettingsPage({ sync, pwa }) {
       {sync.status === 'solo' ? <><p>Opret husstanden på den første telefon, eller skriv invitationskoden fra den anden.</p><div className="sync-actions"><button className="primary-button" onClick={sync.createHousehold}>Opret vores husstand</button><form onSubmit={(event) => { event.preventDefault(); if (joinCode.trim()) sync.joinHousehold(joinCode) }}><input aria-label="Invitationskode" value={joinCode} onChange={(event) => setJoinCode(event.target.value.toUpperCase())} maxLength={12} placeholder="12-tegns kode" /><button className="outline-button">Tilslut</button></form></div></> : null}
       {(sync.status === 'synced' || sync.status === 'syncing') ? <><p>Begge telefoner kan nu se de samme udgifter, tilbud og lønseddelstatus.</p><div className="invite-code"><span>Invitationskode</span><strong>{sync.inviteCode || 'Hentes…'}</strong><button className="icon-button" onClick={copyCode} aria-label="Kopiér invitationskode">{copied ? <Check size={18} /> : <Copy size={18} />}</button></div></> : null}
     </div><span className={`sync-status ${sync.status}`}>{sync.status === 'synced' ? '● Online' : sync.status === 'syncing' ? '● Gemmer' : sync.status === 'unconfigured' ? 'Ikke forbundet' : sync.status === 'solo' ? 'Klar' : sync.status === 'error' ? 'Fejl' : 'Forbinder'}</span></div>
-    <div className="setting-row"><span className="setting-icon"><Store /></span><div><h2>Lokale butikker</h2><p>SuperBrugsen Arden og REMA 1000 Arden</p></div><button className="outline-button">Rediger</button></div>
-    <div className="setting-row"><span className="setting-icon"><FileText /></span><div><h2>Automatisk lønseddel</h2><p>Forbind en mailkonto, så lønsedler kan findes og importeres.</p></div><button className="primary-button" onClick={() => alert('Mailforbindelsen kræver valg af Gmail eller Outlook og bliver næste integrationstrin.')}>Forbind mail</button></div>
+    <StoresSetting stores={stores} setStores={setStores} />
+    <div className="setting-row"><span className="setting-icon"><WalletCards /></span><div><h2>Indtægter efter skat</h2><p>Skriv din nettoløn direkte. Tilføj først en person mere, når I ønsker det.</p></div><button className="primary-button" onClick={onOpenIncomes}>Rediger beløb</button></div>
     <div className="setting-row"><span className="setting-icon"><WalletCards /></span><div><h2>Udgifter</h2><p>{sync.householdId ? 'Ændringer gemmes i jeres krypterede cloud-projekt og synkroniseres mellem enheder.' : 'Data gemmes lokalt, indtil fælles synkronisering er forbundet.'}</p></div><span className="privacy-label">Privat husstand</span></div>
   </section></div>
 }
@@ -166,38 +186,27 @@ export default function App() {
   const [query, setQuery] = useState('')
   const [expenses, setExpenses] = useStoredState('expenses-v1', defaultExpenses)
   const [offers, setOffers] = useStoredState('offers-v1', defaultOffers)
-  const [payslip, setPayslip] = useStoredState('payslip-v1', null)
+  const [incomes, setIncomes] = useStoredState('incomes-v1', defaultIncomes)
+  const [stores, setStores] = useStoredState('stores-v1', defaultStores)
   const [modal, setModal] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
-  const fileInput = useRef(null)
-  const sharedData = useMemo(() => ({ expenses, offers, payslip }), [expenses, offers, payslip])
+  const sharedData = useMemo(() => ({ expenses, offers, incomes, stores }), [expenses, offers, incomes, stores])
   const applyRemote = useCallback((remote) => {
     setExpenses(remote.expenses)
     setOffers(remote.offers)
-    setPayslip(remote.payslip ?? null)
-  }, [setExpenses, setOffers, setPayslip])
+    if (Array.isArray(remote.incomes) && remote.incomes.length) setIncomes(remote.incomes)
+    if (Array.isArray(remote.stores)) setStores(remote.stores)
+  }, [setExpenses, setOffers, setIncomes, setStores])
   const sync = useHouseholdSync(sharedData, applyRemote)
   const pwa = usePwaInstall()
-  const uploadPayslip = async (event) => {
-    const file = event.target.files?.[0]
-    if (!file) return
-    const path = sync.householdId ? await sync.uploadPayslipFile(file) : null
-    setPayslip({ filename: file.name, month: 'September 2026', net: 24850, path })
-    setPage('Lønsedler')
-    event.target.value = ''
-  }
-  const openPayslip = async () => {
-    if (payslip?.path) await sync.openPayslipFile(payslip.path)
-    else alert('Forbind fælles synkronisering og upload PDF-filen, så den kan åbnes på begge telefoner.')
-  }
 
   let content
-  if (page === 'Overblik') content = <><div className="main-title"><div><h1>God aften — her er jeres september</h1><p>30. september 2026</p></div></div>{sync.status === 'unconfigured' || sync.status === 'solo' ? <button className="sync-notice" onClick={() => setPage('Indstillinger')}><Cloud size={19} /><span><strong>Gør Hverdagsblik fælles</strong><small>Forbind husstanden, så begge telefoner altid viser det samme.</small></span><ChevronRight size={18} /></button> : null}<div className="dashboard-grid"><main><OverviewHero /><ExpenseList expenses={expenses} setExpenses={setExpenses} query={query} openModal={() => setModal(true)} /></main><aside className="right-rail"><OfferRail offers={offers} setOffers={setOffers} onSeeAll={() => setPage('Tilbud')} /><PayslipCard payslip={payslip} onUpload={() => fileInput.current?.click()} onOpen={() => payslip?.path ? openPayslip() : setPage('Lønsedler')} /></aside></div></>
+  if (page === 'Overblik') content = <><div className="main-title"><div><h1>God aften — her er jeres september</h1><p>30. september 2026</p></div></div>{sync.status === 'unconfigured' || sync.status === 'solo' ? <button className="sync-notice" onClick={() => setPage('Indstillinger')}><Cloud size={19} /><span><strong>Gør Hverdagsblik fælles</strong><small>Forbind husstanden, så begge telefoner altid viser det samme.</small></span><ChevronRight size={18} /></button> : null}<div className="dashboard-grid"><main><OverviewHero incomes={incomes} expenses={expenses} /><ExpenseList expenses={expenses} setExpenses={setExpenses} query={query} openModal={() => setModal(true)} /></main><aside className="right-rail"><OfferRail offers={offers} setOffers={setOffers} onSeeAll={() => setPage('Tilbud')} /><IncomeCard incomes={incomes} onEdit={() => setPage('Indtægter')} /></aside></div></>
   else if (page === 'Udgifter') content = <div className="page-stack"><div className="page-title"><div><h1>Udgifter</h1><p>Alle poster samlet ét sted.</p></div></div><ExpenseList expenses={expenses} setExpenses={setExpenses} query={query} openModal={() => setModal(true)} full /></div>
   else if (page === 'Tilbud') content = <OffersPage offers={offers} setOffers={setOffers} />
   else if (page === 'Ønskeliste') content = <WishlistPage offers={offers} setOffers={setOffers} />
-  else if (page === 'Lønsedler') content = <div className="page-stack"><div className="page-title"><div><h1>Lønsedler</h1><p>Få lønnen med i budgettet uden dobbeltarbejde.</p></div><button className="primary-button" onClick={() => fileInput.current?.click()}><Upload size={18} /> Upload lønseddel</button></div><PayslipCard payslip={payslip} onUpload={() => fileInput.current?.click()} onOpen={openPayslip} /><div className="info-banner"><Sparkles /><div><strong>Næste trin: automatisk hentning</strong><p>Vælg Gmail, Outlook eller jeres lønportal i Indstillinger. Indtil da kan I importere PDF-filen manuelt.</p></div><button className="outline-button" onClick={() => setPage('Indstillinger')}>Gå til indstillinger</button></div></div>
-  else content = <SettingsPage sync={sync} pwa={pwa} />
+  else if (page === 'Indtægter') content = <IncomePage incomes={incomes} setIncomes={setIncomes} />
+  else content = <SettingsPage sync={sync} pwa={pwa} stores={stores} setStores={setStores} onOpenIncomes={() => setPage('Indtægter')} />
 
-  return <div className="app-shell"><Sidebar page={page} setPage={setPage} open={menuOpen} close={() => setMenuOpen(false)} />{menuOpen ? <button className="sidebar-scrim" onClick={() => setMenuOpen(false)} aria-label="Luk menu" /> : null}<div className="app-area"><Topbar onMenu={() => setMenuOpen(true)} query={query} setQuery={setQuery} sync={sync} onSyncClick={() => setPage('Indstillinger')} /><div className="page-content">{content}</div></div><input ref={fileInput} hidden type="file" accept="application/pdf,.pdf" onChange={uploadPayslip} />{modal ? <AddExpenseModal onClose={() => setModal(false)} onAdd={(expense) => setExpenses((items) => [expense, ...items])} /> : null}</div>
+  return <div className="app-shell"><Sidebar page={page} setPage={setPage} open={menuOpen} close={() => setMenuOpen(false)} />{menuOpen ? <button className="sidebar-scrim" onClick={() => setMenuOpen(false)} aria-label="Luk menu" /> : null}<div className="app-area"><Topbar onMenu={() => setMenuOpen(true)} query={query} setQuery={setQuery} sync={sync} onSyncClick={() => setPage('Indstillinger')} /><div className="page-content">{content}</div></div>{modal ? <AddExpenseModal onClose={() => setModal(false)} onAdd={(expense) => setExpenses((items) => [expense, ...items])} /> : null}</div>
 }
