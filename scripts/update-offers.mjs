@@ -92,13 +92,14 @@ async function fetchSpar() {
     const item = cleanText(card.match(/class="product-card-name"[^>]*>([^<]+)/i)?.[1])
     const detail = cleanText(card.match(/class="product-card-summary"[^>]*>([^<]*)/i)?.[1])
     const priceText = card.match(/class="product-card-price"[\s\S]*?<app-price[^>]*>[\s\S]*?([0-9]+(?:[,.][0-9]{1,2})?)/i)?.[1]
+    const oldPriceText = card.match(/Herefter er prisen\s+([0-9]+(?:[,.][0-9]{1,2})?)/i)?.[1]
     if (!item || !priceText) return []
     return [{
       id: `spar-${item.toLowerCase().replace(/[^a-z0-9æøå]+/gi, '-').replace(/^-|-$/g, '')}`,
       item,
       detail,
       price: Number(priceText.replace(',', '.')),
-      oldPrice: null,
+      oldPrice: oldPriceText == null ? null : Number(oldPriceText.replace(',', '.')),
       color: colors[(index + 2) % colors.length],
       source: 'SPAR Arden',
     }]

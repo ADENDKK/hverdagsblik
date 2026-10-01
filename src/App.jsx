@@ -5,7 +5,7 @@ import {
   Settings, ShoppingBasket, Smartphone, Sparkles, Store, Tag, Trash2, Users, Utensils,
   WalletCards, X,
 } from 'lucide-react'
-import { budgets, categories, defaultExpenses, defaultOffers, localStores } from './data.js'
+import { budgets as defaultBudgets, categories, defaultExpenses, defaultOffers, localStores } from './data.js'
 import { parseBankCsv } from './bankImport.js'
 import { useHouseholdSync } from './useHouseholdSync.js'
 import { useOfficialOffers } from './useOfficialOffers.js'
@@ -83,7 +83,7 @@ function Topbar({ onMenu, query, setQuery, sync, onSyncClick }) {
   </header>
 }
 
-function OverviewHero({ incomes, expenses }) {
+function OverviewHero({ incomes, expenses, budgetSettings, onEditBudgets }) {
   const incomeTotal = incomes.reduce((sum, item) => sum + Number(item.net || 0), 0)
   const expenseTotal = expenses.reduce((sum, item) => sum + Number(item.amount || 0), 0)
   const available = incomeTotal - expenseTotal
@@ -96,12 +96,12 @@ function OverviewHero({ incomes, expenses }) {
     </div>
     <div className="big-progress"><i style={{ width: `${usedPercentage}%` }} /></div>
     <div className="progress-meta"><strong>{usedPercentage} % brugt</strong><span>{incomeTotal > 0 ? `${currency.format(available)} tilbage af ${currency.format(incomeTotal)}` : 'Tilføj din indtægt for at se rådighedsbeløbet'}</span></div>
-    <div className="budget-head"><h2>Budget pr. kategori</h2><button className="soft-button"><ListFilter size={16} /> Rediger budgetter</button></div>
+    <div className="budget-head"><h2>Budget pr. kategori</h2><button className="soft-button" onClick={onEditBudgets}><ListFilter size={16} /> Rediger budgetter</button></div>
     <div className="budget-list">
-      {budgets.map((item) => {
+      {budgetSettings.map((item) => {
         const Icon = iconMap[item.icon]
         const used = expenses.filter((expense) => expense.category === item.label).reduce((sum, expense) => sum + Number(expense.amount || 0), 0)
-        const percentage = Math.min(100, Math.round((used / item.limit) * 100))
+        const percentage = item.limit > 0 ? Math.min(100, Math.round((used / item.limit) * 100)) : used > 0 ? 100 : 0
         return <div className="budget-row" key={item.label}><Icon size={19} /><span className="category-name">{item.label}</span><span className="limit">{currency.format(item.limit)}</span><div className="mini-progress"><i className={percentage > 80 ? 'warm' : ''} style={{ width: `${percentage}%` }} /></div><strong>{currency.format(used)}</strong><ChevronRight size={16} /></div>
       })}
     </div>
@@ -167,7 +167,7 @@ function OfferRail({ offers, toggleOffer, onSeeAll, sources, compact = false, lo
       {items.slice(0, compact ? 2 : undefined).map((offer) => <div className="offer-row" key={offer.id}>
         <span className="product-swatch" style={{ '--swatch': offer.color }}><ShoppingBasket size={18} /></span>
         <div className="offer-copy"><strong>{offer.item}</strong><small>{offer.detail}</small></div>
-        <div className="price">{offer.oldPrice ? <s>{currency.format(offer.oldPrice)}</s> : null}<strong>{currency.format(offer.price)}</strong>{offer.oldPrice ? <small>Spar {currency.format(offer.oldPrice - offer.price)}</small> : <small>{offer.source}</small>}</div>
+        <div className="price">{offer.oldPrice ? <span className="original-price">Førpris <s>{currency.format(offer.oldPrice)}</s></span> : <span className="original-price unavailable">Førpris ikke oplyst</span>}<strong>{currency.format(offer.price)}</strong>{offer.oldPrice ? <small>Spar {currency.format(offer.oldPrice - offer.price)}</small> : <small className="saving-unavailable">Besparelse ikke oplyst</small>}</div>
         <label className="switch" title="Føj til ønskelisten"><input type="checkbox" checked={offer.watched} onChange={() => toggleOffer(offer)} /><span /></label>
       </div>)}
       {compact && items.length > 2 ? <button className="more-offers" onClick={onSeeAll}>+ {items.length - 2} flere tilbud fra {store}</button> : null}
@@ -192,6 +192,27 @@ function AddExpenseModal({ onClose, onAdd }) {
   return <div className="modal-backdrop" role="presentation" onMouseDown={(e) => { if (e.target === e.currentTarget) onClose() }}><div className="modal" role="dialog" aria-modal="true" aria-labelledby="expense-title">
     <div className="modal-title"><div><h2 id="expense-title">Tilføj en udgift</h2><p>Beløbet gemmes i jeres Hverdagsblik.</p></div><button className="icon-button" onClick={onClose} aria-label="Luk"><X /></button></div>
     <form onSubmit={submit}><label>Beskrivelse<input autoFocus value={form.title} onChange={(e) => setForm({ ...form, title: e.target.value })} placeholder="Fx Apoteket Arden" /></label><div className="form-row"><label>Beløb<input type="number" min="0" step="0.01" value={form.amount} onChange={(e) => setForm({ ...form, amount: e.target.value })} placeholder="0,00" /></label><label>Dato<input type="date" value={form.date} onChange={(e) => setForm({ ...form, date: e.target.value })} /></label></div><label>Kategori<select value={form.category} onChange={(e) => setForm({ ...form, category: e.target.value })}>{categories.map((category) => <option key={category}>{category}</option>)}</select></label><button className="primary-button modal-submit" type="submit">Gem udgift</button></form>
+  </div></div>
+}
+
+function BudgetModal({ budgets, onClose, onSave }) {
+  const [draft, setDraft] = useState(() => budgets.map((item) => ({ ...item, limit: String(item.limit ?? '') })))
+  const updateLimit = (label, limit) => setDraft((items) => items.map((item) => item.label === label ? { ...item, limit } : item))
+  const submit = (event) => {
+    event.preventDefault()
+    onSave(draft.map((item) => ({ ...item, limit: Math.max(0, Number(item.limit) || 0) })))
+    onClose()
+  }
+
+  return <div className="modal-backdrop" role="presentation" onMouseDown={(event) => { if (event.target === event.currentTarget) onClose() }}><div className="modal budget-modal" role="dialog" aria-modal="true" aria-labelledby="budget-title">
+    <div className="modal-title"><div><h2 id="budget-title">Rediger budgetter</h2><p>Sæt et månedligt beløb for hver kategori.</p></div><button className="icon-button" onClick={onClose} aria-label="Luk"><X /></button></div>
+    <form onSubmit={submit}>
+      <div className="budget-modal-list">{draft.map((item, index) => {
+        const Icon = iconMap[item.icon]
+        return <label className="budget-modal-row" key={item.label}><span className="setting-icon"><Icon size={18} /></span><span>{item.label}</span><span className="budget-input"><input autoFocus={index === 0} type="number" min="0" step="100" inputMode="numeric" value={item.limit} onChange={(event) => updateLimit(item.label, event.target.value)} aria-label={`Månedsbudget for ${item.label}`} /><small>kr.</small></span></label>
+      })}</div>
+      <div className="budget-modal-actions"><button className="outline-button" type="button" onClick={onClose}>Annuller</button><button className="primary-button" type="submit">Gem budgetter</button></div>
+    </form>
   </div></div>
 }
 
@@ -248,18 +269,21 @@ export default function App() {
   const [offers, setOffers] = useStoredState('offers-v2', defaultOffers)
   const [incomes, setIncomes] = useStoredState('incomes-v1', defaultIncomes)
   const [stores, setStores] = useStoredState('stores-v2', defaultStores)
+  const [budgetSettings, setBudgetSettings] = useStoredState('budgets-v1', defaultBudgets)
   const [location, setLocation] = useStoredState('location-v1', null)
   const [locationState, setLocationState] = useState({ status: location ? 'ready' : 'idle', message: location ? 'Placeringen er gemt på denne enhed.' : '' })
   const [modal, setModal] = useState(false)
+  const [budgetModal, setBudgetModal] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
   const offerFeed = useOfficialOffers()
-  const sharedData = useMemo(() => ({ expenses, offers, incomes, stores }), [expenses, offers, incomes, stores])
+  const sharedData = useMemo(() => ({ expenses, offers, incomes, stores, budgets: budgetSettings }), [expenses, offers, incomes, stores, budgetSettings])
   const applyRemote = useCallback((remote) => {
     setExpenses(cleanLegacyExpenses(remote.expenses))
     if (Array.isArray(remote.offers)) setOffers(remote.offers)
     if (Array.isArray(remote.incomes) && remote.incomes.length) setIncomes(remote.incomes)
     if (Array.isArray(remote.stores)) setStores(normalizeStores(remote.stores))
-  }, [setExpenses, setOffers, setIncomes, setStores])
+    if (Array.isArray(remote.budgets) && remote.budgets.length) setBudgetSettings(remote.budgets)
+  }, [setExpenses, setOffers, setIncomes, setStores, setBudgetSettings])
   const sync = useHouseholdSync(sharedData, applyRemote)
   const pwa = usePwaInstall()
 
@@ -317,12 +341,12 @@ export default function App() {
   }, [setOffers])
 
   let content
-  if (page === 'Overblik') content = <><div className="main-title"><div><h1>God aften — her er jeres september</h1><p>30. september 2026</p></div></div>{sync.status === 'unconfigured' || sync.status === 'solo' ? <button className="sync-notice" onClick={() => setPage('Indstillinger')}><Cloud size={19} /><span><strong>Gør Hverdagsblik fælles</strong><small>Forbind husstanden, så begge telefoner altid viser det samme.</small></span><ChevronRight size={18} /></button> : null}<div className="dashboard-grid"><main><OverviewHero incomes={incomes} expenses={expenses} /><ExpenseList expenses={expenses} setExpenses={setExpenses} query={query} openModal={() => setModal(true)} /></main><aside className="right-rail"><OfferRail offers={visibleOffers} toggleOffer={toggleOffer} sources={selectedSources} compact loading={offerFeed.loading} onSeeAll={() => setPage('Tilbud')} /><IncomeCard incomes={incomes} onEdit={() => setPage('Indtægter')} /></aside></div></>
+  if (page === 'Overblik') content = <><div className="main-title"><div><h1>God aften — her er jeres september</h1><p>30. september 2026</p></div></div>{sync.status === 'unconfigured' || sync.status === 'solo' ? <button className="sync-notice" onClick={() => setPage('Indstillinger')}><Cloud size={19} /><span><strong>Gør Hverdagsblik fælles</strong><small>Forbind husstanden, så begge telefoner altid viser det samme.</small></span><ChevronRight size={18} /></button> : null}<div className="dashboard-grid"><main><OverviewHero incomes={incomes} expenses={expenses} budgetSettings={budgetSettings} onEditBudgets={() => setBudgetModal(true)} /><ExpenseList expenses={expenses} setExpenses={setExpenses} query={query} openModal={() => setModal(true)} /></main><aside className="right-rail"><OfferRail offers={visibleOffers} toggleOffer={toggleOffer} sources={selectedSources} compact loading={offerFeed.loading} onSeeAll={() => setPage('Tilbud')} /><IncomeCard incomes={incomes} onEdit={() => setPage('Indtægter')} /></aside></div></>
   else if (page === 'Udgifter') content = <div className="page-stack"><div className="page-title"><div><h1>Udgifter</h1><p>Alle poster samlet ét sted.</p></div></div><BankImportCard expenses={expenses} setExpenses={setExpenses} /><ExpenseList expenses={expenses} setExpenses={setExpenses} query={query} openModal={() => setModal(true)} full /></div>
   else if (page === 'Tilbud') content = <OffersPage offers={visibleOffers} toggleOffer={toggleOffer} sources={selectedSources} offerFeed={offerFeed} />
   else if (page === 'Ønskeliste') content = <WishlistPage offers={visibleOffers} setOffers={setOffers} toggleOffer={toggleOffer} />
   else if (page === 'Indtægter') content = <IncomePage incomes={incomes} setIncomes={setIncomes} />
   else content = <SettingsPage sync={sync} pwa={pwa} stores={stores} setStores={setStores} onOpenIncomes={() => setPage('Indtægter')} detectLocation={detectLocation} locationState={locationState} />
 
-  return <div className="app-shell"><Sidebar page={page} setPage={setPage} open={menuOpen} close={() => setMenuOpen(false)} />{menuOpen ? <button className="sidebar-scrim" onClick={() => setMenuOpen(false)} aria-label="Luk menu" /> : null}<div className="app-area"><Topbar onMenu={() => setMenuOpen(true)} query={query} setQuery={setQuery} sync={sync} onSyncClick={() => setPage('Indstillinger')} /><div className="page-content">{content}</div></div>{modal ? <AddExpenseModal onClose={() => setModal(false)} onAdd={(expense) => setExpenses((items) => [expense, ...items])} /> : null}</div>
+  return <div className="app-shell"><Sidebar page={page} setPage={setPage} open={menuOpen} close={() => setMenuOpen(false)} />{menuOpen ? <button className="sidebar-scrim" onClick={() => setMenuOpen(false)} aria-label="Luk menu" /> : null}<div className="app-area"><Topbar onMenu={() => setMenuOpen(true)} query={query} setQuery={setQuery} sync={sync} onSyncClick={() => setPage('Indstillinger')} /><div className="page-content">{content}</div></div>{modal ? <AddExpenseModal onClose={() => setModal(false)} onAdd={(expense) => setExpenses((items) => [expense, ...items])} /> : null}{budgetModal ? <BudgetModal budgets={budgetSettings} onClose={() => setBudgetModal(false)} onSave={setBudgetSettings} /> : null}</div>
 }

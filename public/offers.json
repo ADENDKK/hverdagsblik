@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T21:53:20.753Z",
+  "generatedAt": "2026-10-01T06:47:28.292Z",
   "sources": [
     {
       "store": "SPAR Arden",
@@ -24,7 +24,7 @@
           "item": "Pepsi Max Pet",
           "detail": "150 CL",
           "price": 10,
-          "oldPrice": null,
+          "oldPrice": 22.95,
           "color": "#3d719b",
           "source": "SPAR Arden"
         },
