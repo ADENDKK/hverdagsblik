@@ -59,14 +59,15 @@ async function fetch365() {
     getJson(`https://api.etilbudsavis.dk/v2/catalogs/${publicationId}/hotspots`, { headers }),
   ])
 
-  const offers = hotspots
-    .filter((entry) => entry.type === 'offer' && entry.offer?.pricing?.price != null)
-    .map((entry, index) => ({
+  const entries = hotspots.filter((entry) => entry.type === 'offer' && entry.offer?.pricing?.price != null)
+  const details = await Promise.all(entries.map((entry) => getJson(`https://api.etilbudsavis.dk/v2/offers/${entry.id}`, { headers }).catch(() => entry.offer)))
+  const offers = entries.map((entry, index) => ({
       id: `365-${entry.id}`,
       item: cleanText(entry.heading || entry.offer.heading),
       detail: quantityText(entry.offer.quantity),
       price: Number(entry.offer.pricing.price),
       oldPrice: entry.offer.pricing.pre_price == null ? null : Number(entry.offer.pricing.pre_price),
+      imageUrl: details[index]?.images?.thumb || null,
       color: colors[index % colors.length],
       source: '365avisen',
     }))
@@ -93,6 +94,7 @@ async function fetchSpar() {
     const detail = cleanText(card.match(/class="product-card-summary"[^>]*>([^<]*)/i)?.[1])
     const priceText = card.match(/class="product-card-price"[\s\S]*?<app-price[^>]*>[\s\S]*?([0-9]+(?:[,.][0-9]{1,2})?)/i)?.[1]
     const oldPriceText = card.match(/Herefter er prisen\s+([0-9]+(?:[,.][0-9]{1,2})?)/i)?.[1]
+    const imageUrl = card.match(/(?:src|data-src)="(https:\/\/dagrofa-dam[^"']+)"/i)?.[1]
     if (!item || !priceText) return []
     return [{
       id: `spar-${item.toLowerCase().replace(/[^a-z0-9æøå]+/gi, '-').replace(/^-|-$/g, '')}`,
@@ -100,6 +102,7 @@ async function fetchSpar() {
       detail,
       price: Number(priceText.replace(',', '.')),
       oldPrice: oldPriceText == null ? null : Number(oldPriceText.replace(',', '.')),
+      imageUrl: imageUrl || null,
       color: colors[(index + 2) % colors.length],
       source: 'SPAR Arden',
     }]

@@ -156,6 +156,13 @@ function BankImportCard({ expenses, setExpenses }) {
   </section>
 }
 
+function ProductImage({ offer }) {
+  const [failed, setFailed] = useState(false)
+  return <span className={`product-swatch ${offer.imageUrl && !failed ? 'has-image' : ''}`} style={{ '--swatch': offer.color }}>
+    {offer.imageUrl && !failed ? <img src={offer.imageUrl} alt="" loading="lazy" onError={() => setFailed(true)} /> : <ShoppingBasket size={18} />}
+  </span>
+}
+
 function OfferRail({ offers, toggleOffer, onSeeAll, sources, compact = false, loading = false }) {
   const grouped = offers.reduce((acc, item) => ({ ...acc, [item.store]: [...(acc[item.store] || []), item] }), {})
   return <section className="rail-card offer-rail">
@@ -165,9 +172,9 @@ function OfferRail({ offers, toggleOffer, onSeeAll, sources, compact = false, lo
       <div className="store-heading"><span className="store-icon"><Store size={18} /></span><div><strong>{store}</strong><small>{formatValidity(items[0].validFrom, items[0].validTo)}</small></div><span className="store-distance">{items[0].distance || 'Arden'}</span></div>
       <div className="flyer-link-row"><span>{items.length} aktuelle tilbud</span><a href={sources.find((source) => source.store === store)?.flyerUrl || items[0].flyerUrl} target="_blank" rel="noreferrer">Åbn tilbudsavis <ExternalLink size={14} /></a></div>
       {items.slice(0, compact ? 2 : undefined).map((offer) => <div className="offer-row" key={offer.id}>
-        <span className="product-swatch" style={{ '--swatch': offer.color }}><ShoppingBasket size={18} /></span>
+        <ProductImage offer={offer} />
         <div className="offer-copy"><strong>{offer.item}</strong><small>{offer.detail}</small></div>
-        <div className="price">{offer.oldPrice ? <span className="original-price">Førpris <s>{currency.format(offer.oldPrice)}</s></span> : <span className="original-price unavailable">Førpris ikke oplyst</span>}<strong>{currency.format(offer.price)}</strong>{offer.oldPrice ? <small>Spar {currency.format(offer.oldPrice - offer.price)}</small> : <small className="saving-unavailable">Besparelse ikke oplyst</small>}</div>
+        <div className="price">{offer.oldPrice ? <span className="original-price">Førpris <s>{currency.format(offer.oldPrice)}</s></span> : null}<strong>{currency.format(offer.price)}</strong>{offer.oldPrice ? <small>Spar {currency.format(offer.oldPrice - offer.price)}</small> : null}</div>
         <label className="switch" title="Føj til ønskelisten"><input type="checkbox" checked={offer.watched} onChange={() => toggleOffer(offer)} /><span /></label>
       </div>)}
       {compact && items.length > 2 ? <button className="more-offers" onClick={onSeeAll}>+ {items.length - 2} flere tilbud fra {store}</button> : null}

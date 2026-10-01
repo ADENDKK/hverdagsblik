@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T06:47:28.292Z",
+  "generatedAt": "2026-10-01T07:08:41.515Z",
   "sources": [
     {
       "store": "SPAR Arden",
@@ -16,6 +16,7 @@
           "detail": "50 CL",
           "price": 14,
           "oldPrice": null,
+          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/5060337502290.600x600.jpg",
           "color": "#8a4f7d",
           "source": "SPAR Arden"
         },
@@ -25,6 +26,7 @@
           "detail": "150 CL",
           "price": 10,
           "oldPrice": 22.95,
+          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/5741000123676.600x600.jpg",
           "color": "#3d719b",
           "source": "SPAR Arden"
         },
@@ -34,6 +36,7 @@
           "detail": "50 CL",
           "price": 14,
           "oldPrice": null,
+          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/5060337502900.600x600.jpg",
           "color": "#b38b32",
           "source": "SPAR Arden"
         },
@@ -43,6 +46,7 @@
           "detail": "50 CL",
           "price": 14,
           "oldPrice": null,
+          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/5060639120970.600x600.jpg",
           "color": "#6f7b3c",
           "source": "SPAR Arden"
         }
@@ -63,6 +67,7 @@
           "detail": "80-120 g",
           "price": 10,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-1.webp&w=300&x1r=0.03&x2r=0.35&y1r=0.13&y2r=0.44&s=bbb381472c3dc5e9d3420d857e5b39d0",
           "color": "#1f6b4f",
           "source": "365avisen"
         },
@@ -72,6 +77,7 @@
           "detail": "140 g",
           "price": 10,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-1.webp&w=300&x1r=0.64&x2r=0.97&y1r=0.13&y2r=0.44&s=657e76b8b08a09b5bf568053b7fc1a41",
           "color": "#d87043",
           "source": "365avisen"
         },
@@ -81,6 +87,7 @@
           "detail": "100 g",
           "price": 19,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-1.webp&w=300&x1r=0.03&x2r=0.35&y1r=0.63&y2r=0.93&s=34e54002534a134e89abe1783a713b3f",
           "color": "#8a4f7d",
           "source": "365avisen"
         },
@@ -90,6 +97,7 @@
           "detail": "60 cl",
           "price": 12,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-1.webp&w=300&x1r=0.35&x2r=0.64&y1r=0.14&y2r=0.44&s=0ed6f005f7a701892d33faf0a32ca6b8",
           "color": "#3d719b",
           "source": "365avisen"
         },
@@ -99,6 +107,7 @@
           "detail": "490-1000 g",
           "price": 10,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-1.webp&w=300&x1r=0.35&x2r=0.64&y1r=0.63&y2r=0.93&s=df08e2d96e5d5e2ce97387b4ad7a693d",
           "color": "#b38b32",
           "source": "365avisen"
         },
@@ -108,6 +117,7 @@
           "detail": "500 g",
           "price": 20,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-1.webp&w=300&x1r=0.64&x2r=0.97&y1r=0.63&y2r=0.93&s=0252b60d4bff47ed177221fd0b1d3d0d",
           "color": "#6f7b3c",
           "source": "365avisen"
         },
@@ -117,6 +127,7 @@
           "detail": "400 g",
           "price": 18,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-2.webp&w=300&x1r=0.03&x2r=0.49&y1r=0.55&y2r=0.835&s=447a58e132bab0e0adf3cfbf6d6d0f06",
           "color": "#1f6b4f",
           "source": "365avisen"
         },
@@ -126,6 +137,7 @@
           "detail": "1 pcs",
           "price": 19,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-2.webp&w=300&x1r=0.51&x2r=0.97&y1r=0.275&y2r=0.55&s=9ae066683e9da7e88a242ca7532b518d",
           "color": "#d87043",
           "source": "365avisen"
         },
@@ -135,6 +147,7 @@
           "detail": "75 cl",
           "price": 39,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-2.webp&w=300&x1r=0.03&x2r=0.49&y1r=0.275&y2r=0.55&s=8945f89dd425c2562f0391f86441ea11",
           "color": "#8a4f7d",
           "source": "365avisen"
         },
@@ -144,6 +157,7 @@
           "detail": "700-1000 g",
           "price": 69,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-2.webp&w=300&x1r=0.51&x2r=0.97&y1r=0.015&y2r=0.27&s=10a8399e28da2a87e4c1ca5183793a23",
           "color": "#3d719b",
           "source": "365avisen"
         },
@@ -153,6 +167,7 @@
           "detail": "125-160 g",
           "price": 12,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-2.webp&w=300&x1r=0.03&x2r=0.49&y1r=0.015&y2r=0.27&s=359c23bb23942c18ed447adaa5e081e8",
           "color": "#b38b32",
           "source": "365avisen"
         },
@@ -162,6 +177,7 @@
           "detail": "200-300 g",
           "price": 20,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-2.webp&w=300&x1r=0.51&x2r=0.97&y1r=0.55&y2r=0.835&s=87cb879fce210763a4bed84688483819",
           "color": "#6f7b3c",
           "source": "365avisen"
         },
@@ -171,6 +187,7 @@
           "detail": "375-500 g",
           "price": 39,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-4.webp&w=300&x1r=0.502&x2r=0.986&y1r=0.65&y2r=0.97&s=36c75fffaa1b5addd9f3b3ba82cc6a67",
           "color": "#1f6b4f",
           "source": "365avisen"
         },
@@ -180,6 +197,7 @@
           "detail": "350 g",
           "price": 89,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-4.webp&w=300&x1r=0.024&x2r=0.498&y1r=0.69&y2r=0.97&s=27622ec701429e24dac9b1037ec9e96c",
           "color": "#d87043",
           "source": "365avisen"
         },
@@ -189,6 +207,7 @@
           "detail": "375 g",
           "price": 35,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-4.webp&w=300&x1r=0.494&x2r=0.968&y1r=0.322&y2r=0.66&s=d3e3def875f6a4b5f00dc16f578fa25d",
           "color": "#8a4f7d",
           "source": "365avisen"
         },
@@ -198,6 +217,7 @@
           "detail": "400 g",
           "price": 29,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-4.webp&w=300&x1r=0.024&x2r=0.498&y1r=0.33&y2r=0.66&s=734eb3574d2190f907666c8d4f1d5b84",
           "color": "#3d719b",
           "source": "365avisen"
         },
@@ -207,6 +227,7 @@
           "detail": "250-800 g",
           "price": 25,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-4.webp&w=300&x1r=0.024&x2r=0.976&y1r=0.012&y2r=0.33&s=0e98b503099d4b776f3ffa637249e91e",
           "color": "#b38b32",
           "source": "365avisen"
         },
@@ -216,6 +237,7 @@
           "detail": "260-700 g",
           "price": 39,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-5.webp&w=300&x1r=0.04&x2r=0.96&y1r=0.66&y2r=0.97&s=8572ee64c55f4017dd8ac12d4c3d5776",
           "color": "#6f7b3c",
           "source": "365avisen"
         },
@@ -225,6 +247,7 @@
           "detail": "800 g",
           "price": 59,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-5.webp&w=300&x1r=0.502&x2r=0.97&y1r=0.322&y2r=0.66&s=2daaa29abc005bdc222542131b24b462",
           "color": "#1f6b4f",
           "source": "365avisen"
         },
@@ -234,6 +257,7 @@
           "detail": "1800 g",
           "price": 69,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-5.webp&w=300&x1r=0.024&x2r=0.49&y1r=0.322&y2r=0.66&s=2fd5a2202fd264e43e006528ff55f1b4",
           "color": "#d87043",
           "source": "365avisen"
         },
@@ -243,6 +267,7 @@
           "detail": "1000-2500 g",
           "price": 99,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-5.webp&w=300&x1r=0.016&x2r=1&y1r=0&y2r=0.33&s=776dd85290f8d897c79cb8c7742c8114",
           "color": "#8a4f7d",
           "source": "365avisen"
         },
@@ -252,6 +277,7 @@
           "detail": "170-200 g",
           "price": 34,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-6.webp&w=300&x1r=0.5&x2r=0.97&y1r=0.67&y2r=0.96&s=53c317791a025d5786f8d37433b84f09",
           "color": "#3d719b",
           "source": "365avisen"
         },
@@ -261,6 +287,7 @@
           "detail": "1.5 kg",
           "price": 14,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-6.webp&w=300&x1r=0.5&x2r=0.97&y1r=0.38&y2r=0.66&s=db7f8d887788e10e3ebf0178706de3ae",
           "color": "#b38b32",
           "source": "365avisen"
         },
@@ -270,6 +297,7 @@
           "detail": "500 g",
           "price": 16,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-6.webp&w=300&x1r=0.51&x2r=0.97&y1r=0.02&y2r=0.38&s=41cfc4f73349dfd9d828aca2e52d721f",
           "color": "#6f7b3c",
           "source": "365avisen"
         },
@@ -279,6 +307,7 @@
           "detail": "3 pcs",
           "price": 22,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-6.webp&w=300&x1r=0.03&x2r=0.49&y1r=0.67&y2r=0.96&s=dba55451af6eefaa9e67f023d012b395",
           "color": "#1f6b4f",
           "source": "365avisen"
         },
@@ -288,6 +317,7 @@
           "detail": "1 pcs",
           "price": 13,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-6.webp&w=300&x1r=0.03&x2r=0.49&y1r=0.41&y2r=0.66&s=3db853446753477671c7509ca4305f3c",
           "color": "#d87043",
           "source": "365avisen"
         },
@@ -297,6 +327,7 @@
           "detail": "250-345 g",
           "price": 18,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-7.webp&w=300&x1r=0.64&x2r=0.97&y1r=0.66&y2r=0.96&s=3c7de958b1dc4b89533b0ad55d951555",
           "color": "#8a4f7d",
           "source": "365avisen"
         },
@@ -306,6 +337,7 @@
           "detail": "75 g",
           "price": 12,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-7.webp&w=300&x1r=0.51&x2r=0.97&y1r=0.33&y2r=0.66&s=4e7594cfda413655782e3fd229f55de4",
           "color": "#3d719b",
           "source": "365avisen"
         },
@@ -315,6 +347,7 @@
           "detail": "1 l",
           "price": 10,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-7.webp&w=300&x1r=0.04&x2r=0.34&y1r=0.66&y2r=0.96&s=1ed41294a218ad186e4d37c6febe921c",
           "color": "#b38b32",
           "source": "365avisen"
         },
@@ -324,6 +357,7 @@
           "detail": "250 g",
           "price": 18,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-7.webp&w=300&x1r=0.35&x2r=0.63&y1r=0.66&y2r=0.96&s=6b97826f4e888cac5945e20717845132",
           "color": "#6f7b3c",
           "source": "365avisen"
         },
@@ -333,6 +367,7 @@
           "detail": "100 g",
           "price": 42,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-7.webp&w=300&x1r=0.51&x2r=0.97&y1r=0.14&y2r=0.33&s=4d62c9cc94546806bf3326a64621cafb",
           "color": "#1f6b4f",
           "source": "365avisen"
         },
@@ -342,6 +377,7 @@
           "detail": "300-450 g",
           "price": 12,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-7.webp&w=300&x1r=0.04&x2r=0.49&y1r=0.14&y2r=0.66&s=0f4822e90de28b1eac4b0a2b7e486468",
           "color": "#d87043",
           "source": "365avisen"
         },
@@ -351,6 +387,7 @@
           "detail": "800-1000 g",
           "price": 29,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-8.webp&w=300&x1r=0.03&x2r=0.49&y1r=0.32&y2r=0.66&s=38d4dd71ba8cb35b42ba3552baeb4b13",
           "color": "#8a4f7d",
           "source": "365avisen"
         },
@@ -360,6 +397,7 @@
           "detail": "700-875 g",
           "price": 45,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-8.webp&w=300&x1r=0.03&x2r=0.97&y1r=0.12&y2r=0.33&s=88d749bfc585683010273f569e670cce",
           "color": "#3d719b",
           "source": "365avisen"
         },
@@ -369,6 +407,7 @@
           "detail": "270-720 g",
           "price": 15,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-8.webp&w=300&x1r=0.03&x2r=0.49&y1r=0.65&y2r=0.97&s=da0feed159279a980af36cf63379f346",
           "color": "#b38b32",
           "source": "365avisen"
         },
@@ -378,6 +417,7 @@
           "detail": "400 g",
           "price": 25,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-8.webp&w=300&x1r=0.51&x2r=0.97&y1r=0.65&y2r=0.97&s=c54a785ac2ebb972fa11ba5a436df147",
           "color": "#6f7b3c",
           "source": "365avisen"
         },
@@ -387,6 +427,7 @@
           "detail": "700-900 g",
           "price": 39,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-8.webp&w=300&x1r=0.51&x2r=0.97&y1r=0.32&y2r=0.66&s=b0e54a7aa62cbefc682c1b01464e37c1",
           "color": "#1f6b4f",
           "source": "365avisen"
         },
@@ -396,6 +437,7 @@
           "detail": "120-140 g",
           "price": 10,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-9.webp&w=300&x1r=0.03&x2r=0.5&y1r=0.33&y2r=0.66&s=f0489ec784beae68871557219f014dae",
           "color": "#d87043",
           "source": "365avisen"
         },
@@ -405,6 +447,7 @@
           "detail": "74 g",
           "price": 10,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-9.webp&w=300&x1r=0.51&x2r=0.97&y1r=0.33&y2r=0.66&s=20556d3a7783bd8ceb6954c95aa3221e",
           "color": "#8a4f7d",
           "source": "365avisen"
         },
@@ -414,6 +457,7 @@
           "detail": "45 g",
           "price": 8,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-9.webp&w=300&x1r=0.03&x2r=0.5&y1r=0.66&y2r=0.97&s=934e30f03b8e339670e83b2700025b0b",
           "color": "#3d719b",
           "source": "365avisen"
         },
@@ -423,6 +467,7 @@
           "detail": "400 g",
           "price": 39,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-9.webp&w=300&x1r=0.51&x2r=0.97&y1r=0.66&y2r=0.97&s=eb1bb037cfdc972b009376f1fb6b06e5",
           "color": "#b38b32",
           "source": "365avisen"
         },
@@ -432,6 +477,7 @@
           "detail": "150 cl",
           "price": 12,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-9.webp&w=300&x1r=0.06&x2r=0.96&y1r=0.12&y2r=0.33&s=8e39e22e812ac1466c2a33f37672bfff",
           "color": "#6f7b3c",
           "source": "365avisen"
         },
@@ -441,6 +487,7 @@
           "detail": "375 g",
           "price": 16,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-10.webp&w=300&x1r=0.04&x2r=0.34&y1r=0.35&y2r=0.66&s=13849682f8bd965881e8ab82f6518485",
           "color": "#1f6b4f",
           "source": "365avisen"
         },
@@ -450,6 +497,7 @@
           "detail": "500 g",
           "price": 49,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-10.webp&w=300&x1r=0.35&x2r=0.65&y1r=0.34&y2r=0.66&s=ffa8c44956211c6f361cd521e52f0d50",
           "color": "#d87043",
           "source": "365avisen"
         },
@@ -459,6 +507,7 @@
           "detail": "200 g",
           "price": 32,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-10.webp&w=300&x1r=0.66&x2r=0.97&y1r=0.34&y2r=0.66&s=1e226f1444c2a7a7e570b85a9e8189ae",
           "color": "#8a4f7d",
           "source": "365avisen"
         },
@@ -468,6 +517,7 @@
           "detail": "310-580 g",
           "price": 18,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-10.webp&w=300&x1r=0.04&x2r=0.49&y1r=0.67&y2r=0.97&s=5a0be45a309ada209b5148959736949e",
           "color": "#3d719b",
           "source": "365avisen"
         },
@@ -477,6 +527,7 @@
           "detail": "285-450 g",
           "price": 45,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-10.webp&w=300&x1r=0.51&x2r=0.97&y1r=0.66&y2r=0.97&s=6a959f6c0ee85980dcdd640efaf1c36f",
           "color": "#b38b32",
           "source": "365avisen"
         },
@@ -486,6 +537,7 @@
           "detail": "50-70 g",
           "price": 12,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-10.webp&w=300&x1r=0.04&x2r=0.97&y1r=0.05&y2r=0.33&s=9205fdb6e57ae5c802c7578957098fd1",
           "color": "#6f7b3c",
           "source": "365avisen"
         },
@@ -495,6 +547,7 @@
           "detail": "350 g",
           "price": 22,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-11.webp&w=300&x1r=0.65&x2r=0.97&y1r=0.33&y2r=0.66&s=30d93a70583b9acb080967cf50e159f8",
           "color": "#1f6b4f",
           "source": "365avisen"
         },
@@ -504,6 +557,7 @@
           "detail": "270-300 ml",
           "price": 25,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-11.webp&w=300&x1r=0.04&x2r=0.96&y1r=0.66&y2r=0.96&s=e5803c05957c4deafc0b93be0ef949f3",
           "color": "#d87043",
           "source": "365avisen"
         },
@@ -513,6 +567,7 @@
           "detail": "400-500 g",
           "price": 22,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-11.webp&w=300&x1r=0.34&x2r=0.66&y1r=0.33&y2r=0.66&s=0b3214ca0504b11221568ed8c8865669",
           "color": "#8a4f7d",
           "source": "365avisen"
         },
@@ -522,6 +577,7 @@
           "detail": "250 g",
           "price": 15,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-11.webp&w=300&x1r=0.03&x2r=0.35&y1r=0.33&y2r=0.66&s=6c5b12efa81035db534b818f453cbe2d",
           "color": "#3d719b",
           "source": "365avisen"
         },
@@ -531,6 +587,7 @@
           "detail": "247-252 ml",
           "price": 29,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-11.webp&w=300&x1r=0.03&x2r=0.96&y1r=0.02&y2r=0.33&s=83c01648da4f1308d4c0457d98c07931",
           "color": "#b38b32",
           "source": "365avisen"
         },
@@ -540,6 +597,7 @@
           "detail": "200 g",
           "price": 16,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-12.webp&w=300&x1r=0.037&x2r=0.963&y1r=0.035&y2r=0.33&s=942a9e7811f5a7544bd587f59c6580c3",
           "color": "#6f7b3c",
           "source": "365avisen"
         },
@@ -549,6 +607,7 @@
           "detail": "200 ml",
           "price": 35,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-12.webp&w=300&x1r=0.037&x2r=0.38&y1r=0.67&y2r=0.965&s=c260357b72a5353dd0e67dd7d528f353",
           "color": "#1f6b4f",
           "source": "365avisen"
         },
@@ -558,6 +617,7 @@
           "detail": "400 g",
           "price": 15,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-12.webp&w=300&x1r=0.037&x2r=0.495&y1r=0.345&y2r=0.658&s=b6774efde447e644f93774adc56cce8f",
           "color": "#d87043",
           "source": "365avisen"
         },
@@ -567,6 +627,7 @@
           "detail": "750 ml",
           "price": 20,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-12.webp&w=300&x1r=0.51&x2r=0.966&y1r=0.345&y2r=0.658&s=aef9a9a9099f485938dcb93210724897",
           "color": "#8a4f7d",
           "source": "365avisen"
         },
@@ -576,6 +637,7 @@
           "detail": "1 l",
           "price": 14,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-12.webp&w=300&x1r=0.388&x2r=0.966&y1r=0.67&y2r=0.965&s=741738f36910b38259b9d8d8860835a7",
           "color": "#3d719b",
           "source": "365avisen"
         },
@@ -585,6 +647,7 @@
           "detail": "850 g",
           "price": 69,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-14.webp&w=300&x1r=0.03&x2r=0.64&y1r=0.05&y2r=0.35&s=fa26072e889bbe0ea3c9ffc6326bbe6f",
           "color": "#b38b32",
           "source": "365avisen"
         },
@@ -594,6 +657,7 @@
           "detail": "200 g",
           "price": 35,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-14.webp&w=300&x1r=0.65&x2r=0.97&y1r=0.33&y2r=0.66&s=680f27648fbf44f594853de0cb8e5829",
           "color": "#6f7b3c",
           "source": "365avisen"
         },
@@ -603,6 +667,7 @@
           "detail": "200-300 g",
           "price": 20,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-14.webp&w=300&x1r=0.35&x2r=0.65&y1r=0.34&y2r=0.66&s=14fe216c2ca5332824c617537939078f",
           "color": "#1f6b4f",
           "source": "365avisen"
         },
@@ -612,6 +677,7 @@
           "detail": "150-180 g",
           "price": 25,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-14.webp&w=300&x1r=0.6&x2r=0.97&y1r=0.03&y2r=0.33&s=b9e0ba74da9bd2a87aceb5c474943f8a",
           "color": "#d87043",
           "source": "365avisen"
         },
@@ -621,6 +687,7 @@
           "detail": "140 g",
           "price": 15,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-14.webp&w=300&x1r=0.03&x2r=0.35&y1r=0.35&y2r=0.66&s=2390a02e64e52cc520477a0b38e8f79e",
           "color": "#8a4f7d",
           "source": "365avisen"
         },
@@ -630,6 +697,7 @@
           "detail": "585 g",
           "price": 45,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-14.webp&w=300&x1r=0.04&x2r=0.96&y1r=0.66&y2r=0.96&s=ce05c41b84a028431c27a8ed5aa2fff2",
           "color": "#3d719b",
           "source": "365avisen"
         },
@@ -639,6 +707,7 @@
           "detail": "485-950 g",
           "price": 20,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-15.webp&w=300&x1r=0.505&x2r=0.975&y1r=0.69&y2r=0.963&s=70431e1d6f7ae7f339907b28a5d34e79",
           "color": "#b38b32",
           "source": "365avisen"
         },
@@ -648,6 +717,7 @@
           "detail": "200-260 g",
           "price": 25,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-15.webp&w=300&x1r=0.04&x2r=0.49&y1r=0.665&y2r=0.963&s=93cb700a920755af58ea0189ee87b6de",
           "color": "#6f7b3c",
           "source": "365avisen"
         },
@@ -657,6 +727,7 @@
           "detail": "375-700 g",
           "price": 12,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-15.webp&w=300&x1r=0.618&x2r=0.965&y1r=0.345&y2r=0.658&s=dec8584ed6456e833f93b494901db6c4",
           "color": "#1f6b4f",
           "source": "365avisen"
         },
@@ -666,6 +737,7 @@
           "detail": "500 g",
           "price": 15,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-15.webp&w=300&x1r=0.301&x2r=0.615&y1r=0.345&y2r=0.658&s=463b13b85c8860621f80b2b85e4fedc1",
           "color": "#d87043",
           "source": "365avisen"
         },
@@ -675,6 +747,7 @@
           "detail": "1 kg",
           "price": 15,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-15.webp&w=300&x1r=0.091&x2r=0.885&y1r=0.023&y2r=0.334&s=0f5f50d7f56150b53a8a5772da09461e",
           "color": "#8a4f7d",
           "source": "365avisen"
         },
@@ -684,6 +757,7 @@
           "detail": "500 g",
           "price": 10,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-16.webp&w=300&x1r=0.04&x2r=0.49&y1r=0.66&y2r=0.96&s=6a3b6f90e10e921fa6a8d5af3f80175e",
           "color": "#3d719b",
           "source": "365avisen"
         },
@@ -693,6 +767,7 @@
           "detail": "28-371 g",
           "price": 12,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-16.webp&w=300&x1r=0.51&x2r=0.97&y1r=0.67&y2r=0.96&s=a92804b68c82e324bc05fa4594a71df1",
           "color": "#b38b32",
           "source": "365avisen"
         },
@@ -702,6 +777,7 @@
           "detail": "215-460 g",
           "price": 10,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-16.webp&w=300&x1r=0.024&x2r=0.88&y1r=0.012&y2r=0.338&s=c45fcb90ca41b9d9c4d5761282a9028c",
           "color": "#6f7b3c",
           "source": "365avisen"
         },
@@ -711,6 +787,7 @@
           "detail": "200-400 g",
           "price": 10,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-16.webp&w=300&x1r=0.04&x2r=0.34&y1r=0.34&y2r=0.66&s=80da2013efb723a959fa4e8113e97752",
           "color": "#1f6b4f",
           "source": "365avisen"
         },
@@ -720,6 +797,7 @@
           "detail": "339-400 g",
           "price": 25,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-16.webp&w=300&x1r=0.35&x2r=0.66&y1r=0.34&y2r=0.66&s=12f58ef1fc2c43a025886e7b6f97877e",
           "color": "#d87043",
           "source": "365avisen"
         },
@@ -729,6 +807,7 @@
           "detail": "306 g",
           "price": 35,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-16.webp&w=300&x1r=0.66&x2r=0.96&y1r=0.34&y2r=0.66&s=1844a89ec0cb6a1e62f87cb49c29d96d",
           "color": "#8a4f7d",
           "source": "365avisen"
         },
@@ -738,6 +817,7 @@
           "detail": "125-200 g",
           "price": 12,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-17.webp&w=300&x1r=0.03&x2r=0.49&y1r=0.34&y2r=0.66&s=5334aec16a72776ffc7246b4132102a3",
           "color": "#3d719b",
           "source": "365avisen"
         },
@@ -747,6 +827,7 @@
           "detail": "400-425 g",
           "price": 28,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-17.webp&w=300&x1r=0.51&x2r=0.97&y1r=0.34&y2r=0.66&s=68f8831b2eb94a8ce87ec30847b0a1ac",
           "color": "#b38b32",
           "source": "365avisen"
         },
@@ -756,6 +837,7 @@
           "detail": "17-20 pcs",
           "price": 35,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-17.webp&w=300&x1r=0.03&x2r=0.49&y1r=0.67&y2r=0.97&s=9bf2c15741f6fb398879d853799212d4",
           "color": "#6f7b3c",
           "source": "365avisen"
         },
@@ -765,6 +847,7 @@
           "detail": "205-450 g",
           "price": 29,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-17.webp&w=300&x1r=0.51&x2r=0.97&y1r=0.67&y2r=0.97&s=c26481778849bdc5ceb3f3d967b3af52",
           "color": "#1f6b4f",
           "source": "365avisen"
         },
@@ -774,6 +857,7 @@
           "detail": "100-350 g",
           "price": 14,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-17.webp&w=300&x1r=0.03&x2r=0.97&y1r=0.02&y2r=0.33&s=7df43f2eeff2ab2e5ab3f96d82b5019a",
           "color": "#d87043",
           "source": "365avisen"
         },
@@ -783,6 +867,7 @@
           "detail": "100-160 g",
           "price": 12,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-18.webp&w=300&x1r=0.48&x2r=0.97&y1r=0.33&y2r=0.66&s=7d392a74c9bc0581ecb2bfe5987dcc47",
           "color": "#8a4f7d",
           "source": "365avisen"
         },
@@ -792,6 +877,7 @@
           "detail": "400 g",
           "price": 15,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-18.webp&w=300&x1r=0.04&x2r=0.48&y1r=0.33&y2r=0.66&s=61f71dbb20a9331f1c28b7b024ee69b7",
           "color": "#3d719b",
           "source": "365avisen"
         },
@@ -801,6 +887,7 @@
           "detail": "154-157 g",
           "price": 15,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-18.webp&w=300&x1r=0.49&x2r=0.97&y1r=0.67&y2r=0.97&s=41bcd096c74cf649a0ec5459450136db",
           "color": "#b38b32",
           "source": "365avisen"
         },
@@ -810,6 +897,7 @@
           "detail": "144-200 g",
           "price": 15,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-18.webp&w=300&x1r=0.03&x2r=0.9&y1r=0.03&y2r=0.33&s=6513e24fccab681d092469c9eba49176",
           "color": "#6f7b3c",
           "source": "365avisen"
         },
@@ -819,6 +907,7 @@
           "detail": "1 pcs",
           "price": 10,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-18.webp&w=300&x1r=0.03&x2r=0.49&y1r=0.67&y2r=0.97&s=e821da007255b5282311857464b95a63",
           "color": "#1f6b4f",
           "source": "365avisen"
         },
@@ -828,6 +917,7 @@
           "detail": "75-96 g",
           "price": 20,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-19.webp&w=300&x1r=0.51&x2r=0.97&y1r=0.34&y2r=0.66&s=40131d86d95ed7a4aebdcb46a82368f9",
           "color": "#d87043",
           "source": "365avisen"
         },
@@ -837,6 +927,7 @@
           "detail": "9-13 g",
           "price": 2,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-19.webp&w=300&x1r=0.03&x2r=0.49&y1r=0.34&y2r=0.66&s=2d16ceaa5403094885933407f4520302",
           "color": "#8a4f7d",
           "source": "365avisen"
         },
@@ -846,6 +937,7 @@
           "detail": "122-300 g",
           "price": 35,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-19.webp&w=300&x1r=0.51&x2r=0.97&y1r=0.015&y2r=0.33&s=6c0c328657019ccb29186dcddc41fd9e",
           "color": "#3d719b",
           "source": "365avisen"
         },
@@ -855,6 +947,7 @@
           "detail": "350-400 g",
           "price": 40,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-19.webp&w=300&x1r=0.03&x2r=0.97&y1r=0.67&y2r=0.97&s=5a1e63348160c286da3be856ff59d06d",
           "color": "#b38b32",
           "source": "365avisen"
         },
@@ -864,6 +957,7 @@
           "detail": "21-24 g",
           "price": 5,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-19.webp&w=300&x1r=0.015&x2r=0.5&y1r=0.01&y2r=0.33&s=00ea0db99b0566cc53ac71e873047cb9",
           "color": "#6f7b3c",
           "source": "365avisen"
         },
@@ -873,6 +967,7 @@
           "detail": "1 pcs",
           "price": 50,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-20.webp&w=300&x1r=0.51&x2r=0.72&y1r=0.11&y2r=0.33&s=5a7072c642c563f00605675efe045ace",
           "color": "#1f6b4f",
           "source": "365avisen"
         },
@@ -882,6 +977,7 @@
           "detail": "1 pcs",
           "price": 12,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-20.webp&w=300&x1r=0.51&x2r=0.97&y1r=0.63&y2r=0.96&s=d0632195e332ac624cb7c51cd5d71061",
           "color": "#d87043",
           "source": "365avisen"
         },
@@ -891,6 +987,7 @@
           "detail": "1 pcs",
           "price": 10,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-20.webp&w=300&x1r=0.03&x2r=0.49&y1r=0.63&y2r=0.96&s=6d9d12c680edfe4a651b0602ef08ea54",
           "color": "#8a4f7d",
           "source": "365avisen"
         },
@@ -900,6 +997,7 @@
           "detail": "1 pcs",
           "price": 40,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-20.webp&w=300&x1r=0.03&x2r=0.49&y1r=0.03&y2r=0.35&s=d8e42fa0ee3347d90a4be0cb8d4d79ce",
           "color": "#3d719b",
           "source": "365avisen"
         },
@@ -909,6 +1007,7 @@
           "detail": "1 pcs",
           "price": 15,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-20.webp&w=300&x1r=0.45&x2r=0.98&y1r=0.02&y2r=0.36&s=ebf160e49db3b9a973f32535d2146074",
           "color": "#b38b32",
           "source": "365avisen"
         },
@@ -918,6 +1017,7 @@
           "detail": "1 pcs",
           "price": 49,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-20.webp&w=300&x1r=0.03&x2r=0.48&y1r=0.36&y2r=0.61&s=3c0c45fde637b97afb33a643212a1980",
           "color": "#6f7b3c",
           "source": "365avisen"
         },
@@ -927,6 +1027,7 @@
           "detail": "1 pcs",
           "price": 40,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-20.webp&w=300&x1r=0.48&x2r=0.97&y1r=0.35&y2r=0.61&s=631115cc22537bcc81d4da526e8dd501",
           "color": "#1f6b4f",
           "source": "365avisen"
         },
@@ -936,6 +1037,7 @@
           "detail": "1 pcs",
           "price": 10,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-21.webp&w=300&x1r=0.02&x2r=0.98&y1r=0.01&y2r=0.27&s=7871e3b387d1479d034a74e60e1460c1",
           "color": "#d87043",
           "source": "365avisen"
         },
@@ -945,6 +1047,7 @@
           "detail": "1 pcs",
           "price": 30,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-21.webp&w=300&x1r=0.03&x2r=0.78&y1r=0.6&y2r=0.99&s=c69e383edc2f89c403a96a5db3f9447f",
           "color": "#8a4f7d",
           "source": "365avisen"
         },
@@ -954,6 +1057,7 @@
           "detail": "1 pcs",
           "price": 20,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-21.webp&w=300&x1r=0.72&x2r=0.98&y1r=0.63&y2r=0.98&s=091d6721217331dc50ad9134b7cf258e",
           "color": "#3d719b",
           "source": "365avisen"
         },
@@ -963,6 +1067,7 @@
           "detail": "1 pcs",
           "price": 30,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-21.webp&w=300&x1r=0.5&x2r=0.98&y1r=0.26&y2r=0.61&s=5e383639c12d7f7c141cd11e48d5fa2f",
           "color": "#b38b32",
           "source": "365avisen"
         },
@@ -972,6 +1077,7 @@
           "detail": "1 pcs",
           "price": 20,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-21.webp&w=300&x1r=0.02&x2r=0.49&y1r=0.27&y2r=0.61&s=c174ffb4315ca5ad225b9a487c83acf8",
           "color": "#6f7b3c",
           "source": "365avisen"
         },
@@ -981,6 +1087,7 @@
           "detail": "200 ml",
           "price": 25,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-22.webp&w=300&x1r=0.04&x2r=0.34&y1r=0.37&y2r=0.66&s=602762b7536d53bd23ce2545699a6969",
           "color": "#1f6b4f",
           "source": "365avisen"
         },
@@ -990,6 +1097,7 @@
           "detail": "50 cl",
           "price": 14,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-22.webp&w=300&x1r=0.04&x2r=0.96&y1r=0.02&y2r=0.33&s=95d703603d1c23361c081363da7b30f2",
           "color": "#d87043",
           "source": "365avisen"
         },
@@ -999,6 +1107,7 @@
           "detail": "1 l",
           "price": 22,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-22.webp&w=300&x1r=0.35&x2r=0.65&y1r=0.33&y2r=0.66&s=2a8b8b590f4a054864e802330bc3740b",
           "color": "#8a4f7d",
           "source": "365avisen"
         },
@@ -1008,6 +1117,7 @@
           "detail": "40-50 cl",
           "price": 10,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-22.webp&w=300&x1r=0.66&x2r=0.96&y1r=0.33&y2r=0.66&s=3b47788b70ae7bb949f976171c2497ac",
           "color": "#3d719b",
           "source": "365avisen"
         },
@@ -1017,6 +1127,7 @@
           "detail": "33 cl",
           "price": 99,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-22.webp&w=300&x1r=0.04&x2r=0.49&y1r=0.68&y2r=0.96&s=da2075aa9055441437809bb487c1c7b5",
           "color": "#b38b32",
           "source": "365avisen"
         },
@@ -1026,6 +1137,7 @@
           "detail": "33 cl",
           "price": 2.5,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-22.webp&w=300&x1r=0.51&x2r=0.96&y1r=0.66&y2r=0.96&s=22e84109135f9acf8e4bd15ca3635a7b",
           "color": "#6f7b3c",
           "source": "365avisen"
         },
@@ -1035,6 +1147,7 @@
           "detail": "33 cl",
           "price": 22,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-23.webp&w=300&x1r=0.34&x2r=0.66&y1r=0.32&y2r=0.67&s=762a8ad8b2b89541874fb272f9c9caf1",
           "color": "#1f6b4f",
           "source": "365avisen"
         },
@@ -1044,6 +1157,7 @@
           "detail": "33 cl",
           "price": 38,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-23.webp&w=300&x1r=0.65&x2r=0.98&y1r=0.32&y2r=0.67&s=adee8bfc7dc89f4229f90e051ce1ddf4",
           "color": "#d87043",
           "source": "365avisen"
         },
@@ -1053,6 +1167,7 @@
           "detail": "33 cl",
           "price": 85,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-23.webp&w=300&x1r=0.02&x2r=0.98&y1r=0.01&y2r=0.33&s=8e39d3647ef6bdce37b1ccefb7d4bfa7",
           "color": "#8a4f7d",
           "source": "365avisen"
         },
@@ -1062,6 +1177,7 @@
           "detail": "27.5-33 cl",
           "price": 13,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-23.webp&w=300&x1r=0.02&x2r=0.5&y1r=0.66&y2r=0.97&s=f3e76abe6261ff6f0f3bb9e712380570",
           "color": "#3d719b",
           "source": "365avisen"
         },
@@ -1071,6 +1187,7 @@
           "detail": "44-50 cl",
           "price": 18,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-23.webp&w=300&x1r=0.02&x2r=0.35&y1r=0.32&y2r=0.67&s=fdf272b741386adc42521168d10921dc",
           "color": "#b38b32",
           "source": "365avisen"
         },
@@ -1080,6 +1197,7 @@
           "detail": "70 cl",
           "price": 99,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-23.webp&w=300&x1r=0.5&x2r=0.98&y1r=0.66&y2r=0.97&s=d8e7f6e2290cda697339fd30b11508d0",
           "color": "#6f7b3c",
           "source": "365avisen"
         },
@@ -1089,6 +1207,7 @@
           "detail": "3 l",
           "price": 109,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-24.webp&w=300&x1r=0.46&x2r=0.97&y1r=0.34&y2r=0.66&s=557b433e325b277570911b088b5731cc",
           "color": "#1f6b4f",
           "source": "365avisen"
         },
@@ -1098,6 +1217,7 @@
           "detail": "75 cl",
           "price": 50,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-24.webp&w=300&x1r=0.03&x2r=0.91&y1r=0.66&y2r=0.96&s=1fef811ea651e58ebb3179a96822558f",
           "color": "#d87043",
           "source": "365avisen"
         },
@@ -1107,6 +1227,7 @@
           "detail": "75 cl",
           "price": 35,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-24.webp&w=300&x1r=0.04&x2r=0.47&y1r=0.34&y2r=0.66&s=9e59acbef62381ac0739e4a4e09e2e15",
           "color": "#8a4f7d",
           "source": "365avisen"
         },
@@ -1116,6 +1237,7 @@
           "detail": "3 l",
           "price": 89,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-24.webp&w=300&x1r=0.03&x2r=0.97&y1r=0.05&y2r=0.33&s=77418e82c9e9060e2c3070951c5246e0",
           "color": "#3d719b",
           "source": "365avisen"
         },
@@ -1125,6 +1247,7 @@
           "detail": "85 g",
           "price": 20,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-25.webp&w=300&x1r=0.51&x2r=0.98&y1r=0.677&y2r=0.964&s=8fe6bc3b0c01230b276a3115b6452dec",
           "color": "#b38b32",
           "source": "365avisen"
         },
@@ -1134,6 +1257,7 @@
           "detail": "470-500 g",
           "price": 49,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-25.webp&w=300&x1r=0.01&x2r=0.99&y1r=0.01&y2r=0.335&s=6f6480aeda2f17afe563d2e214bbcfdc",
           "color": "#6f7b3c",
           "source": "365avisen"
         },
@@ -1143,6 +1267,7 @@
           "detail": "154-157 g",
           "price": 15,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-25.webp&w=300&x1r=0.03&x2r=0.5&y1r=0.345&y2r=0.665&s=c673dbec2e475ccbf927392931fb3ba9",
           "color": "#1f6b4f",
           "source": "365avisen"
         },
@@ -1152,6 +1277,7 @@
           "detail": "250 g",
           "price": 8,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-25.webp&w=300&x1r=0.51&x2r=0.98&y1r=0.345&y2r=0.665&s=608363b344b29477e26fd98e0670d3f7",
           "color": "#d87043",
           "source": "365avisen"
         },
@@ -1161,6 +1287,7 @@
           "detail": "85 g",
           "price": 15,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-25.webp&w=300&x1r=0.03&x2r=0.5&y1r=0.685&y2r=0.98&s=ae256e1437d1a062069d924ee48dcb2b",
           "color": "#8a4f7d",
           "source": "365avisen"
         },
@@ -1170,6 +1297,7 @@
           "detail": "12-85 g",
           "price": 5,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-26.webp&w=300&x1r=0.05&x2r=0.49&y1r=0.34&y2r=0.66&s=8bf307cfd26c707493e79b15aa3e3baf",
           "color": "#3d719b",
           "source": "365avisen"
         },
@@ -1179,6 +1307,7 @@
           "detail": "1020 g",
           "price": 35,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-26.webp&w=300&x1r=0.04&x2r=0.97&y1r=0.02&y2r=0.33&s=0586df65905070d9b0754b7a3cb85170",
           "color": "#b38b32",
           "source": "365avisen"
         },
@@ -1188,6 +1317,7 @@
           "detail": "3500-4500 g",
           "price": 55,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-26.webp&w=300&x1r=0.51&x2r=0.97&y1r=0.67&y2r=0.96&s=26407c63d4405f2b9c2510c57aa76916",
           "color": "#6f7b3c",
           "source": "365avisen"
         },
@@ -1197,6 +1327,7 @@
           "detail": "80-105 g",
           "price": 15,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-26.webp&w=300&x1r=0.04&x2r=0.49&y1r=0.67&y2r=0.96&s=9bb6a8192cb04bd9b1ae445a06ae04fb",
           "color": "#1f6b4f",
           "source": "365avisen"
         },
@@ -1206,6 +1337,7 @@
           "detail": "60-90 g",
           "price": 10,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-26.webp&w=300&x1r=0.51&x2r=0.97&y1r=0.34&y2r=0.66&s=11e582851838e6118fc9387dbfe66fbb",
           "color": "#d87043",
           "source": "365avisen"
         },
@@ -1215,6 +1347,7 @@
           "detail": "24 pcs",
           "price": 40,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-27.webp&w=300&x1r=0.03&x2r=0.9&y1r=0.47&y2r=0.89&s=8d869b34851d198b1fab538895c8889e",
           "color": "#8a4f7d",
           "source": "365avisen"
         },
@@ -1224,6 +1357,7 @@
           "detail": "204 pcs",
           "price": 239,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-27.webp&w=300&x1r=0.03&x2r=0.94&y1r=0.03&y2r=0.48&s=b23bd083c79f369929ae886eb656153e",
           "color": "#3d719b",
           "source": "365avisen"
         },
@@ -1233,6 +1367,7 @@
           "detail": "1 pcs",
           "price": 99,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-28.webp&w=300&x1r=0.505&x2r=0.965&y1r=0.675&y2r=0.965&s=80a58387fd4d6542fc5161e4014600e7",
           "color": "#b38b32",
           "source": "365avisen"
         },
@@ -1242,6 +1377,7 @@
           "detail": "750 ml",
           "price": 26,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-28.webp&w=300&x1r=0.035&x2r=0.49&y1r=0.675&y2r=0.965&s=67aedd2ba12c67602de62465f291b1cb",
           "color": "#6f7b3c",
           "source": "365avisen"
         },
@@ -1251,6 +1387,7 @@
           "detail": "1 pcs",
           "price": 199,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-28.webp&w=300&x1r=0.705&x2r=0.965&y1r=0.345&y2r=0.66&s=c0ad72a4876205567575df0c0ec10628",
           "color": "#1f6b4f",
           "source": "365avisen"
         },
@@ -1260,6 +1397,7 @@
           "detail": "750-1000 ml",
           "price": 45,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-28.webp&w=300&x1r=0.365&x2r=0.695&y1r=0.345&y2r=0.66&s=01204600832c4dd67e72d70271ef5f24",
           "color": "#d87043",
           "source": "365avisen"
         },
@@ -1269,6 +1407,7 @@
           "detail": "1 pcs",
           "price": 15,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-28.webp&w=300&x1r=0.035&x2r=0.36&y1r=0.345&y2r=0.66&s=9f4d7424e538dfae4a6a20c54c77a262",
           "color": "#8a4f7d",
           "source": "365avisen"
         },
@@ -1278,6 +1417,7 @@
           "detail": "925 ml",
           "price": 22,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-28.webp&w=300&x1r=0.011&x2r=0.973&y1r=0.009&y2r=0.338&s=ad4497eb5a9378786da319cda0547dd4",
           "color": "#3d719b",
           "source": "365avisen"
         },
@@ -1287,6 +1427,7 @@
           "detail": "225 ml",
           "price": 39,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-29.webp&w=300&x1r=0.5&x2r=0.97&y1r=0.67&y2r=0.97&s=28096214c1fd5ab7c5a84192f52869a5",
           "color": "#b38b32",
           "source": "365avisen"
         },
@@ -1296,6 +1437,7 @@
           "detail": "1 pcs",
           "price": 29,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-29.webp&w=300&x1r=0.03&x2r=0.97&y1r=0.01&y2r=0.33&s=aa85113fe445a54dedb1971da69404e9",
           "color": "#6f7b3c",
           "source": "365avisen"
         },
@@ -1305,6 +1447,7 @@
           "detail": "50-250 ml",
           "price": 15,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-29.webp&w=300&x1r=0.03&x2r=0.34&y1r=0.34&y2r=0.66&s=20b6a678a3842060bad8ef805b26fb68",
           "color": "#1f6b4f",
           "source": "365avisen"
         },
@@ -1314,6 +1457,7 @@
           "detail": "200-300 ml",
           "price": 35,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-29.webp&w=300&x1r=0.34&x2r=0.66&y1r=0.34&y2r=0.66&s=5cf466fa3b86baaf5c517245bb83b46f",
           "color": "#d87043",
           "source": "365avisen"
         },
@@ -1323,6 +1467,7 @@
           "detail": "1 pcs",
           "price": 65,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-29.webp&w=300&x1r=0.66&x2r=0.97&y1r=0.34&y2r=0.66&s=e2d26c099b668687d6e53939312a0274",
           "color": "#8a4f7d",
           "source": "365avisen"
         },
@@ -1332,6 +1477,7 @@
           "detail": "1 pcs",
           "price": 20,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-29.webp&w=300&x1r=0.03&x2r=0.5&y1r=0.67&y2r=0.97&s=6632e1ff989b615d09e200e8b614eb5e",
           "color": "#3d719b",
           "source": "365avisen"
         },
@@ -1341,6 +1487,7 @@
           "detail": "133 g",
           "price": 10,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-30.webp&w=300&x1r=0.03&x2r=0.38&y1r=0.18&y2r=0.72&s=9c4ba0bc6355f245179bb370c0acd22f",
           "color": "#b38b32",
           "source": "365avisen"
         },
@@ -1350,6 +1497,7 @@
           "detail": "150 g",
           "price": 10,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-30.webp&w=300&x1r=0.12&x2r=0.62&y1r=0.18&y2r=0.61&s=20edc6e96937ac95e95ad10e58115448",
           "color": "#6f7b3c",
           "source": "365avisen"
         },
@@ -1359,6 +1507,7 @@
           "detail": "30 g",
           "price": 20,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-30.webp&w=300&x1r=0.03&x2r=0.49&y1r=0.68&y2r=0.97&s=4db99af32b0f96bca15ed83fbb5985f1",
           "color": "#1f6b4f",
           "source": "365avisen"
         },
@@ -1368,6 +1517,7 @@
           "detail": "1 pcs",
           "price": 13,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-30.webp&w=300&x1r=0.54&x2r=0.97&y1r=0.51&y2r=0.97&s=1c70536d05bdb35a59f950c304736ade",
           "color": "#d87043",
           "source": "365avisen"
         },
@@ -1377,6 +1527,7 @@
           "detail": "60-80 g",
           "price": 15,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-30.webp&w=300&x1r=0.33&x2r=0.61&y1r=0.51&y2r=0.97&s=501c9aa3f856425e1e480e68986c7ce0",
           "color": "#8a4f7d",
           "source": "365avisen"
         },
@@ -1386,6 +1537,7 @@
           "detail": "400 g",
           "price": 18,
           "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-30.webp&w=300&x1r=0.38&x2r=0.95&y1r=0.18&y2r=0.54&s=4c9b8b8656a910be9a03b984acf44278",
           "color": "#3d719b",
           "source": "365avisen"
         }
