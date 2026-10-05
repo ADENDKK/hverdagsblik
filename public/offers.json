@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T10:29:44.274Z",
+  "generatedAt": "2026-10-05T11:27:06.083Z",
   "sources": [
     {
       "store": "SPAR Arden",
@@ -82,12 +82,12 @@
           "source": "365avisen"
         },
         {
-          "id": "365-sxGPKml7AYB6pr00-dCp1",
-          "item": "Danonino eller Actimel",
-          "detail": "100 g",
-          "price": 19,
+          "id": "365-s5JjraP77XRBkApq8Kh8F",
+          "item": "Kohberg brød",
+          "detail": "490-1000 g",
+          "price": 10,
           "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-1.webp&w=300&x1r=0.03&x2r=0.35&y1r=0.63&y2r=0.93&s=34e54002534a134e89abe1783a713b3f",
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-1.webp&w=300&x1r=0.35&x2r=0.64&y1r=0.63&y2r=0.93&s=df08e2d96e5d5e2ce97387b4ad7a693d",
           "color": "#8a4f7d",
           "source": "365avisen"
         },
@@ -102,12 +102,12 @@
           "source": "365avisen"
         },
         {
-          "id": "365-s5JjraP77XRBkApq8Kh8F",
-          "item": "Kohberg brød",
-          "detail": "490-1000 g",
-          "price": 10,
+          "id": "365-sxGPKml7AYB6pr00-dCp1",
+          "item": "Danonino eller Actimel",
+          "detail": "100 g",
+          "price": 19,
           "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-1.webp&w=300&x1r=0.35&x2r=0.64&y1r=0.63&y2r=0.93&s=df08e2d96e5d5e2ce97387b4ad7a693d",
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-1.webp&w=300&x1r=0.03&x2r=0.35&y1r=0.63&y2r=0.93&s=34e54002534a134e89abe1783a713b3f",
           "color": "#b38b32",
           "source": "365avisen"
         },
@@ -322,12 +322,12 @@
           "source": "365avisen"
         },
         {
-          "id": "365-wpFZthRx7Yi3wgj7rWH3t",
-          "item": "Änglamark økologisk marmelade",
-          "detail": "250-345 g",
-          "price": 18,
+          "id": "365-ghOdufGwumWv-nEBq6N7U",
+          "item": "Änglamark økologisk røget laks",
+          "detail": "100 g",
+          "price": 42,
           "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-7.webp&w=300&x1r=0.64&x2r=0.97&y1r=0.66&y2r=0.96&s=3c7de958b1dc4b89533b0ad55d951555",
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-7.webp&w=300&x1r=0.51&x2r=0.97&y1r=0.14&y2r=0.33&s=4d62c9cc94546806bf3326a64621cafb",
           "color": "#8a4f7d",
           "source": "365avisen"
         },
@@ -362,12 +362,12 @@
           "source": "365avisen"
         },
         {
-          "id": "365-ghOdufGwumWv-nEBq6N7U",
-          "item": "Änglamark økologisk røget laks",
-          "detail": "100 g",
-          "price": 42,
+          "id": "365-wpFZthRx7Yi3wgj7rWH3t",
+          "item": "Änglamark økologisk marmelade",
+          "detail": "250-345 g",
+          "price": 18,
           "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-7.webp&w=300&x1r=0.51&x2r=0.97&y1r=0.14&y2r=0.33&s=4d62c9cc94546806bf3326a64621cafb",
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvNFQvG-m%2Fp-7.webp&w=300&x1r=0.64&x2r=0.97&y1r=0.66&y2r=0.96&s=3c7de958b1dc4b89533b0ad55d951555",
           "color": "#1f6b4f",
           "source": "365avisen"
         },
