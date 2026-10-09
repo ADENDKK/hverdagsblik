@@ -1,6 +1,57 @@
 {
-  "generatedAt": "2026-10-08T11:22:18.162Z",
+  "generatedAt": "2026-10-09T11:18:50.041Z",
   "sources": [
+    {
+      "store": "SPAR Arden",
+      "address": "Skovvej 2, 9510 Arden",
+      "latitude": 56.769225,
+      "longitude": 9.858268,
+      "flyerUrl": "https://spar.dk/ugensavis",
+      "validFrom": "2026-10-09",
+      "validTo": "2026-10-15",
+      "offers": [
+        {
+          "id": "spar-monster-energy-ultra-zero",
+          "item": "Monster Energy Ultra Zero",
+          "detail": "50 CL",
+          "price": 12,
+          "oldPrice": null,
+          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/5060337502290.600x600.jpg",
+          "color": "#8a4f7d",
+          "source": "SPAR Arden"
+        },
+        {
+          "id": "spar-pepsi-max-pet",
+          "item": "Pepsi Max Pet",
+          "detail": "150 CL",
+          "price": 18,
+          "oldPrice": null,
+          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/5741000123676.600x600.jpg",
+          "color": "#3d719b",
+          "source": "SPAR Arden"
+        },
+        {
+          "id": "spar-monster-energy",
+          "item": "Monster Energy",
+          "detail": "50 CL",
+          "price": 12,
+          "oldPrice": null,
+          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/5060337502900.600x600.jpg",
+          "color": "#b38b32",
+          "source": "SPAR Arden"
+        },
+        {
+          "id": "spar-monster-mango-loco",
+          "item": "Monster Mango Loco",
+          "detail": "50 CL",
+          "price": 12,
+          "oldPrice": null,
+          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/5060639120970.600x600.jpg",
+          "color": "#6f7b3c",
+          "source": "SPAR Arden"
+        }
+      ]
+    },
     {
       "store": "365discount Arden",
       "address": "Vestergade 15, 9510 Arden",
