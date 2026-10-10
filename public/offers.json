@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T11:18:50.041Z",
+  "generatedAt": "2026-10-10T10:35:50.693Z",
   "sources": [
     {
       "store": "SPAR Arden",
@@ -41,12 +41,12 @@
           "source": "SPAR Arden"
         },
         {
-          "id": "spar-monster-mango-loco",
-          "item": "Monster Mango Loco",
-          "detail": "50 CL",
-          "price": 12,
-          "oldPrice": null,
-          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/5060639120970.600x600.jpg",
+          "id": "spar-matilde-kakaoskummetmælk",
+          "item": "Matilde Kakaoskummetmælk",
+          "detail": "1 LT",
+          "price": 9,
+          "oldPrice": 22.95,
+          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/5704062370846.600x600.jpg",
           "color": "#6f7b3c",
           "source": "SPAR Arden"
         }
