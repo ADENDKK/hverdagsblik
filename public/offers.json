@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T11:57:08.825Z",
+  "generatedAt": "2026-10-13T11:45:57.691Z",
   "sources": [
     {
       "store": "SPAR Arden",
@@ -31,22 +31,22 @@
           "source": "SPAR Arden"
         },
         {
-          "id": "spar-monster-energy",
-          "item": "Monster Energy",
-          "detail": "50 CL",
-          "price": 12,
-          "oldPrice": null,
-          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/5060337502900.600x600.jpg",
-          "color": "#b38b32",
-          "source": "SPAR Arden"
-        },
-        {
           "id": "spar-matilde-kakaoskummetmælk",
           "item": "Matilde Kakaoskummetmælk",
           "detail": "1 LT",
           "price": 9,
           "oldPrice": 22.95,
           "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/5704062370846.600x600.jpg",
+          "color": "#b38b32",
+          "source": "SPAR Arden"
+        },
+        {
+          "id": "spar-monster-energy",
+          "item": "Monster Energy",
+          "detail": "50 CL",
+          "price": 12,
+          "oldPrice": null,
+          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/5060337502900.600x600.jpg",
           "color": "#6f7b3c",
           "source": "SPAR Arden"
         }
