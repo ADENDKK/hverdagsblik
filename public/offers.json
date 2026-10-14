@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T11:45:57.691Z",
+  "generatedAt": "2026-10-14T09:29:53.307Z",
   "sources": [
     {
       "store": "SPAR Arden",
@@ -21,22 +21,22 @@
           "source": "SPAR Arden"
         },
         {
-          "id": "spar-pepsi-max-pet",
-          "item": "Pepsi Max Pet",
-          "detail": "150 CL",
-          "price": 18,
-          "oldPrice": null,
-          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/5741000123676.600x600.jpg",
-          "color": "#3d719b",
-          "source": "SPAR Arden"
-        },
-        {
           "id": "spar-matilde-kakaoskummetmælk",
           "item": "Matilde Kakaoskummetmælk",
           "detail": "1 LT",
           "price": 9,
           "oldPrice": 22.95,
           "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/5704062370846.600x600.jpg",
+          "color": "#3d719b",
+          "source": "SPAR Arden"
+        },
+        {
+          "id": "spar-pepsi-max-pet",
+          "item": "Pepsi Max Pet",
+          "detail": "150 CL",
+          "price": 18,
+          "oldPrice": null,
+          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/5741000123676.600x600.jpg",
           "color": "#b38b32",
           "source": "SPAR Arden"
         },
