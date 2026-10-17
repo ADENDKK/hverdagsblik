@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T09:00:19.904Z",
+  "generatedAt": "2026-10-17T08:32:45.743Z",
   "sources": [
     {
       "store": "SPAR Arden",
@@ -41,12 +41,12 @@
           "source": "SPAR Arden"
         },
         {
-          "id": "spar-coca-cola",
-          "item": "Coca-Cola",
-          "detail": "150 CL",
+          "id": "spar-fk-booster-original-zero",
+          "item": "Fk Booster Original Zero",
+          "detail": "50 CL",
           "price": 17,
           "oldPrice": null,
-          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/57045795.600x600.jpg",
+          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/5741000142899.600x600.jpg",
           "color": "#6f7b3c",
           "source": "SPAR Arden"
         }
