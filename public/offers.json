@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T09:23:47.722Z",
+  "generatedAt": "2026-10-23T09:20:09.176Z",
   "sources": [
     {
       "store": "SPAR Arden",
@@ -7,46 +7,46 @@
       "latitude": 56.769225,
       "longitude": 9.858268,
       "flyerUrl": "https://spar.dk/ugensavis",
-      "validFrom": "2026-10-16",
-      "validTo": "2026-10-22",
+      "validFrom": "2026-10-23",
+      "validTo": "2026-10-29",
       "offers": [
         {
-          "id": "spar-kærgården-original-cont",
-          "item": "Kærgården Original Cont.",
-          "detail": "200 GR",
-          "price": 15,
-          "oldPrice": 24.95,
-          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/5760466904919.600x600.jpg",
+          "id": "spar-monster-energy-ultra-zero",
+          "item": "Monster Energy Ultra Zero",
+          "detail": "50 CL",
+          "price": 12,
+          "oldPrice": null,
+          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/5060337502290.600x600.jpg",
           "color": "#8a4f7d",
           "source": "SPAR Arden"
         },
         {
-          "id": "spar-faxe-kondi-booster",
-          "item": "Faxe Kondi Booster",
-          "detail": "50 CL",
-          "price": 17,
-          "oldPrice": null,
-          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/5741000134894.600x600.jpg",
+          "id": "spar-pepsi-max-pet",
+          "item": "Pepsi Max Pet",
+          "detail": "150 CL",
+          "price": 10,
+          "oldPrice": 22.95,
+          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/5741000123676.600x600.jpg",
           "color": "#3d719b",
           "source": "SPAR Arden"
         },
         {
-          "id": "spar-toms-kæmpeskildpadder",
-          "item": "Toms Kæmpeskildpadder",
-          "detail": "28 GR",
-          "price": 5,
+          "id": "spar-karat-kaffe-rød-1-4-pl",
+          "item": "Karat Kaffe Rød 1/4 Pl",
+          "detail": "400 GR",
+          "price": 42,
           "oldPrice": null,
-          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/57028804.600x600.jpg",
+          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/8711000538340.600x600.jpg",
           "color": "#b38b32",
           "source": "SPAR Arden"
         },
         {
-          "id": "spar-fk-booster-original-zero",
-          "item": "Fk Booster Original Zero",
+          "id": "spar-monster-energy",
+          "item": "Monster Energy",
           "detail": "50 CL",
-          "price": 17,
+          "price": 12,
           "oldPrice": null,
-          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/5741000142899.600x600.jpg",
+          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/5060337502900.600x600.jpg",
           "color": "#6f7b3c",
           "source": "SPAR Arden"
         }
