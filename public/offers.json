@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T08:51:41.626Z",
+  "generatedAt": "2026-10-25T09:08:22.251Z",
   "sources": [
     {
       "store": "SPAR Arden",
@@ -11,22 +11,22 @@
       "validTo": "2026-10-29",
       "offers": [
         {
-          "id": "spar-monster-energy-ultra-zero",
-          "item": "Monster Energy Ultra Zero",
-          "detail": "50 CL",
-          "price": 12,
-          "oldPrice": null,
-          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/5060337502290.600x600.jpg",
-          "color": "#8a4f7d",
-          "source": "SPAR Arden"
-        },
-        {
           "id": "spar-pepsi-max-pet",
           "item": "Pepsi Max Pet",
           "detail": "150 CL",
           "price": 10,
           "oldPrice": 22.95,
           "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/5741000123676.600x600.jpg",
+          "color": "#8a4f7d",
+          "source": "SPAR Arden"
+        },
+        {
+          "id": "spar-monster-energy-ultra-zero",
+          "item": "Monster Energy Ultra Zero",
+          "detail": "50 CL",
+          "price": 12,
+          "oldPrice": null,
+          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/5060337502290.600x600.jpg",
           "color": "#3d719b",
           "source": "SPAR Arden"
         },
