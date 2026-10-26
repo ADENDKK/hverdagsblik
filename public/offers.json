@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T09:08:22.251Z",
+  "generatedAt": "2026-10-26T10:05:32.459Z",
   "sources": [
     {
       "store": "SPAR Arden",
@@ -62,33 +62,23 @@
       "validTo": "2026-10-28",
       "offers": [
         {
-          "id": "365-SoU2CPrmu4EPnnWvOqXad",
-          "item": "Coop hakket okse/ grønt eller hakket grisekød 4-7%",
-          "detail": "400 g",
-          "price": 25,
-          "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-1.webp&w=300&x1r=0.03&x2r=0.49&y1r=0.39&y2r=0.67&s=d6d5cb35f549778a4d2d57e06889ec4c",
-          "color": "#1f6b4f",
-          "source": "365avisen"
-        },
-        {
           "id": "365-ZmYOSZusNwbNnZqJb8BYF",
           "item": "Coop smør eller smørbar",
           "detail": "200 g",
           "price": 6.95,
           "oldPrice": null,
           "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-1.webp&w=300&x1r=0.03&x2r=0.49&y1r=0.13&y2r=0.4&s=80e2ada33a504f436dff869d7a1c3944",
-          "color": "#d87043",
+          "color": "#1f6b4f",
           "source": "365avisen"
         },
         {
-          "id": "365-nQvM7z081nVTMRr6O31-3",
-          "item": "Faxe Kondi eller Pepsi Max*",
-          "detail": "33 cl",
-          "price": 75,
+          "id": "365-SoU2CPrmu4EPnnWvOqXad",
+          "item": "Coop hakket okse/ grønt eller hakket grisekød 4-7%",
+          "detail": "400 g",
+          "price": 25,
           "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-1.webp&w=300&x1r=0.44&x2r=0.98&y1r=0.66&y2r=0.95&s=123945d9fc930b0cc35b4c77a96737a6",
-          "color": "#8a4f7d",
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-1.webp&w=300&x1r=0.03&x2r=0.49&y1r=0.39&y2r=0.67&s=d6d5cb35f549778a4d2d57e06889ec4c",
+          "color": "#d87043",
           "source": "365avisen"
         },
         {
@@ -98,7 +88,7 @@
           "price": 35,
           "oldPrice": null,
           "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-1.webp&w=300&x1r=0.5&x2r=0.98&y1r=0.39&y2r=0.67&s=fdceb2af9c3b17185992ae79b66b9271",
-          "color": "#3d719b",
+          "color": "#8a4f7d",
           "source": "365avisen"
         },
         {
@@ -108,6 +98,16 @@
           "price": 22,
           "oldPrice": null,
           "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-1.webp&w=300&x1r=0.5&x2r=0.98&y1r=0.13&y2r=0.4&s=708239b377448e822bb9342c278e439b",
+          "color": "#3d719b",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-nQvM7z081nVTMRr6O31-3",
+          "item": "Faxe Kondi eller Pepsi Max*",
+          "detail": "33 cl",
+          "price": 75,
+          "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-1.webp&w=300&x1r=0.44&x2r=0.98&y1r=0.66&y2r=0.95&s=123945d9fc930b0cc35b4c77a96737a6",
           "color": "#b38b32",
           "source": "365avisen"
         },
@@ -132,22 +132,22 @@
           "source": "365avisen"
         },
         {
-          "id": "365-e5Zf4x8-7Xf6nSCEg3htZ",
-          "item": "Coop finthakkede tomater",
-          "detail": "400 g",
-          "price": 6,
-          "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-2.webp&w=300&x1r=0.04&x2r=0.49&y1r=0.56&y2r=0.835&s=cc23bad8111af3b83fb5cb790d98de4a",
-          "color": "#d87043",
-          "source": "365avisen"
-        },
-        {
           "id": "365-l8elhZ7GsaxS5IKFmkiIv",
           "item": "Klovborg eller Cheasy skiveost*",
           "detail": "200-240 g",
           "price": 22,
           "oldPrice": null,
           "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-2.webp&w=300&x1r=0.5&x2r=0.96&y1r=0.56&y2r=0.835&s=b01a15f992cff78903c9531352d90c15",
+          "color": "#d87043",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-e5Zf4x8-7Xf6nSCEg3htZ",
+          "item": "Coop finthakkede tomater",
+          "detail": "400 g",
+          "price": 6,
+          "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-2.webp&w=300&x1r=0.04&x2r=0.49&y1r=0.56&y2r=0.835&s=cc23bad8111af3b83fb5cb790d98de4a",
           "color": "#8a4f7d",
           "source": "365avisen"
         },
@@ -172,33 +172,13 @@
           "source": "365avisen"
         },
         {
-          "id": "365-hlb59qAh1LOmiZjQxN0SX",
-          "item": "Coop hakket oksekød 14-18%",
-          "detail": "400 g",
-          "price": 35,
-          "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-4.webp&w=300&x1r=0.03&x2r=0.49&y1r=0.7&y2r=0.97&s=7f36412e60db64be1b8d08a1ee43af26",
-          "color": "#6f7b3c",
-          "source": "365avisen"
-        },
-        {
           "id": "365-P8j_jiszGPmY4UJFsF4UK",
           "item": "Coop koteletter, stegeflæsk, nakkekoteletter eller filet a la mørbrad med gyros/hvidløg",
           "detail": "375-500 g",
           "price": 39,
           "oldPrice": null,
           "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-4.webp&w=300&x1r=0&x2r=0.98&y1r=0&y2r=0.38&s=eed746295e257da5a37e997b32ec937e",
-          "color": "#1f6b4f",
-          "source": "365avisen"
-        },
-        {
-          "id": "365--aaQgACtjYpI6pxIx7QfN",
-          "item": "BORNHOLMERGRISEN hakket grisekød 8-12% eller medister",
-          "detail": "400-500 g",
-          "price": 30,
-          "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-4.webp&w=300&x1r=0.03&x2r=0.49&y1r=0.38&y2r=0.71&s=b52f86fc6333b6d18e778e8cc4be466f",
-          "color": "#d87043",
+          "color": "#6f7b3c",
           "source": "365avisen"
         },
         {
@@ -208,6 +188,26 @@
           "price": 29,
           "oldPrice": null,
           "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-4.webp&w=300&x1r=0.5&x2r=0.98&y1r=0.7&y2r=0.97&s=2848494ed3d313408d479a5489db8b65",
+          "color": "#1f6b4f",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-hlb59qAh1LOmiZjQxN0SX",
+          "item": "Coop hakket oksekød 14-18%",
+          "detail": "400 g",
+          "price": 35,
+          "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-4.webp&w=300&x1r=0.03&x2r=0.49&y1r=0.7&y2r=0.97&s=7f36412e60db64be1b8d08a1ee43af26",
+          "color": "#d87043",
+          "source": "365avisen"
+        },
+        {
+          "id": "365--aaQgACtjYpI6pxIx7QfN",
+          "item": "BORNHOLMERGRISEN hakket grisekød 8-12% eller medister",
+          "detail": "400-500 g",
+          "price": 30,
+          "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-4.webp&w=300&x1r=0.03&x2r=0.49&y1r=0.38&y2r=0.71&s=b52f86fc6333b6d18e778e8cc4be466f",
           "color": "#8a4f7d",
           "source": "365avisen"
         },
@@ -232,22 +232,22 @@
           "source": "365avisen"
         },
         {
-          "id": "365-OYfAwndaEJRBcT_9yovQP",
-          "item": "Frijsenborg hel kylling",
-          "detail": "1350 g",
-          "price": 69,
-          "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-5.webp&w=300&x1r=0.038&x2r=0.495&y1r=0.383&y2r=0.722&s=c66c2815479d1c14581eecfacb017d56",
-          "color": "#6f7b3c",
-          "source": "365avisen"
-        },
-        {
           "id": "365-IMU3D38PVhl4HvmHlEH74",
           "item": "Coop kylling i tern eller strimler",
           "detail": "300 g",
           "price": 29,
           "oldPrice": null,
           "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-5.webp&w=300&x1r=0.51&x2r=0.97&y1r=0.425&y2r=0.72&s=48db105449fcce4449c42a2043147c89",
+          "color": "#6f7b3c",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-OYfAwndaEJRBcT_9yovQP",
+          "item": "Frijsenborg hel kylling",
+          "detail": "1350 g",
+          "price": 69,
+          "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-5.webp&w=300&x1r=0.038&x2r=0.495&y1r=0.383&y2r=0.722&s=c66c2815479d1c14581eecfacb017d56",
           "color": "#1f6b4f",
           "source": "365avisen"
         },
@@ -302,22 +302,22 @@
           "source": "365avisen"
         },
         {
-          "id": "365-PhI6PEWgPzb2OKafDg5aG",
-          "item": "Kims chips eller nødder",
-          "detail": "130-235 g",
-          "price": 15,
-          "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-7.webp&w=300&x1r=0.02&x2r=0.49&y1r=0.32&y2r=0.66&s=5e262effac51f5de11ff7ffa408ff2e2",
-          "color": "#1f6b4f",
-          "source": "365avisen"
-        },
-        {
           "id": "365-1v4AP7nDRDmUSuGmoX0A5",
           "item": "Langelænder pølser",
           "detail": "325-350 g",
           "price": 22,
           "oldPrice": null,
           "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-7.webp&w=300&x1r=0.03&x2r=0.49&y1r=0.66&y2r=0.96&s=13779b3512221fe83ac719f85588f926",
+          "color": "#1f6b4f",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-r4EkZsfIQ1ohAmP-riv-9",
+          "item": "OTA solgryn",
+          "detail": "700 g",
+          "price": 10,
+          "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-7.webp&w=300&x1r=0.51&x2r=0.97&y1r=0.66&y2r=0.96&s=0917a9cfc6495f9ced972e6566a91a99",
           "color": "#d87043",
           "source": "365avisen"
         },
@@ -332,33 +332,23 @@
           "source": "365avisen"
         },
         {
-          "id": "365-r4EkZsfIQ1ohAmP-riv-9",
-          "item": "OTA solgryn",
-          "detail": "700 g",
-          "price": 10,
-          "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-7.webp&w=300&x1r=0.51&x2r=0.97&y1r=0.66&y2r=0.96&s=0917a9cfc6495f9ced972e6566a91a99",
-          "color": "#3d719b",
-          "source": "365avisen"
-        },
-        {
           "id": "365-k0jDh-w35uLsNxP9xbley",
           "item": "Faxe Kondi Booster",
           "detail": "50 cl",
           "price": 12,
           "oldPrice": null,
           "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-7.webp&w=300&x1r=0.5&x2r=0.97&y1r=0.32&y2r=0.66&s=69db0228aceb23aac0450cb9fe2ad023",
-          "color": "#b38b32",
+          "color": "#3d719b",
           "source": "365avisen"
         },
         {
-          "id": "365-oeIsl1FtQ6GpSFlxG-j0J",
-          "item": "Varmrøget-, røget-, gravad laks eller Coop rejer",
-          "detail": "100-170 g",
-          "price": 20,
+          "id": "365-PhI6PEWgPzb2OKafDg5aG",
+          "item": "Kims chips eller nødder",
+          "detail": "130-235 g",
+          "price": 15,
           "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-8.webp&w=300&x1r=0.04&x2r=0.96&y1r=0.12&y2r=0.33&s=f19ad143f73d284bade182b69d30b583",
-          "color": "#6f7b3c",
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-7.webp&w=300&x1r=0.02&x2r=0.49&y1r=0.32&y2r=0.66&s=5e262effac51f5de11ff7ffa408ff2e2",
+          "color": "#b38b32",
           "source": "365avisen"
         },
         {
@@ -368,17 +358,7 @@
           "price": 12,
           "oldPrice": null,
           "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-8.webp&w=300&x1r=0.04&x2r=0.49&y1r=0.67&y2r=0.96&s=55123ebc8ccc6be0c122c58f0729d163",
-          "color": "#1f6b4f",
-          "source": "365avisen"
-        },
-        {
-          "id": "365-hOnQgC5NjkPQZA-sgMzw3",
-          "item": "K-Salat bearnaisesauce",
-          "detail": "325 g",
-          "price": 10,
-          "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-8.webp&w=300&x1r=0.51&x2r=0.96&y1r=0.67&y2r=0.96&s=ddd6411644e80f257f1f6e677ed480c7",
-          "color": "#d87043",
+          "color": "#6f7b3c",
           "source": "365avisen"
         },
         {
@@ -388,7 +368,7 @@
           "price": 26,
           "oldPrice": null,
           "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-8.webp&w=300&x1r=0.04&x2r=0.49&y1r=0.33&y2r=0.66&s=80ba446eae3541f2c04f0aa241f45292",
-          "color": "#8a4f7d",
+          "color": "#1f6b4f",
           "source": "365avisen"
         },
         {
@@ -398,6 +378,26 @@
           "price": 26,
           "oldPrice": null,
           "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-8.webp&w=300&x1r=0.51&x2r=0.96&y1r=0.33&y2r=0.66&s=61732ed3557c7f1e73ce84f947b0fc8e",
+          "color": "#d87043",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-hOnQgC5NjkPQZA-sgMzw3",
+          "item": "K-Salat bearnaisesauce",
+          "detail": "325 g",
+          "price": 10,
+          "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-8.webp&w=300&x1r=0.51&x2r=0.96&y1r=0.67&y2r=0.96&s=ddd6411644e80f257f1f6e677ed480c7",
+          "color": "#8a4f7d",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-oeIsl1FtQ6GpSFlxG-j0J",
+          "item": "Varmrøget-, røget-, gravad laks eller Coop rejer",
+          "detail": "100-170 g",
+          "price": 20,
+          "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-8.webp&w=300&x1r=0.04&x2r=0.96&y1r=0.12&y2r=0.33&s=f19ad143f73d284bade182b69d30b583",
           "color": "#3d719b",
           "source": "365avisen"
         },
@@ -512,53 +512,13 @@
           "source": "365avisen"
         },
         {
-          "id": "365-WlRV8bVcerNAY0SvvUXkP",
-          "item": "Magnum is",
-          "detail": "270-300 ml",
-          "price": 25,
-          "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-11.webp&w=300&x1r=0.045&x2r=0.955&y1r=0.665&y2r=0.96&s=f3cba30e44caeffd89231930b64bb3a1",
-          "color": "#3d719b",
-          "source": "365avisen"
-        },
-        {
           "id": "365-s2BEtYCfjRZ3lJgjiQrYo",
           "item": "Gustav landand",
           "detail": "3200 g",
           "price": 139,
           "oldPrice": null,
           "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-11.webp&w=300&x1r=0.04&x2r=0.34&y1r=0.06&y2r=0.325&s=460e97f76d93e71058d0c4c4865bb835",
-          "color": "#b38b32",
-          "source": "365avisen"
-        },
-        {
-          "id": "365-SJf3eK4mdvHWuGaZygKCL",
-          "item": "Coop torpedo rejer, fiskepinde eller Xtra! rejer",
-          "detail": "160-450 g",
-          "price": 20,
-          "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-11.webp&w=300&x1r=0.66&x2r=0.965&y1r=0.33&y2r=0.655&s=4f8df733e37638cc4f8c64678f7a003c",
-          "color": "#6f7b3c",
-          "source": "365avisen"
-        },
-        {
-          "id": "365-Qgucqw-dURh98ACxwTT_x",
-          "item": "Mou kød- og melboller eller kødboller",
-          "detail": "700-900 g",
-          "price": 39,
-          "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-11.webp&w=300&x1r=0.04&x2r=0.345&y1r=0.33&y2r=0.655&s=689d4bef5794345e919d2f5314448be6",
-          "color": "#1f6b4f",
-          "source": "365avisen"
-        },
-        {
-          "id": "365-XGWmWjq4haESieJyIcCG-",
-          "item": "Mou okse- eller hønsekødsuppe",
-          "detail": "1000 g",
-          "price": 18,
-          "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-11.webp&w=300&x1r=0.355&x2r=0.65&y1r=0.335&y2r=0.655&s=85259e7e7f3addb114d070c763375601",
-          "color": "#d87043",
+          "color": "#3d719b",
           "source": "365avisen"
         },
         {
@@ -568,16 +528,56 @@
           "price": 18,
           "oldPrice": null,
           "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-11.webp&w=300&x1r=0.355&x2r=0.965&y1r=0.025&y2r=0.325&s=886cd5ce09ac207831cce2f4ddd21aa9",
+          "color": "#b38b32",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-Qgucqw-dURh98ACxwTT_x",
+          "item": "Mou kød- og melboller eller kødboller",
+          "detail": "700-900 g",
+          "price": 39,
+          "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-11.webp&w=300&x1r=0.04&x2r=0.345&y1r=0.33&y2r=0.655&s=689d4bef5794345e919d2f5314448be6",
+          "color": "#6f7b3c",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-XGWmWjq4haESieJyIcCG-",
+          "item": "Mou okse- eller hønsekødsuppe",
+          "detail": "1000 g",
+          "price": 18,
+          "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-11.webp&w=300&x1r=0.355&x2r=0.65&y1r=0.335&y2r=0.655&s=85259e7e7f3addb114d070c763375601",
+          "color": "#1f6b4f",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-SJf3eK4mdvHWuGaZygKCL",
+          "item": "Coop torpedo rejer, fiskepinde eller Xtra! rejer",
+          "detail": "160-450 g",
+          "price": 20,
+          "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-11.webp&w=300&x1r=0.66&x2r=0.965&y1r=0.33&y2r=0.655&s=4f8df733e37638cc4f8c64678f7a003c",
+          "color": "#d87043",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-WlRV8bVcerNAY0SvvUXkP",
+          "item": "Magnum is",
+          "detail": "270-300 ml",
+          "price": 25,
+          "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-11.webp&w=300&x1r=0.045&x2r=0.955&y1r=0.665&y2r=0.96&s=f3cba30e44caeffd89231930b64bb3a1",
           "color": "#8a4f7d",
           "source": "365avisen"
         },
         {
-          "id": "365-P1tuPHWuyT-fbtf158cIY",
-          "item": "Coop færdigret",
-          "detail": "400 g",
-          "price": 30,
+          "id": "365-NPF22YYLPaHp0_9beeSXR",
+          "item": "Kikkoman soyasauce eller peanutbutter",
+          "detail": "1 pcs",
+          "price": 60,
           "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-12.webp&w=300&x1r=0.51&x2r=0.97&y1r=0.02&y2r=0.415&s=6ae243bc7b7074ad13f92de5356eecb4",
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-12.webp&w=300&x1r=0.03&x2r=0.55&y1r=0.165&y2r=0.415&s=4702f07281241783dd58bc35a2b30aff",
           "color": "#3d719b",
           "source": "365avisen"
         },
@@ -592,22 +592,22 @@
           "source": "365avisen"
         },
         {
-          "id": "365-NPF22YYLPaHp0_9beeSXR",
-          "item": "Kikkoman soyasauce eller peanutbutter",
-          "detail": "1 pcs",
-          "price": 60,
-          "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-12.webp&w=300&x1r=0.03&x2r=0.55&y1r=0.165&y2r=0.415&s=4702f07281241783dd58bc35a2b30aff",
-          "color": "#6f7b3c",
-          "source": "365avisen"
-        },
-        {
           "id": "365-ddRbYkBaaWy1jDY4aoMbI",
           "item": "Xtra! Jasminris",
           "detail": "1000 g",
           "price": 12,
           "oldPrice": null,
           "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-12.webp&w=300&x1r=0.57&x2r=0.97&y1r=0.41&y2r=0.715&s=a2450ea635fc8ac77dd741abcf2cad23",
+          "color": "#6f7b3c",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-P1tuPHWuyT-fbtf158cIY",
+          "item": "Coop færdigret",
+          "detail": "400 g",
+          "price": 30,
+          "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-12.webp&w=300&x1r=0.51&x2r=0.97&y1r=0.02&y2r=0.415&s=6ae243bc7b7074ad13f92de5356eecb4",
           "color": "#1f6b4f",
           "source": "365avisen"
         },
@@ -622,12 +622,12 @@
           "source": "365avisen"
         },
         {
-          "id": "365-cOmxGpCEDbmn3OzHVn-FF",
-          "item": "Coop asiatisk marked",
-          "detail": "1 pcs",
-          "price": 14,
+          "id": "365-sbW5-k8vpZ-Msi9eVGfWN",
+          "item": "Coop kylling i tern eller strimler",
+          "detail": "300 g",
+          "price": 29,
           "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-13.webp&w=300&x1r=0.035&x2r=0.575&y1r=0.705&y2r=0.97&s=0fe4ca779ff079136d40411fb1b4d074",
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-13.webp&w=300&x1r=0.345&x2r=0.655&y1r=0.33&y2r=0.71&s=f53debdc6ad5282b429bef3ea9b7e2b2",
           "color": "#8a4f7d",
           "source": "365avisen"
         },
@@ -652,43 +652,23 @@
           "source": "365avisen"
         },
         {
-          "id": "365-sbW5-k8vpZ-Msi9eVGfWN",
-          "item": "Coop kylling i tern eller strimler",
-          "detail": "300 g",
-          "price": 29,
-          "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-13.webp&w=300&x1r=0.345&x2r=0.655&y1r=0.33&y2r=0.71&s=f53debdc6ad5282b429bef3ea9b7e2b2",
-          "color": "#6f7b3c",
-          "source": "365avisen"
-        },
-        {
           "id": "365-7sJg2SH9RsGnyfm8o2Q8U",
           "item": "Dansk spidskål",
           "detail": "1 pcs",
           "price": 12,
           "oldPrice": null,
           "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-13.webp&w=300&x1r=0.655&x2r=0.98&y1r=0.345&y2r=0.71&s=baf6f3457d91ce6ebadb2f74759d4d1e",
-          "color": "#1f6b4f",
+          "color": "#6f7b3c",
           "source": "365avisen"
         },
         {
-          "id": "365-DQJ0ys6XpCipDSIrwH3L1",
-          "item": "Kakaomælk",
-          "detail": "1 l",
-          "price": 18,
-          "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-14.webp&w=300&x1r=0.35&x2r=0.65&y1r=0.34&y2r=0.66&s=282d0343ccd8fbf56cf8015c151aa6de",
-          "color": "#d87043",
-          "source": "365avisen"
-        },
-        {
-          "id": "365-LuRetzp1ovV5faJB8TZHw",
-          "item": "Naturli' drik*",
-          "detail": "1 l",
+          "id": "365-cOmxGpCEDbmn3OzHVn-FF",
+          "item": "Coop asiatisk marked",
+          "detail": "1 pcs",
           "price": 14,
           "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-14.webp&w=300&x1r=0.04&x2r=0.49&y1r=0.09&y2r=0.33&s=9304cd25b94161d7a29dedadeec8e3dc",
-          "color": "#8a4f7d",
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-13.webp&w=300&x1r=0.035&x2r=0.575&y1r=0.705&y2r=0.97&s=0fe4ca779ff079136d40411fb1b4d074",
+          "color": "#1f6b4f",
           "source": "365avisen"
         },
         {
@@ -698,17 +678,7 @@
           "price": 9,
           "oldPrice": null,
           "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-14.webp&w=300&x1r=0.04&x2r=0.34&y1r=0.34&y2r=0.66&s=cdb67c0f95c46ace41b10bb0443f759b",
-          "color": "#3d719b",
-          "source": "365avisen"
-        },
-        {
-          "id": "365-rZunj89QtO2yTNyy40o_n",
-          "item": "Danonino eller Actimel",
-          "detail": "300-400 g",
-          "price": 12,
-          "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-14.webp&w=300&x1r=0.5&x2r=0.97&y1r=0.02&y2r=0.33&s=df3c789baff092f888a5162480b35269",
-          "color": "#b38b32",
+          "color": "#d87043",
           "source": "365avisen"
         },
         {
@@ -718,7 +688,17 @@
           "price": 25,
           "oldPrice": null,
           "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-14.webp&w=300&x1r=0.65&x2r=0.97&y1r=0.34&y2r=0.66&s=2c283510a8699698b7831997a9d8c4a8",
-          "color": "#6f7b3c",
+          "color": "#8a4f7d",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-rZunj89QtO2yTNyy40o_n",
+          "item": "Danonino eller Actimel",
+          "detail": "300-400 g",
+          "price": 12,
+          "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-14.webp&w=300&x1r=0.5&x2r=0.97&y1r=0.02&y2r=0.33&s=df3c789baff092f888a5162480b35269",
+          "color": "#3d719b",
           "source": "365avisen"
         },
         {
@@ -728,47 +708,27 @@
           "price": 45,
           "oldPrice": null,
           "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-14.webp&w=300&x1r=0.04&x2r=0.96&y1r=0.67&y2r=0.96&s=9cdc57040ae3f54e8e20b138ef066e67",
-          "color": "#1f6b4f",
-          "source": "365avisen"
-        },
-        {
-          "id": "365-UufT7-IfxIpLezeYOUwnx",
-          "item": "Arla laktosefri græsk inspireret yoghurt*",
-          "detail": "400 g",
-          "price": 15,
-          "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-15.webp&w=300&x1r=0.03&x2r=0.51&y1r=0.66&y2r=0.97&s=77861572072b4652ef150a2bcc16f33f",
-          "color": "#d87043",
-          "source": "365avisen"
-        },
-        {
-          "id": "365-ho59okET_lqmXTr6UOQ5y",
-          "item": "Arla laktosefri mælk*",
-          "detail": "1 l",
-          "price": 15,
-          "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-15.webp&w=300&x1r=0.03&x2r=0.94&y1r=0.02&y2r=0.38&s=3b4aa013abbdd38a04a79abcee78c908",
-          "color": "#8a4f7d",
-          "source": "365avisen"
-        },
-        {
-          "id": "365-rqlfwdoWpiTO0S6-HJExn",
-          "item": "Cultura drikkeyoghurt eller yoghurt",
-          "detail": "1 pcs",
-          "price": 12,
-          "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-15.webp&w=300&x1r=0.03&x2r=0.54&y1r=0.33&y2r=0.66&s=c7ae73849e9af70b91f884fcdfd7692b",
-          "color": "#3d719b",
-          "source": "365avisen"
-        },
-        {
-          "id": "365-vDZ5GkoofrM9-2Y9qCSY8",
-          "item": "Änglamark økologisk parmigiano reggiano",
-          "detail": "150 g",
-          "price": 45,
-          "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-15.webp&w=300&x1r=0.52&x2r=0.97&y1r=0.66&y2r=0.97&s=cb28a769063dd117faa7635bcc511d85",
           "color": "#b38b32",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-DQJ0ys6XpCipDSIrwH3L1",
+          "item": "Kakaomælk",
+          "detail": "1 l",
+          "price": 18,
+          "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-14.webp&w=300&x1r=0.35&x2r=0.65&y1r=0.34&y2r=0.66&s=282d0343ccd8fbf56cf8015c151aa6de",
+          "color": "#6f7b3c",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-LuRetzp1ovV5faJB8TZHw",
+          "item": "Naturli' drik*",
+          "detail": "1 l",
+          "price": 14,
+          "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-14.webp&w=300&x1r=0.04&x2r=0.49&y1r=0.09&y2r=0.33&s=9304cd25b94161d7a29dedadeec8e3dc",
+          "color": "#1f6b4f",
           "source": "365avisen"
         },
         {
@@ -778,17 +738,47 @@
           "price": 15,
           "oldPrice": null,
           "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-15.webp&w=300&x1r=0.59&x2r=0.96&y1r=0.38&y2r=0.66&s=f04b5c087275c1b9c19a4142bf623e80",
-          "color": "#6f7b3c",
+          "color": "#d87043",
           "source": "365avisen"
         },
         {
-          "id": "365-vwJjUGCFq8t1KIxe_7oBG",
-          "item": "Irma pitabrød",
-          "detail": "440 g",
-          "price": 18,
+          "id": "365-rqlfwdoWpiTO0S6-HJExn",
+          "item": "Cultura drikkeyoghurt eller yoghurt",
+          "detail": "1 pcs",
+          "price": 12,
           "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-16.webp&w=300&x1r=0.67&x2r=0.97&y1r=0.37&y2r=0.66&s=31f90d3a6f5d0e06ae5dce39f2c263ec",
-          "color": "#1f6b4f",
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-15.webp&w=300&x1r=0.03&x2r=0.54&y1r=0.33&y2r=0.66&s=c7ae73849e9af70b91f884fcdfd7692b",
+          "color": "#8a4f7d",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-UufT7-IfxIpLezeYOUwnx",
+          "item": "Arla laktosefri græsk inspireret yoghurt*",
+          "detail": "400 g",
+          "price": 15,
+          "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-15.webp&w=300&x1r=0.03&x2r=0.51&y1r=0.66&y2r=0.97&s=77861572072b4652ef150a2bcc16f33f",
+          "color": "#3d719b",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-ho59okET_lqmXTr6UOQ5y",
+          "item": "Arla laktosefri mælk*",
+          "detail": "1 l",
+          "price": 15,
+          "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-15.webp&w=300&x1r=0.03&x2r=0.94&y1r=0.02&y2r=0.38&s=3b4aa013abbdd38a04a79abcee78c908",
+          "color": "#b38b32",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-vDZ5GkoofrM9-2Y9qCSY8",
+          "item": "Änglamark økologisk parmigiano reggiano",
+          "detail": "150 g",
+          "price": 45,
+          "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-15.webp&w=300&x1r=0.52&x2r=0.97&y1r=0.66&y2r=0.97&s=cb28a769063dd117faa7635bcc511d85",
+          "color": "#6f7b3c",
           "source": "365avisen"
         },
         {
@@ -798,6 +788,16 @@
           "price": 14,
           "oldPrice": null,
           "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-16.webp&w=300&x1r=0.35&x2r=0.67&y1r=0.38&y2r=0.66&s=f31b4977c0b93a867406f3adc0363dd3",
+          "color": "#1f6b4f",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-uQpeJX1KhXp0NGI3zRmOT",
+          "item": "Irma økologisk surdejs-pizzabund",
+          "detail": "250 g",
+          "price": 32,
+          "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-16.webp&w=300&x1r=0.03&x2r=0.35&y1r=0.38&y2r=0.66&s=5247cee8bcad056fa12ff2d5f702d421",
           "color": "#d87043",
           "source": "365avisen"
         },
@@ -812,42 +812,42 @@
           "source": "365avisen"
         },
         {
-          "id": "365-8xODS711x0JSfcXhJ58Td",
-          "item": "Irma rugbrød eller Irma brioche fastfoodbrød",
-          "detail": "250-750 g",
-          "price": 22,
-          "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-16.webp&w=300&x1r=0.5&x2r=0.97&y1r=0.05&y2r=0.38&s=97c31928a9f348e8b3eabfea12c63d3b",
-          "color": "#3d719b",
-          "source": "365avisen"
-        },
-        {
-          "id": "365-uQpeJX1KhXp0NGI3zRmOT",
-          "item": "Irma økologisk surdejs-pizzabund",
-          "detail": "250 g",
-          "price": 32,
-          "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-16.webp&w=300&x1r=0.03&x2r=0.35&y1r=0.38&y2r=0.66&s=5247cee8bcad056fa12ff2d5f702d421",
-          "color": "#b38b32",
-          "source": "365avisen"
-        },
-        {
           "id": "365-ifBKgrOd42f7QTzTbl4Xa",
           "item": "Irma hummus, spreads eller pesto",
           "detail": "140-200 g",
           "price": 22,
           "oldPrice": null,
           "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-16.webp&w=300&x1r=0.03&x2r=0.49&y1r=0.16&y2r=0.38&s=ec4fbc9b0b6f5412df7ef338083ab02b",
+          "color": "#3d719b",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-vwJjUGCFq8t1KIxe_7oBG",
+          "item": "Irma pitabrød",
+          "detail": "440 g",
+          "price": 18,
+          "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-16.webp&w=300&x1r=0.67&x2r=0.97&y1r=0.37&y2r=0.66&s=31f90d3a6f5d0e06ae5dce39f2c263ec",
+          "color": "#b38b32",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-8xODS711x0JSfcXhJ58Td",
+          "item": "Irma rugbrød eller Irma brioche fastfoodbrød",
+          "detail": "250-750 g",
+          "price": 22,
+          "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-16.webp&w=300&x1r=0.5&x2r=0.97&y1r=0.05&y2r=0.38&s=97c31928a9f348e8b3eabfea12c63d3b",
           "color": "#6f7b3c",
           "source": "365avisen"
         },
         {
-          "id": "365-gqaN4bnqkXo0rnXiD77jO",
-          "item": "Änglamark økologisk ingefærshot",
-          "detail": "50 cl",
-          "price": 20,
+          "id": "365-v1lZZTdFs_52fdu7drT1w",
+          "item": "Änglamark økologiske müsli- eller havrekiks",
+          "detail": "250 g",
+          "price": 12,
           "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-17.webp&w=300&x1r=0.35&x2r=0.68&y1r=0.02&y2r=0.33&s=e621794664d57ef0e7e12c677dafc414",
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-17.webp&w=300&x1r=0.03&x2r=0.5&y1r=0.68&y2r=0.97&s=cc7b0a813ff58e674eca2b1f50d4af71",
           "color": "#1f6b4f",
           "source": "365avisen"
         },
@@ -872,32 +872,32 @@
           "source": "365avisen"
         },
         {
-          "id": "365-P9cHS-4TCuZ32W9vcAUo0",
-          "item": "Änglamark økologisk olivenolie",
-          "detail": "500 ml",
-          "price": 69,
-          "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-17.webp&w=300&x1r=0.67&x2r=0.98&y1r=0.02&y2r=0.33&s=9ee2ffb84c76bd5c5956f028a402fe97",
-          "color": "#3d719b",
-          "source": "365avisen"
-        },
-        {
           "id": "365-oh9DuYQ6kKej9Bce9uSSB",
           "item": "Änglamark økologisk formalet eller hele kaffebønner",
           "detail": "400 g",
           "price": 54,
           "oldPrice": null,
           "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-17.webp&w=300&x1r=0.03&x2r=0.5&y1r=0.34&y2r=0.67&s=68ebc8a41611cb5339063527198beb8b",
+          "color": "#3d719b",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-P9cHS-4TCuZ32W9vcAUo0",
+          "item": "Änglamark økologisk olivenolie",
+          "detail": "500 ml",
+          "price": 69,
+          "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-17.webp&w=300&x1r=0.67&x2r=0.98&y1r=0.02&y2r=0.33&s=9ee2ffb84c76bd5c5956f028a402fe97",
           "color": "#b38b32",
           "source": "365avisen"
         },
         {
-          "id": "365-v1lZZTdFs_52fdu7drT1w",
-          "item": "Änglamark økologiske müsli- eller havrekiks",
-          "detail": "250 g",
-          "price": 12,
+          "id": "365-gqaN4bnqkXo0rnXiD77jO",
+          "item": "Änglamark økologisk ingefærshot",
+          "detail": "50 cl",
+          "price": 20,
           "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-17.webp&w=300&x1r=0.03&x2r=0.5&y1r=0.68&y2r=0.97&s=cc7b0a813ff58e674eca2b1f50d4af71",
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-17.webp&w=300&x1r=0.35&x2r=0.68&y1r=0.02&y2r=0.33&s=e621794664d57ef0e7e12c677dafc414",
           "color": "#6f7b3c",
           "source": "365avisen"
         },
@@ -912,13 +912,23 @@
           "source": "365avisen"
         },
         {
+          "id": "365-JxnaFb7oWQlda3ZVsKosR",
+          "item": "Fras, Cheerios, Nesquick eller Guldkorn*",
+          "detail": "320-375 g",
+          "price": 28,
+          "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-18.webp&w=300&x1r=0.03&x2r=0.49&y1r=0.67&y2r=0.96&s=6c6c4d76d2d36a86328372abef187316",
+          "color": "#d87043",
+          "source": "365avisen"
+        },
+        {
           "id": "365-KV5rhZej6MVvYpx3Ip_Ql",
           "item": "Hellmann´s mayonnaise eller Maille dijon sennep*",
           "detail": "1 pcs",
           "price": 24,
           "oldPrice": null,
           "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-18.webp&w=300&x1r=0.5&x2r=0.97&y1r=0.67&y2r=0.96&s=951ef3c53953ac1f0c5d9801326efbc1",
-          "color": "#d87043",
+          "color": "#8a4f7d",
           "source": "365avisen"
         },
         {
@@ -928,16 +938,6 @@
           "price": 11,
           "oldPrice": null,
           "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-18.webp&w=300&x1r=0.07&x2r=0.97&y1r=0.02&y2r=0.33&s=b2a87e49570fe21b6e606c4430d0d9de",
-          "color": "#8a4f7d",
-          "source": "365avisen"
-        },
-        {
-          "id": "365-JxnaFb7oWQlda3ZVsKosR",
-          "item": "Fras, Cheerios, Nesquick eller Guldkorn*",
-          "detail": "320-375 g",
-          "price": 28,
-          "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-18.webp&w=300&x1r=0.03&x2r=0.49&y1r=0.67&y2r=0.96&s=6c6c4d76d2d36a86328372abef187316",
           "color": "#3d719b",
           "source": "365avisen"
         },
@@ -962,13 +962,23 @@
           "source": "365avisen"
         },
         {
+          "id": "365-aWRVmohQVl3UsGuyyS9PF",
+          "item": "Luksus gløgg",
+          "detail": "75 cl",
+          "price": 39,
+          "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-19.webp&w=300&x1r=0.66&x2r=0.97&y1r=0.65&y2r=0.97&s=b741a48aa9e711e0611b30fce5064765",
+          "color": "#1f6b4f",
+          "source": "365avisen"
+        },
+        {
           "id": "365-z9QikwGAbc8h2GV6pMrrs",
           "item": "Piccini Zinfandel, Manfredi Moscato d'Asti, Änglamark Riesling eller Grenache & Syrah",
           "detail": "75 cl",
           "price": 50,
           "oldPrice": null,
           "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-19.webp&w=300&x1r=0.51&x2r=0.97&y1r=0.33&y2r=0.66&s=9e755c0a0189234d5fc19ef3f6ae0769",
-          "color": "#1f6b4f",
+          "color": "#d87043",
           "source": "365avisen"
         },
         {
@@ -978,16 +988,6 @@
           "price": 59,
           "oldPrice": null,
           "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-19.webp&w=300&x1r=0.03&x2r=0.65&y1r=0.66&y2r=0.97&s=2866031abb3dfd42484614ebc990b10c",
-          "color": "#d87043",
-          "source": "365avisen"
-        },
-        {
-          "id": "365-aWRVmohQVl3UsGuyyS9PF",
-          "item": "Luksus gløgg",
-          "detail": "75 cl",
-          "price": 39,
-          "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-19.webp&w=300&x1r=0.66&x2r=0.97&y1r=0.65&y2r=0.97&s=b741a48aa9e711e0611b30fce5064765",
           "color": "#8a4f7d",
           "source": "365avisen"
         },
@@ -1002,22 +1002,22 @@
           "source": "365avisen"
         },
         {
+          "id": "365-Hb5-KjGnOyLKKSM25-rYq",
+          "item": "Café au LU, Oreo eller Prince chokoladekiks",
+          "detail": "150-300 g",
+          "price": 16,
+          "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-20.webp&w=300&x1r=0.03&x2r=0.49&y1r=0.34&y2r=0.66&s=130150ad5f3bdf47601022465f96ecd1",
+          "color": "#b38b32",
+          "source": "365avisen"
+        },
+        {
           "id": "365-Sn5id0HbxG0dLKkDALHiM",
           "item": "Dan Cake kager eller muffins",
           "detail": "300-400 g",
           "price": 18,
           "oldPrice": null,
           "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-20.webp&w=300&x1r=0.5&x2r=0.97&y1r=0.34&y2r=0.66&s=634731430134917beb1d97cbd4009dac",
-          "color": "#b38b32",
-          "source": "365avisen"
-        },
-        {
-          "id": "365-a4S1zZ9Lt5-i_qQKMjT8Q",
-          "item": "Amo kageblandinge",
-          "detail": "400-700 g",
-          "price": 20,
-          "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-20.webp&w=300&x1r=0.38&x2r=0.97&y1r=0.67&y2r=0.98&s=512fd506b66010e2ae5772b496a706b7",
           "color": "#6f7b3c",
           "source": "365avisen"
         },
@@ -1042,22 +1042,22 @@
           "source": "365avisen"
         },
         {
-          "id": "365-Hb5-KjGnOyLKKSM25-rYq",
-          "item": "Café au LU, Oreo eller Prince chokoladekiks",
-          "detail": "150-300 g",
-          "price": 16,
+          "id": "365-a4S1zZ9Lt5-i_qQKMjT8Q",
+          "item": "Amo kageblandinge",
+          "detail": "400-700 g",
+          "price": 20,
           "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-20.webp&w=300&x1r=0.03&x2r=0.49&y1r=0.34&y2r=0.66&s=130150ad5f3bdf47601022465f96ecd1",
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-20.webp&w=300&x1r=0.38&x2r=0.97&y1r=0.67&y2r=0.98&s=512fd506b66010e2ae5772b496a706b7",
           "color": "#8a4f7d",
           "source": "365avisen"
         },
         {
-          "id": "365-lo0t8L26lqiApgFjYxMQV",
-          "item": "Irma økologiske julekager",
-          "detail": "180-240 g",
-          "price": 28,
+          "id": "365-ZpE9KuNRAR73VrH6tRMP2",
+          "item": "Irma økologisk chokoladeplade",
+          "detail": "100 g",
+          "price": 30,
           "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-21.webp&w=300&x1r=0.5&x2r=0.96&y1r=0.66&y2r=0.97&s=0e6b6610b0a8e69493d1df3644af1d92",
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-21.webp&w=300&x1r=0.04&x2r=0.5&y1r=0.66&y2r=0.97&s=2edef1783c75ba97a87560c3343bed1a",
           "color": "#3d719b",
           "source": "365avisen"
         },
@@ -1072,23 +1072,13 @@
           "source": "365avisen"
         },
         {
-          "id": "365-YWPMEJUUmeQ6__8bFb9bu",
-          "item": "Malaco slikpose",
-          "detail": "192-340 g",
-          "price": 32,
-          "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-21.webp&w=300&x1r=0.03&x2r=0.97&y1r=0.02&y2r=0.33&s=fb8169fb2dba820242f912b3617ad3d2",
-          "color": "#6f7b3c",
-          "source": "365avisen"
-        },
-        {
           "id": "365-IwHNsGT_aVMPqOmTLVdfC",
           "item": "Mentos bag",
           "detail": "140 g",
           "price": 20,
           "oldPrice": null,
           "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-21.webp&w=300&x1r=0.03&x2r=0.33&y1r=0.34&y2r=0.66&s=8799296bb245a19d3a00300ae871a8a3",
-          "color": "#1f6b4f",
+          "color": "#6f7b3c",
           "source": "365avisen"
         },
         {
@@ -1098,16 +1088,26 @@
           "price": 10,
           "oldPrice": null,
           "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-21.webp&w=300&x1r=0.33&x2r=0.64&y1r=0.38&y2r=0.66&s=4afc4f6d31346a5cc3a1558111d00f2c",
+          "color": "#1f6b4f",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-lo0t8L26lqiApgFjYxMQV",
+          "item": "Irma økologiske julekager",
+          "detail": "180-240 g",
+          "price": 28,
+          "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-21.webp&w=300&x1r=0.5&x2r=0.96&y1r=0.66&y2r=0.97&s=0e6b6610b0a8e69493d1df3644af1d92",
           "color": "#d87043",
           "source": "365avisen"
         },
         {
-          "id": "365-ZpE9KuNRAR73VrH6tRMP2",
-          "item": "Irma økologisk chokoladeplade",
-          "detail": "100 g",
-          "price": 30,
+          "id": "365-YWPMEJUUmeQ6__8bFb9bu",
+          "item": "Malaco slikpose",
+          "detail": "192-340 g",
+          "price": 32,
           "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-21.webp&w=300&x1r=0.04&x2r=0.5&y1r=0.66&y2r=0.97&s=2edef1783c75ba97a87560c3343bed1a",
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-21.webp&w=300&x1r=0.03&x2r=0.97&y1r=0.02&y2r=0.33&s=fb8169fb2dba820242f912b3617ad3d2",
           "color": "#8a4f7d",
           "source": "365avisen"
         },
@@ -1132,12 +1132,12 @@
           "source": "365avisen"
         },
         {
-          "id": "365-Nev4bTtsl17tYt9MlPJH1",
-          "item": "Capri-Sun*",
-          "detail": "20 cl",
-          "price": 30,
+          "id": "365-mUR9QxvKtnBFjJt2JFuzl",
+          "item": "1664, Breezer, Smirnoff eller Somersby",
+          "detail": "27.5-33 cl",
+          "price": 13,
           "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-22.webp&w=300&x1r=0.035&x2r=0.345&y1r=0.375&y2r=0.66&s=422337acededdcc4c38b784d5de39e70",
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-22.webp&w=300&x1r=0.66&x2r=0.965&y1r=0.325&y2r=0.66&s=6d9661798d18ee46c8526973a25b049d",
           "color": "#6f7b3c",
           "source": "365avisen"
         },
@@ -1152,43 +1152,23 @@
           "source": "365avisen"
         },
         {
-          "id": "365-mUR9QxvKtnBFjJt2JFuzl",
-          "item": "1664, Breezer, Smirnoff eller Somersby",
-          "detail": "27.5-33 cl",
-          "price": 13,
-          "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-22.webp&w=300&x1r=0.66&x2r=0.965&y1r=0.325&y2r=0.66&s=6d9661798d18ee46c8526973a25b049d",
-          "color": "#d87043",
-          "source": "365avisen"
-        },
-        {
           "id": "365-5KDTHwhjA0-49Zn_bVzOn",
           "item": "SB Deleøl eller Thisted øl",
           "detail": "50 cl",
           "price": 10,
           "oldPrice": null,
           "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-22.webp&w=300&x1r=0.035&x2r=0.965&y1r=0.02&y2r=0.325&s=ce8ae02d0e0c1d6423929e5fe147c3cc",
+          "color": "#d87043",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-Nev4bTtsl17tYt9MlPJH1",
+          "item": "Capri-Sun*",
+          "detail": "20 cl",
+          "price": 30,
+          "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-22.webp&w=300&x1r=0.035&x2r=0.345&y1r=0.375&y2r=0.66&s=422337acededdcc4c38b784d5de39e70",
           "color": "#8a4f7d",
-          "source": "365avisen"
-        },
-        {
-          "id": "365-twWLiAeU7C-PwHsVvnWyj",
-          "item": "Skovlyst øl",
-          "detail": "50 cl",
-          "price": 12,
-          "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-23.webp&w=300&x1r=0.345&x2r=0.655&y1r=0.33&y2r=0.66&s=437de7c4cc28005b799707dda7e3582c",
-          "color": "#3d719b",
-          "source": "365avisen"
-        },
-        {
-          "id": "365-u9FwtniVaZS3kadTkLjFC",
-          "item": "Brøndums Snaps, Grant's Whisky eller Bacardi Rom",
-          "detail": "70 cl",
-          "price": 109,
-          "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-23.webp&w=300&x1r=0.04&x2r=0.49&y1r=0.66&y2r=0.965&s=51abb9ac206362a62e13c4b1b1af7ca7",
-          "color": "#b38b32",
           "source": "365avisen"
         },
         {
@@ -1198,7 +1178,7 @@
           "price": 38,
           "oldPrice": null,
           "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-23.webp&w=300&x1r=0.49&x2r=0.97&y1r=0.66&y2r=0.965&s=9910c850ec8d46b766e30efb54551995",
-          "color": "#6f7b3c",
+          "color": "#3d719b",
           "source": "365avisen"
         },
         {
@@ -1208,6 +1188,26 @@
           "price": 89,
           "oldPrice": null,
           "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-23.webp&w=300&x1r=0.04&x2r=0.975&y1r=0.025&y2r=0.325&s=fc8c1ad2cd1d33c96cfb54bf972a9fc5",
+          "color": "#b38b32",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-twWLiAeU7C-PwHsVvnWyj",
+          "item": "Skovlyst øl",
+          "detail": "50 cl",
+          "price": 12,
+          "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-23.webp&w=300&x1r=0.345&x2r=0.655&y1r=0.33&y2r=0.66&s=437de7c4cc28005b799707dda7e3582c",
+          "color": "#6f7b3c",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-u9FwtniVaZS3kadTkLjFC",
+          "item": "Brøndums Snaps, Grant's Whisky eller Bacardi Rom",
+          "detail": "70 cl",
+          "price": 109,
+          "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-23.webp&w=300&x1r=0.04&x2r=0.49&y1r=0.66&y2r=0.965&s=51abb9ac206362a62e13c4b1b1af7ca7",
           "color": "#1f6b4f",
           "source": "365avisen"
         },
@@ -1232,63 +1232,13 @@
           "source": "365avisen"
         },
         {
-          "id": "365-UWuJh5kc1hQ214GYSZ1gY",
-          "item": "Designservietter eller fyrfadslighter",
-          "detail": "1 pcs",
-          "price": 15,
-          "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-24.webp&w=300&x1r=0.51&x2r=0.98&y1r=0.02&y2r=0.33&s=7241994c7d5ad6531071dec170f49e6c",
-          "color": "#3d719b",
-          "source": "365avisen"
-        },
-        {
           "id": "365-MGcK6eCLr5bPYvS2i8kEo",
           "item": "Udendørslys i glas",
           "detail": "1 pcs",
           "price": 35,
           "oldPrice": null,
           "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-24.webp&w=300&x1r=0.03&x2r=0.34&y1r=0.66&y2r=0.96&s=c7f7eb01346a97b012203eb249457761",
-          "color": "#b38b32",
-          "source": "365avisen"
-        },
-        {
-          "id": "365-tIK4lRyCOfeqwLB02Qyr0",
-          "item": "2 stk. stagelys eller 1 stk. lys i glas",
-          "detail": "1 pcs",
-          "price": 25,
-          "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-24.webp&w=300&x1r=0.03&x2r=0.49&y1r=0.33&y2r=0.66&s=64dcd5bda7a303ecab2357227a877e0e",
-          "color": "#6f7b3c",
-          "source": "365avisen"
-        },
-        {
-          "id": "365-QM95Vs0w7g-fbpwFz_2SA",
-          "item": "Stagelys lak",
-          "detail": "1 pcs",
-          "price": 30,
-          "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-24.webp&w=300&x1r=0.5&x2r=0.98&y1r=0.33&y2r=0.66&s=219320bc3e9b847580d3ffc91da22d22",
-          "color": "#1f6b4f",
-          "source": "365avisen"
-        },
-        {
-          "id": "365-MUcZV99qbM45Bk4kS5jl1",
-          "item": "Kronelys",
-          "detail": "1 pcs",
-          "price": 49,
-          "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-24.webp&w=300&x1r=0.34&x2r=0.65&y1r=0.66&y2r=0.96&s=377c7742b1dd4d46bda0ea8acf3e6d65",
-          "color": "#d87043",
-          "source": "365avisen"
-        },
-        {
-          "id": "365-xvuaXQMfu2l-kPEZxKqHX",
-          "item": "Bloklys med 3 væger",
-          "detail": "1 pcs",
-          "price": 59,
-          "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-24.webp&w=300&x1r=0.65&x2r=0.98&y1r=0.66&y2r=0.96&s=dd8895125bfcb885137310b63e32985d",
-          "color": "#8a4f7d",
+          "color": "#3d719b",
           "source": "365avisen"
         },
         {
@@ -1298,17 +1248,57 @@
           "price": 10,
           "oldPrice": null,
           "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-24.webp&w=300&x1r=0.03&x2r=0.49&y1r=0.02&y2r=0.33&s=5f351e4df88253674325d1f5ceaab861",
-          "color": "#3d719b",
+          "color": "#b38b32",
           "source": "365avisen"
         },
         {
-          "id": "365-WE-7fzB5s5z1rtffMVGk7",
-          "item": "Kalenderlys",
+          "id": "365-MUcZV99qbM45Bk4kS5jl1",
+          "item": "Kronelys",
           "detail": "1 pcs",
-          "price": 9,
+          "price": 49,
           "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-25.webp&w=300&x1r=0.03&x2r=0.34&y1r=0.335&y2r=0.66&s=031d3443fa56f08cacc16226da07ce1a",
-          "color": "#b38b32",
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-24.webp&w=300&x1r=0.34&x2r=0.65&y1r=0.66&y2r=0.96&s=377c7742b1dd4d46bda0ea8acf3e6d65",
+          "color": "#6f7b3c",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-tIK4lRyCOfeqwLB02Qyr0",
+          "item": "2 stk. stagelys eller 1 stk. lys i glas",
+          "detail": "1 pcs",
+          "price": 25,
+          "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-24.webp&w=300&x1r=0.03&x2r=0.49&y1r=0.33&y2r=0.66&s=64dcd5bda7a303ecab2357227a877e0e",
+          "color": "#1f6b4f",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-UWuJh5kc1hQ214GYSZ1gY",
+          "item": "Designservietter eller fyrfadslighter",
+          "detail": "1 pcs",
+          "price": 15,
+          "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-24.webp&w=300&x1r=0.51&x2r=0.98&y1r=0.02&y2r=0.33&s=7241994c7d5ad6531071dec170f49e6c",
+          "color": "#d87043",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-QM95Vs0w7g-fbpwFz_2SA",
+          "item": "Stagelys lak",
+          "detail": "1 pcs",
+          "price": 30,
+          "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-24.webp&w=300&x1r=0.5&x2r=0.98&y1r=0.33&y2r=0.66&s=219320bc3e9b847580d3ffc91da22d22",
+          "color": "#8a4f7d",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-xvuaXQMfu2l-kPEZxKqHX",
+          "item": "Bloklys med 3 væger",
+          "detail": "1 pcs",
+          "price": 59,
+          "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-24.webp&w=300&x1r=0.65&x2r=0.98&y1r=0.66&y2r=0.96&s=dd8895125bfcb885137310b63e32985d",
+          "color": "#3d719b",
           "source": "365avisen"
         },
         {
@@ -1318,7 +1308,7 @@
           "price": 12,
           "oldPrice": null,
           "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-25.webp&w=300&x1r=0.03&x2r=0.34&y1r=0.66&y2r=0.96&s=a48ae8c70c6496d6e1ec92cf0aa5cf47",
-          "color": "#6f7b3c",
+          "color": "#b38b32",
           "source": "365avisen"
         },
         {
@@ -1328,6 +1318,16 @@
           "price": 30,
           "oldPrice": null,
           "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-25.webp&w=300&x1r=0&x2r=1&y1r=0&y2r=0.335&s=e439c344a8f7117beb31155bb29e3752",
+          "color": "#6f7b3c",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-bVXFeYukUOFJMrgYMvTJx",
+          "item": "Velour sløjfe",
+          "detail": "1 pcs",
+          "price": 20,
+          "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-25.webp&w=300&x1r=0.655&x2r=0.985&y1r=0.66&y2r=0.96&s=b0f9d413c7c5521619c7d1682e194ce9",
           "color": "#1f6b4f",
           "source": "365avisen"
         },
@@ -1342,13 +1342,23 @@
           "source": "365avisen"
         },
         {
+          "id": "365-WE-7fzB5s5z1rtffMVGk7",
+          "item": "Kalenderlys",
+          "detail": "1 pcs",
+          "price": 9,
+          "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-25.webp&w=300&x1r=0.03&x2r=0.34&y1r=0.335&y2r=0.66&s=031d3443fa56f08cacc16226da07ce1a",
+          "color": "#8a4f7d",
+          "source": "365avisen"
+        },
+        {
           "id": "365-GBTfB8x7lzoqRCq6k55CP",
           "item": "Adventslys",
           "detail": "1 pcs",
           "price": 49,
           "oldPrice": null,
           "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-25.webp&w=300&x1r=0.655&x2r=0.985&y1r=0.335&y2r=0.66&s=0ead69e73fc7eafa8dbd640e778366e2",
-          "color": "#8a4f7d",
+          "color": "#3d719b",
           "source": "365avisen"
         },
         {
@@ -1358,47 +1368,7 @@
           "price": 15,
           "oldPrice": null,
           "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-25.webp&w=300&x1r=0.34&x2r=0.655&y1r=0.66&y2r=0.96&s=6c3761ee58cfd4d339516b26d2c6eade",
-          "color": "#3d719b",
-          "source": "365avisen"
-        },
-        {
-          "id": "365-bVXFeYukUOFJMrgYMvTJx",
-          "item": "Velour sløjfe",
-          "detail": "1 pcs",
-          "price": 20,
-          "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-25.webp&w=300&x1r=0.655&x2r=0.985&y1r=0.66&y2r=0.96&s=b0f9d413c7c5521619c7d1682e194ce9",
           "color": "#b38b32",
-          "source": "365avisen"
-        },
-        {
-          "id": "365-8CRfpi4MbcpYh8Ek5rV-W",
-          "item": "Ophæng med LED",
-          "detail": "1 pcs",
-          "price": 50,
-          "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-26.webp&w=300&x1r=0&x2r=0.49&y1r=0&y2r=0.33&s=8a2fd22067043b256b29d22d83d2ab20",
-          "color": "#6f7b3c",
-          "source": "365avisen"
-        },
-        {
-          "id": "365-F7me7X3Ys-vLQzNby6fiV",
-          "item": "Energizer batterier",
-          "detail": "1 pcs",
-          "price": 29,
-          "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-26.webp&w=300&x1r=0.49&x2r=1&y1r=0.33&y2r=0.66&s=8b5a90500a8ea73956635244cc390bb6",
-          "color": "#1f6b4f",
-          "source": "365avisen"
-        },
-        {
-          "id": "365-t_zoF5dMIIf97B4Lw1vBP",
-          "item": "LED lyskæde 1200",
-          "detail": "1 pcs",
-          "price": 249,
-          "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-26.webp&w=300&x1r=0&x2r=0.49&y1r=0.33&y2r=0.97&s=db309a512bdf96a52cf98ee2ce6fbe03",
-          "color": "#d87043",
           "source": "365avisen"
         },
         {
@@ -1408,7 +1378,7 @@
           "price": 50,
           "oldPrice": null,
           "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-26.webp&w=300&x1r=0.71&x2r=1&y1r=0&y2r=0.33&s=af02a2d4a3e0a81124deb25eae3a8fdd",
-          "color": "#8a4f7d",
+          "color": "#6f7b3c",
           "source": "365avisen"
         },
         {
@@ -1418,7 +1388,7 @@
           "price": 149,
           "oldPrice": null,
           "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-26.webp&w=300&x1r=0.48&x2r=0.74&y1r=0&y2r=0.33&s=9607965a33c608f792043adb5c49c8de",
-          "color": "#3d719b",
+          "color": "#1f6b4f",
           "source": "365avisen"
         },
         {
@@ -1428,7 +1398,27 @@
           "price": 30,
           "oldPrice": null,
           "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-26.webp&w=300&x1r=0.75&x2r=1&y1r=0.66&y2r=0.97&s=9b64676b7ef111f09ac0c389859e6ef4",
-          "color": "#b38b32",
+          "color": "#d87043",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-8CRfpi4MbcpYh8Ek5rV-W",
+          "item": "Ophæng med LED",
+          "detail": "1 pcs",
+          "price": 50,
+          "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-26.webp&w=300&x1r=0&x2r=0.49&y1r=0&y2r=0.33&s=8a2fd22067043b256b29d22d83d2ab20",
+          "color": "#8a4f7d",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-F7me7X3Ys-vLQzNby6fiV",
+          "item": "Energizer batterier",
+          "detail": "1 pcs",
+          "price": 29,
+          "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-26.webp&w=300&x1r=0.49&x2r=1&y1r=0.33&y2r=0.66&s=8b5a90500a8ea73956635244cc390bb6",
+          "color": "#3d719b",
           "source": "365avisen"
         },
         {
@@ -1438,66 +1428,16 @@
           "price": 49,
           "oldPrice": null,
           "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-26.webp&w=300&x1r=0.48&x2r=0.76&y1r=0.66&y2r=0.97&s=060df15d15a791c9e95061682f8a46fa",
-          "color": "#6f7b3c",
-          "source": "365avisen"
-        },
-        {
-          "id": "365-rJnsh67neHKNvd0HcmMxG",
-          "item": "Selvhærdende ler",
-          "detail": "1 pcs",
-          "price": 25,
-          "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-27.webp&w=300&x1r=0.655&x2r=0.97&y1r=0.66&y2r=0.965&s=437f5e0bdec597615738a4f526e8a131",
-          "color": "#1f6b4f",
-          "source": "365avisen"
-        },
-        {
-          "id": "365-nDJ7fIFP0Q5aNHs-AOFiP",
-          "item": "Portugisisk bomuldsgarn",
-          "detail": "1 pcs",
-          "price": 10,
-          "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-27.webp&w=300&x1r=0.03&x2r=0.98&y1r=0.01&y2r=0.33&s=54557060b08176baec9d5e75776ee2f5",
-          "color": "#d87043",
-          "source": "365avisen"
-        },
-        {
-          "id": "365-kQdA4IB904scE6V9t9hW3",
-          "item": "Strømpegarn",
-          "detail": "1 pcs",
-          "price": 15,
-          "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-27.webp&w=300&x1r=0.04&x2r=0.34&y1r=0.33&y2r=0.655&s=a059eace8393c8e7e92ae499f595c2ac",
-          "color": "#8a4f7d",
-          "source": "365avisen"
-        },
-        {
-          "id": "365-uvHiRxrb8nYc87TELuTJv",
-          "item": "Akryl markers",
-          "detail": "1 pcs",
-          "price": 25,
-          "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-27.webp&w=300&x1r=0.66&x2r=0.965&y1r=0.34&y2r=0.655&s=05b78057fcd63f976b0c533846838a2e",
-          "color": "#3d719b",
-          "source": "365avisen"
-        },
-        {
-          "id": "365-aC0GIcaZFFWN267lRcRTH",
-          "item": "DIY filt figur eller dekorations-kugler",
-          "detail": "1 pcs",
-          "price": 20,
-          "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-27.webp&w=300&x1r=0.34&x2r=0.655&y1r=0.655&y2r=0.965&s=f00ad6e8e95995d0d1dc26748fffa307",
           "color": "#b38b32",
           "source": "365avisen"
         },
         {
-          "id": "365-vgw9Xd2nyjKgU0ciRmlAT",
-          "item": "DIY kit",
+          "id": "365-t_zoF5dMIIf97B4Lw1vBP",
+          "item": "LED lyskæde 1200",
           "detail": "1 pcs",
-          "price": 20,
+          "price": 249,
           "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-27.webp&w=300&x1r=0.04&x2r=0.34&y1r=0.655&y2r=0.965&s=61cae620ef3b78d57d7e6c8effad2752",
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-26.webp&w=300&x1r=0&x2r=0.49&y1r=0.33&y2r=0.97&s=db309a512bdf96a52cf98ee2ce6fbe03",
           "color": "#6f7b3c",
           "source": "365avisen"
         },
@@ -1512,6 +1452,66 @@
           "source": "365avisen"
         },
         {
+          "id": "365-kQdA4IB904scE6V9t9hW3",
+          "item": "Strømpegarn",
+          "detail": "1 pcs",
+          "price": 15,
+          "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-27.webp&w=300&x1r=0.04&x2r=0.34&y1r=0.33&y2r=0.655&s=a059eace8393c8e7e92ae499f595c2ac",
+          "color": "#d87043",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-aC0GIcaZFFWN267lRcRTH",
+          "item": "DIY filt figur eller dekorations-kugler",
+          "detail": "1 pcs",
+          "price": 20,
+          "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-27.webp&w=300&x1r=0.34&x2r=0.655&y1r=0.655&y2r=0.965&s=f00ad6e8e95995d0d1dc26748fffa307",
+          "color": "#8a4f7d",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-vgw9Xd2nyjKgU0ciRmlAT",
+          "item": "DIY kit",
+          "detail": "1 pcs",
+          "price": 20,
+          "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-27.webp&w=300&x1r=0.04&x2r=0.34&y1r=0.655&y2r=0.965&s=61cae620ef3b78d57d7e6c8effad2752",
+          "color": "#3d719b",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-rJnsh67neHKNvd0HcmMxG",
+          "item": "Selvhærdende ler",
+          "detail": "1 pcs",
+          "price": 25,
+          "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-27.webp&w=300&x1r=0.655&x2r=0.97&y1r=0.66&y2r=0.965&s=437f5e0bdec597615738a4f526e8a131",
+          "color": "#b38b32",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-uvHiRxrb8nYc87TELuTJv",
+          "item": "Akryl markers",
+          "detail": "1 pcs",
+          "price": 25,
+          "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-27.webp&w=300&x1r=0.66&x2r=0.965&y1r=0.34&y2r=0.655&s=05b78057fcd63f976b0c533846838a2e",
+          "color": "#6f7b3c",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-nDJ7fIFP0Q5aNHs-AOFiP",
+          "item": "Portugisisk bomuldsgarn",
+          "detail": "1 pcs",
+          "price": 10,
+          "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-27.webp&w=300&x1r=0.03&x2r=0.98&y1r=0.01&y2r=0.33&s=54557060b08176baec9d5e75776ee2f5",
+          "color": "#1f6b4f",
+          "source": "365avisen"
+        },
+        {
           "id": "365-EQlHbApU1FOK62IaRsBbl",
           "item": "Palmolive kropspleje eller Kleenex lommeletter*",
           "detail": "1 pcs",
@@ -1522,12 +1522,12 @@
           "source": "365avisen"
         },
         {
-          "id": "365-1Bfebb4klckZdXAYGOiyi",
-          "item": "Libero comfort eller up & go bleer*",
-          "detail": "1 pcs",
-          "price": 65,
+          "id": "365-5HmorrxjkKKkh88Nq9PxR",
+          "item": "Dreamies kattesnack*",
+          "detail": "180 g",
+          "price": 42,
           "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-28.webp&w=300&x1r=0.03&x2r=0.5&y1r=0.66&y2r=0.97&s=f480561d126208c702eaa4fd0bb9df57",
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-28.webp&w=300&x1r=0.66&x2r=0.97&y1r=0.34&y2r=0.66&s=2aa604a95a059703f91c40f93635aea9",
           "color": "#8a4f7d",
           "source": "365avisen"
         },
@@ -1542,23 +1542,13 @@
           "source": "365avisen"
         },
         {
-          "id": "365-5HmorrxjkKKkh88Nq9PxR",
-          "item": "Dreamies kattesnack*",
-          "detail": "180 g",
-          "price": 42,
-          "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-28.webp&w=300&x1r=0.66&x2r=0.97&y1r=0.34&y2r=0.66&s=2aa604a95a059703f91c40f93635aea9",
-          "color": "#b38b32",
-          "source": "365avisen"
-        },
-        {
-          "id": "365-pWHaMg9SS6GAO2eVCeivz",
-          "item": "Colgate mundpleje*",
+          "id": "365-1Bfebb4klckZdXAYGOiyi",
+          "item": "Libero comfort eller up & go bleer*",
           "detail": "1 pcs",
-          "price": 29,
+          "price": 65,
           "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-28.webp&w=300&x1r=0.5&x2r=0.97&y1r=0.66&y2r=0.97&s=414abee06c6089e97014487886663924",
-          "color": "#6f7b3c",
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-28.webp&w=300&x1r=0.03&x2r=0.5&y1r=0.66&y2r=0.97&s=f480561d126208c702eaa4fd0bb9df57",
+          "color": "#b38b32",
           "source": "365avisen"
         },
         {
@@ -1568,26 +1558,36 @@
           "price": 89,
           "oldPrice": null,
           "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-28.webp&w=300&x1r=0.03&x2r=0.35&y1r=0.34&y2r=0.66&s=022c6b714d327158e79f8d7370177bff",
+          "color": "#6f7b3c",
+          "source": "365avisen"
+        },
+        {
+          "id": "365-pWHaMg9SS6GAO2eVCeivz",
+          "item": "Colgate mundpleje*",
+          "detail": "1 pcs",
+          "price": 29,
+          "oldPrice": null,
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-28.webp&w=300&x1r=0.5&x2r=0.97&y1r=0.66&y2r=0.97&s=414abee06c6089e97014487886663924",
           "color": "#1f6b4f",
           "source": "365avisen"
         },
         {
-          "id": "365-bd4p6Gvd_VAYSglJAbpZt",
-          "item": "Änglamark økologiske små sprøde gulerødder fra Gl. Estrup",
-          "detail": "250 g",
-          "price": 9,
+          "id": "365-lS2yxwOu-SV-ypZ5lQInS",
+          "item": "Kohberg cafésandwich",
+          "detail": "380-400 g",
+          "price": 15,
           "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-29.webp&w=300&x1r=0.33&x2r=0.64&y1r=0.5&y2r=0.96&s=297bad7333c33c0688bfd75032fa7510",
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-29.webp&w=300&x1r=0.06&x2r=0.4&y1r=0.5&y2r=0.96&s=892a6863ebb6d194c19cf62dbde67cb8",
           "color": "#d87043",
           "source": "365avisen"
         },
         {
-          "id": "365-l-wO3qakB33iqBy4DFCFZ",
-          "item": "Pålækker salamisnacks",
-          "detail": "10 g",
-          "price": 20,
+          "id": "365-Vo78jPxv5tiFtdZsu8z5P",
+          "item": "Coop store Alexander Lucas pærer",
+          "detail": "6 pcs",
+          "price": 22,
           "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-29.webp&w=300&x1r=0.06&x2r=0.52&y1r=0.21&y2r=0.52&s=04d67bb4a17c8efe967c888f239197b0",
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-29.webp&w=300&x1r=0.61&x2r=0.93&y1r=0.52&y2r=0.96&s=1da79aad259c5d1817b9ea63469ce77c",
           "color": "#8a4f7d",
           "source": "365avisen"
         },
@@ -1602,22 +1602,22 @@
           "source": "365avisen"
         },
         {
-          "id": "365-lS2yxwOu-SV-ypZ5lQInS",
-          "item": "Kohberg cafésandwich",
-          "detail": "380-400 g",
-          "price": 15,
+          "id": "365-l-wO3qakB33iqBy4DFCFZ",
+          "item": "Pålækker salamisnacks",
+          "detail": "10 g",
+          "price": 20,
           "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-29.webp&w=300&x1r=0.06&x2r=0.4&y1r=0.5&y2r=0.96&s=892a6863ebb6d194c19cf62dbde67cb8",
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-29.webp&w=300&x1r=0.06&x2r=0.52&y1r=0.21&y2r=0.52&s=04d67bb4a17c8efe967c888f239197b0",
           "color": "#b38b32",
           "source": "365avisen"
         },
         {
-          "id": "365-Vo78jPxv5tiFtdZsu8z5P",
-          "item": "Coop store Alexander Lucas pærer",
-          "detail": "6 pcs",
-          "price": 22,
+          "id": "365-bd4p6Gvd_VAYSglJAbpZt",
+          "item": "Änglamark økologiske små sprøde gulerødder fra Gl. Estrup",
+          "detail": "250 g",
+          "price": 9,
           "oldPrice": null,
-          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-29.webp&w=300&x1r=0.61&x2r=0.93&y1r=0.52&y2r=0.96&s=1da79aad259c5d1817b9ea63469ce77c",
+          "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBkiwUkMa%2Fp-29.webp&w=300&x1r=0.33&x2r=0.64&y1r=0.5&y2r=0.96&s=297bad7333c33c0688bfd75032fa7510",
           "color": "#6f7b3c",
           "source": "365avisen"
         }
