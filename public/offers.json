@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T12:21:39.976Z",
+  "generatedAt": "2026-11-03T11:54:39.833Z",
   "sources": [
     {
       "store": "SPAR Arden",
@@ -31,22 +31,22 @@
           "source": "SPAR Arden"
         },
         {
-          "id": "spar-lurpak-smør-saltet",
-          "item": "Lurpak Smør Saltet",
-          "detail": "200 GR",
-          "price": 15,
-          "oldPrice": 27.95,
-          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/5740900403383.600x600.jpg",
-          "color": "#b38b32",
-          "source": "SPAR Arden"
-        },
-        {
           "id": "spar-red-bull-energy-drink-1-4p",
           "item": "Red Bull Energy Drink 1/4P",
           "detail": "25 CL",
           "price": 13,
           "oldPrice": null,
           "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/9002490216016.600x600.jpg",
+          "color": "#b38b32",
+          "source": "SPAR Arden"
+        },
+        {
+          "id": "spar-lurpak-smør-saltet",
+          "item": "Lurpak Smør Saltet",
+          "detail": "200 GR",
+          "price": 15,
+          "oldPrice": 27.95,
+          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/5740900403383.600x600.jpg",
           "color": "#6f7b3c",
           "source": "SPAR Arden"
         }
