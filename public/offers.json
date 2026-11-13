@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T12:41:17.198Z",
+  "generatedAt": "2026-11-13T12:10:39.226Z",
   "sources": [
     {
       "store": "SPAR Arden",
@@ -7,46 +7,46 @@
       "latitude": 56.769225,
       "longitude": 9.858268,
       "flyerUrl": "https://spar.dk/ugensavis",
-      "validFrom": "2026-11-06",
-      "validTo": "2026-11-12",
+      "validFrom": "2026-11-13",
+      "validTo": "2026-11-19",
       "offers": [
         {
-          "id": "spar-matilde-kakaoskummetmælk",
-          "item": "Matilde Kakaoskummetmælk",
-          "detail": "1 LT",
+          "id": "spar-kærgården-original-cont",
+          "item": "Kærgården Original Cont.",
+          "detail": "200 GR",
           "price": 12,
-          "oldPrice": null,
-          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/5704062370846.600x600.jpg",
+          "oldPrice": 24.95,
+          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/5760466904919.600x600.jpg",
           "color": "#8a4f7d",
           "source": "SPAR Arden"
         },
         {
-          "id": "spar-pepsi-max-pet",
-          "item": "Pepsi Max Pet",
+          "id": "spar-coca-cola",
+          "item": "Coca-Cola",
           "detail": "150 CL",
           "price": 15,
           "oldPrice": null,
-          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/5741000123676.600x600.jpg",
+          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/57045795.600x600.jpg",
           "color": "#3d719b",
           "source": "SPAR Arden"
         },
         {
-          "id": "spar-monster-energy-ultra-zero",
-          "item": "Monster Energy Ultra Zero",
-          "detail": "50 CL",
-          "price": 14,
-          "oldPrice": null,
-          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/5060337502290.600x600.jpg",
+          "id": "spar-karat-kaffe-rød-1-4-pl",
+          "item": "Karat Kaffe Rød 1/4 Pl",
+          "detail": "400 GR",
+          "price": 35,
+          "oldPrice": 66.95,
+          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/8711000538340.600x600.jpg",
           "color": "#b38b32",
           "source": "SPAR Arden"
         },
         {
-          "id": "spar-monster-energy",
-          "item": "Monster Energy",
-          "detail": "50 CL",
-          "price": 14,
+          "id": "spar-coca-cola-zero",
+          "item": "Coca-Cola Zero",
+          "detail": "150 CL",
+          "price": 15,
           "oldPrice": null,
-          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/5060337502900.600x600.jpg",
+          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/57095967.600x600.jpg",
           "color": "#6f7b3c",
           "source": "SPAR Arden"
         }
