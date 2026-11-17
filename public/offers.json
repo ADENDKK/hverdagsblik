@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T12:43:05.199Z",
+  "generatedAt": "2026-11-17T13:22:12.006Z",
   "sources": [
     {
       "store": "SPAR Arden",
@@ -31,22 +31,22 @@
           "source": "SPAR Arden"
         },
         {
+          "id": "spar-karat-kaffe-rød-1-4-pl",
+          "item": "Karat Kaffe Rød 1/4 Pl",
+          "detail": "400 GR",
+          "price": 35,
+          "oldPrice": 66.95,
+          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/8711000538340.600x600.jpg",
+          "color": "#b38b32",
+          "source": "SPAR Arden"
+        },
+        {
           "id": "spar-coca-cola-zero",
           "item": "Coca-Cola Zero",
           "detail": "150 CL",
           "price": 15,
           "oldPrice": null,
           "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/57095967.600x600.jpg",
-          "color": "#b38b32",
-          "source": "SPAR Arden"
-        },
-        {
-          "id": "spar-dg-solsikkerugbrød",
-          "item": "Dg Solsikkerugbrød",
-          "detail": "950 GR",
-          "price": 16,
-          "oldPrice": null,
-          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/5701205001568.600x600.jpg",
           "color": "#6f7b3c",
           "source": "SPAR Arden"
         }
