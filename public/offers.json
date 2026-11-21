@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T12:52:22.141Z",
+  "generatedAt": "2026-11-21T12:36:56.336Z",
   "sources": [
     {
       "store": "SPAR Arden",
@@ -11,22 +11,22 @@
       "validTo": "2026-11-26",
       "offers": [
         {
-          "id": "spar-faxe-kondi-booster",
-          "item": "Faxe Kondi Booster",
-          "detail": "50 CL",
-          "price": 17,
-          "oldPrice": null,
-          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/5741000134894.600x600.jpg",
-          "color": "#8a4f7d",
-          "source": "SPAR Arden"
-        },
-        {
           "id": "spar-pepsi-max-pet",
           "item": "Pepsi Max Pet",
           "detail": "150 CL",
           "price": 18,
           "oldPrice": null,
           "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/5741000123676.600x600.jpg",
+          "color": "#8a4f7d",
+          "source": "SPAR Arden"
+        },
+        {
+          "id": "spar-faxe-kondi-booster",
+          "item": "Faxe Kondi Booster",
+          "detail": "50 CL",
+          "price": 17,
+          "oldPrice": null,
+          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/5741000134894.600x600.jpg",
           "color": "#3d719b",
           "source": "SPAR Arden"
         },
