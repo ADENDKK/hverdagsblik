@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T13:52:17.471Z",
+  "generatedAt": "2026-11-27T13:50:03.886Z",
   "sources": [
     {
       "store": "SPAR Arden",
@@ -7,46 +7,46 @@
       "latitude": 56.769225,
       "longitude": 9.858268,
       "flyerUrl": "https://spar.dk/ugensavis",
-      "validFrom": "2026-11-20",
-      "validTo": "2026-11-26",
+      "validFrom": "2026-11-27",
+      "validTo": "2026-12-03",
       "offers": [
         {
-          "id": "spar-pepsi-max-pet",
-          "item": "Pepsi Max Pet",
+          "id": "spar-coca-cola",
+          "item": "Coca-Cola",
           "detail": "150 CL",
-          "price": 18,
+          "price": 17,
           "oldPrice": null,
-          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/5741000123676.600x600.jpg",
+          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/57045795.600x600.jpg",
           "color": "#8a4f7d",
           "source": "SPAR Arden"
         },
         {
-          "id": "spar-faxe-kondi-booster",
-          "item": "Faxe Kondi Booster",
-          "detail": "50 CL",
-          "price": 17,
-          "oldPrice": null,
-          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/5741000134894.600x600.jpg",
+          "id": "spar-lurpak-smørbar-container",
+          "item": "Lurpak Smørbar Container",
+          "detail": "200 GR",
+          "price": 10,
+          "oldPrice": 27.95,
+          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/5740900403376.600x600.jpg",
           "color": "#3d719b",
           "source": "SPAR Arden"
         },
         {
-          "id": "spar-fk-booster-original-zero",
-          "item": "Fk Booster Original Zero",
+          "id": "spar-monster-energy-ultra-zero",
+          "item": "Monster Energy Ultra Zero",
           "detail": "50 CL",
-          "price": 17,
+          "price": 10,
           "oldPrice": null,
-          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/5741000142899.600x600.jpg",
+          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/5060337502290.600x600.jpg",
           "color": "#b38b32",
           "source": "SPAR Arden"
         },
         {
-          "id": "spar-pepsi-max-24-pak",
-          "item": "Pepsi Max 24-Pak",
-          "detail": "792 CL",
-          "price": 69,
-          "oldPrice": 110,
-          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/5741000139769.600x600.jpg",
+          "id": "spar-monster-energy",
+          "item": "Monster Energy",
+          "detail": "50 CL",
+          "price": 10,
+          "oldPrice": null,
+          "imageUrl": "https://dagrofa-dam.s3.eu-central-1.amazonaws.com/PROD/600x600/5060337502900.600x600.jpg",
           "color": "#6f7b3c",
           "source": "SPAR Arden"
         }
